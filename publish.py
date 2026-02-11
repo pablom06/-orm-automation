@@ -571,6 +571,99 @@ def publish_to_linkedin(article, config):
 
 
 # ---------------------------------------------------------------------------
+# TELEGRAPH API
+# ---------------------------------------------------------------------------
+
+def publish_to_telegraph(article, config):
+    """Publish an article to Telegraph via API (no auth required!)."""
+    try:
+        import requests
+    except ImportError:
+        log.error("requests library not installed. Run: pip install requests")
+        return None
+
+    try:
+        # Step 1: Create or get Telegraph account
+        telegraph_token = config.get("telegraph_token", "")
+
+        if not telegraph_token:
+            # Create a new Telegraph account (one-time)
+            create_account_url = "https://api.telegra.ph/createAccount"
+            account_data = {
+                "short_name": "Pablo M Rivera",
+                "author_name": "Pablo M. Rivera",
+                "author_url": ""
+            }
+
+            resp = requests.post(create_account_url, json=account_data)
+            if resp.status_code == 200:
+                result = resp.json()
+                if result.get("ok"):
+                    telegraph_token = result["result"]["access_token"]
+                    log.info(f"📝 Created Telegraph account. Token: {telegraph_token[:20]}...")
+                    log.info(f"💡 Add this to .env: TELEGRAPH_TOKEN={telegraph_token}")
+                else:
+                    log.error(f"❌ Telegraph account creation failed: {result}")
+                    return None
+            else:
+                log.error(f"❌ Telegraph API error: {resp.status_code}")
+                return None
+
+        # Step 2: Convert markdown to Telegraph HTML format (simplified)
+        # Telegraph accepts HTML in a specific node format, but also accepts simple HTML
+        import re
+
+        # Convert markdown to simple HTML
+        content = article["body"]
+
+        # Convert headers
+        content = re.sub(r'^### (.+)$', r'<h3>\1</h3>', content, flags=re.MULTILINE)
+        content = re.sub(r'^## (.+)$', r'<h2>\1</h2>', content, flags=re.MULTILINE)
+        content = re.sub(r'^# (.+)$', r'<h1>\1</h1>', content, flags=re.MULTILINE)
+
+        # Convert bold and italic
+        content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+        content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+
+        # Convert code blocks
+        content = re.sub(r'```(.+?)```', r'<pre>\1</pre>', content, flags=re.DOTALL)
+        content = re.sub(r'`(.+?)`', r'<code>\1</code>', content)
+
+        # Convert line breaks to paragraphs
+        paragraphs = content.split('\n\n')
+        html_content = ''.join([f'<p>{p.strip()}</p>' for p in paragraphs if p.strip()])
+
+        # Step 3: Create the page
+        create_page_url = "https://api.telegra.ph/createPage"
+        page_data = {
+            "access_token": telegraph_token,
+            "title": article["title"],
+            "author_name": "Pablo M. Rivera",
+            "content": html_content,
+            "return_content": False
+        }
+
+        resp = requests.post(create_page_url, json=page_data)
+
+        if resp.status_code == 200:
+            result = resp.json()
+            if result.get("ok"):
+                page_url = result["result"]["url"]
+                log.info(f"✅ Published to Telegraph: {page_url}")
+                return page_url
+            else:
+                log.error(f"❌ Telegraph page creation failed: {result}")
+                return None
+        else:
+            log.error(f"❌ Telegraph publish failed: {resp.status_code} - {resp.text}")
+            return None
+
+    except Exception as e:
+        log.error(f"❌ Telegraph error: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
 # MAIN PUBLISH LOGIC
 # ---------------------------------------------------------------------------
 
@@ -611,6 +704,8 @@ def publish_article(article, config, dry_run=False):
             url = publish_to_blogger(article, config) or ""
         elif platform == "wordpress":
             url = publish_to_wordpress(article, config) or ""
+        elif platform == "telegraph":
+            url = publish_to_telegraph(article, config) or ""
         elif platform == "linkedin":
             url = publish_to_linkedin(article, config) or ""
 
