@@ -96,7 +96,7 @@ def get_config():
         "tumblr_consumer_secret": os.environ.get("TUMBLR_CONSUMER_SECRET", ""),
         "tumblr_oauth_token": os.environ.get("TUMBLR_OAUTH_TOKEN", ""),
         "tumblr_oauth_token_secret": os.environ.get("TUMBLR_OAUTH_TOKEN_SECRET", ""),
-        "github_gist_token": os.environ.get("GITHUB_GIST_TOKEN", ""),
+        "github_gist_token": os.environ.get("GIST_TOKEN", ""),
         "start_date": os.environ.get("START_DATE", datetime.now().strftime("%Y-%m-%d")),
         "frequency": os.environ.get("FREQUENCY", "daily"),  # "daily" or "every_other_day"
         "publish_time": os.environ.get("PUBLISH_TIME", "09:00"),  # 24hr format
