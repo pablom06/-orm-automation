@@ -96,6 +96,7 @@ def get_config():
         "tumblr_consumer_secret": os.environ.get("TUMBLR_CONSUMER_SECRET", ""),
         "tumblr_oauth_token": os.environ.get("TUMBLR_OAUTH_TOKEN", ""),
         "tumblr_oauth_token_secret": os.environ.get("TUMBLR_OAUTH_TOKEN_SECRET", ""),
+        "github_gist_token": os.environ.get("GITHUB_GIST_TOKEN", ""),
         "start_date": os.environ.get("START_DATE", datetime.now().strftime("%Y-%m-%d")),
         "frequency": os.environ.get("FREQUENCY", "daily"),  # "daily" or "every_other_day"
         "publish_time": os.environ.get("PUBLISH_TIME", "09:00"),  # 24hr format
@@ -732,6 +733,70 @@ def publish_to_tumblr(article, config):
 
 
 # ---------------------------------------------------------------------------
+# GITHUB GISTS API
+# ---------------------------------------------------------------------------
+
+def publish_to_gist(article, config):
+    """Publish an article as a public GitHub Gist."""
+    token = config.get("github_gist_token", "")
+
+    if not token:
+        log.warning("No GITHUB_GIST_TOKEN set. Skipping Gist publish.")
+        return None
+
+    try:
+        import requests
+    except ImportError:
+        log.error("requests library not installed. Run: pip install requests")
+        return None
+
+    try:
+        url = "https://api.github.com/gists"
+
+        # Create a clean filename from the title
+        filename = article["title"].replace(" ", "-").replace(":", "").replace("?", "")
+        filename = filename[:80] + ".md"
+
+        # Add tags as hashtags at the bottom
+        tags_line = " ".join([f"#{tag.replace(' ', '')}" for tag in article["tags"]])
+
+        content = f"# {article['title']}\n\n{article['body']}\n\n---\n{tags_line}"
+
+        payload = {
+            "description": f"{article['title']} - by Pablo M. Rivera",
+            "public": True,
+            "files": {
+                filename: {
+                    "content": content
+                }
+            }
+        }
+
+        resp = requests.post(
+            url,
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github+json",
+                "X-GitHub-Api-Version": "2022-11-28"
+            },
+            json=payload
+        )
+
+        if resp.status_code == 201:
+            data = resp.json()
+            gist_url = data["html_url"]
+            log.info(f"✅ Published to GitHub Gist: {gist_url}")
+            return gist_url
+        else:
+            log.error(f"❌ Gist publish failed: {resp.status_code} - {resp.text}")
+            return None
+
+    except Exception as e:
+        log.error(f"❌ Gist error: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
 # MAIN PUBLISH LOGIC
 # ---------------------------------------------------------------------------
 
@@ -776,6 +841,8 @@ def publish_article(article, config, dry_run=False):
             url = publish_to_telegraph(article, config) or ""
         elif platform == "tumblr":
             url = publish_to_tumblr(article, config) or ""
+        elif platform == "gist":
+            url = publish_to_gist(article, config) or ""
         elif platform == "linkedin":
             url = publish_to_linkedin(article, config) or ""
 
