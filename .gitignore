@@ -1,0 +1,45 @@
+# Environment variables (contains secrets!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Status file (will be updated automatically)
+logs/publish_status.json
+
+# LinkedIn exports (optional - comment out if you want to track these)
+logs/linkedin_*.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+
+# Windows reserved names
+nul
+credentials.json
+blogger_refresh_token.txt

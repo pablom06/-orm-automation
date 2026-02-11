@@ -1,0 +1,557 @@
+#!/usr/bin/env python3
+"""
+ORM Content Automation Engine — Pablo M. Rivera
+================================================
+Publishes SEO-optimized articles on a daily or every-other-day schedule.
+
+Supports:
+  - Medium API (auto-publish)
+  - LinkedIn (generates ready-to-paste content + opens browser)
+  - Local logging and tracking
+  - Dry-run mode for testing
+
+Usage:
+  python publish.py                  # Publish today's article
+  python publish.py --dry-run        # Preview without publishing
+  python publish.py --day 5          # Publish a specific day's article
+  python publish.py --status         # Show publishing status
+  python publish.py --schedule       # Show full 30-day schedule
+  python publish.py --daemon         # Run continuously (publishes at scheduled time daily)
+
+Setup:
+  1. Copy .env.example to .env and add your API tokens
+  2. pip install requests python-dotenv schedule
+  3. python publish.py --dry-run  (test first)
+  4. python publish.py            (publish for real)
+"""
+
+import json
+import os
+import sys
+import time
+import logging
+import argparse
+import webbrowser
+import subprocess
+from datetime import datetime, timedelta
+from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# CONFIG
+# ---------------------------------------------------------------------------
+
+BASE_DIR = Path(__file__).parent
+ARTICLES_FILE = BASE_DIR / "articles" / "articles.json"
+LOG_DIR = BASE_DIR / "logs"
+STATUS_FILE = BASE_DIR / "logs" / "publish_status.json"
+ENV_FILE = BASE_DIR / ".env"
+
+# Create dirs
+LOG_DIR.mkdir(exist_ok=True)
+
+# Logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_DIR / "publish.log"),
+        logging.StreamHandler()
+    ]
+)
+log = logging.getLogger("orm")
+
+
+# ---------------------------------------------------------------------------
+# ENV / SECRETS
+# ---------------------------------------------------------------------------
+
+def load_env():
+    """Load environment variables from .env file."""
+    if ENV_FILE.exists():
+        with open(ENV_FILE) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, val = line.split("=", 1)
+                    os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
+def get_config():
+    """Get configuration from environment."""
+    load_env()
+    return {
+        "medium_token": os.environ.get("MEDIUM_TOKEN", ""),
+        "medium_user_id": os.environ.get("MEDIUM_USER_ID", ""),
+        "start_date": os.environ.get("START_DATE", datetime.now().strftime("%Y-%m-%d")),
+        "frequency": os.environ.get("FREQUENCY", "daily"),  # "daily" or "every_other_day"
+        "publish_time": os.environ.get("PUBLISH_TIME", "09:00"),  # 24hr format
+        "auto_open_linkedin": os.environ.get("AUTO_OPEN_LINKEDIN", "true").lower() == "true",
+    }
+
+
+# ---------------------------------------------------------------------------
+# ARTICLES
+# ---------------------------------------------------------------------------
+
+def load_articles():
+    """Load all 30 articles from JSON."""
+    with open(ARTICLES_FILE) as f:
+        return json.load(f)
+
+
+def get_publish_date(day_num, config):
+    """Calculate the publish date for a given day number."""
+    start = datetime.strptime(config["start_date"], "%Y-%m-%d")
+    if config["frequency"] == "every_other_day":
+        offset = (day_num - 1) * 2
+    else:
+        offset = day_num - 1
+    return start + timedelta(days=offset)
+
+
+def get_todays_article(articles, config):
+    """Find which article should be published today."""
+    today = datetime.now().date()
+    for article in articles:
+        pub_date = get_publish_date(article["day"], config).date()
+        if pub_date == today:
+            return article
+    return None
+
+
+# ---------------------------------------------------------------------------
+# STATUS TRACKING
+# ---------------------------------------------------------------------------
+
+def load_status():
+    """Load publishing status."""
+    if STATUS_FILE.exists():
+        with open(STATUS_FILE) as f:
+            return json.load(f)
+    return {"published": {}, "errors": {}}
+
+
+def save_status(status):
+    """Save publishing status."""
+    with open(STATUS_FILE, "w") as f:
+        json.dump(status, f, indent=2)
+
+
+def mark_published(day_num, platform, url=""):
+    """Mark an article as published."""
+    status = load_status()
+    status["published"][str(day_num)] = {
+        "platform": platform,
+        "published_at": datetime.now().isoformat(),
+        "url": url
+    }
+    save_status(status)
+
+
+def is_published(day_num):
+    """Check if an article has already been published."""
+    status = load_status()
+    return str(day_num) in status["published"]
+
+
+# ---------------------------------------------------------------------------
+# MEDIUM API
+# ---------------------------------------------------------------------------
+
+def get_medium_user_id(token):
+    """Fetch Medium user ID from token."""
+    try:
+        import requests
+        resp = requests.get(
+            "https://api.medium.com/v1/me",
+            headers={"Authorization": f"Bearer {token}"}
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            return data["data"]["id"]
+        else:
+            log.error(f"Medium API error getting user: {resp.status_code} - {resp.text}")
+            return None
+    except Exception as e:
+        log.error(f"Failed to get Medium user ID: {e}")
+        return None
+
+
+def publish_to_medium(article, config):
+    """Publish an article to Medium via API."""
+    token = config["medium_token"]
+    if not token:
+        log.warning("No MEDIUM_TOKEN set. Skipping Medium publish.")
+        return None
+
+    try:
+        import requests
+    except ImportError:
+        log.error("requests library not installed. Run: pip install requests")
+        return None
+
+    # Get user ID
+    user_id = config["medium_user_id"]
+    if not user_id:
+        user_id = get_medium_user_id(token)
+        if not user_id:
+            return None
+
+    # Publish
+    url = f"https://api.medium.com/v1/users/{user_id}/posts"
+    payload = {
+        "title": article["title"],
+        "contentFormat": "markdown",
+        "content": article["body"],
+        "tags": article["tags"][:5],  # Medium allows max 5 tags
+        "publishStatus": "public"
+    }
+
+    resp = requests.post(
+        url,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json"
+        },
+        json=payload
+    )
+
+    if resp.status_code in (200, 201):
+        data = resp.json()
+        post_url = data["data"]["url"]
+        log.info(f"✅ Published to Medium: {post_url}")
+        return post_url
+    else:
+        log.error(f"❌ Medium publish failed: {resp.status_code} - {resp.text}")
+        return None
+
+
+# ---------------------------------------------------------------------------
+# LINKEDIN (semi-automated — copies to clipboard + opens browser)
+# ---------------------------------------------------------------------------
+
+def publish_to_linkedin(article, config):
+    """
+    LinkedIn doesn't have a free article publishing API for individuals.
+    This function:
+      1. Copies the article to clipboard
+      2. Opens LinkedIn article editor in browser
+      3. Logs instructions
+    """
+    log.info("📋 LinkedIn article prepared.")
+    log.info("=" * 50)
+
+    # Try to copy to clipboard
+    text = article["body"]
+    try:
+        if sys.platform == "darwin":  # macOS
+            subprocess.run(["pbcopy"], input=text.encode(), check=True)
+            log.info("✅ Article copied to clipboard (macOS)")
+        elif sys.platform == "win32":  # Windows
+            subprocess.run(["clip"], input=text.encode(), check=True)
+            log.info("✅ Article copied to clipboard (Windows)")
+        else:  # Linux
+            try:
+                subprocess.run(["xclip", "-selection", "clipboard"], input=text.encode(), check=True)
+                log.info("✅ Article copied to clipboard (Linux/xclip)")
+            except FileNotFoundError:
+                try:
+                    subprocess.run(["xsel", "--clipboard", "--input"], input=text.encode(), check=True)
+                    log.info("✅ Article copied to clipboard (Linux/xsel)")
+                except FileNotFoundError:
+                    log.warning("⚠️  Could not copy to clipboard. Install xclip or xsel.")
+    except Exception as e:
+        log.warning(f"⚠️  Clipboard copy failed: {e}")
+
+    # Save to file as backup
+    output_file = LOG_DIR / f"linkedin_day_{article['day']}.md"
+    with open(output_file, "w") as f:
+        f.write(text)
+    log.info(f"📄 Article saved to: {output_file}")
+
+    # Open LinkedIn
+    if config.get("auto_open_linkedin", True):
+        linkedin_url = "https://www.linkedin.com/article/new/"
+        log.info(f"🌐 Opening LinkedIn article editor: {linkedin_url}")
+        webbrowser.open(linkedin_url)
+
+    log.info("")
+    log.info("📌 STEPS TO COMPLETE:")
+    log.info("   1. Paste the article in LinkedIn's editor (Ctrl+V / Cmd+V)")
+    log.info(f"   2. Title: {article['title']}")
+    log.info(f"   3. Tags: {', '.join(article['tags'])}")
+    log.info("   4. Click 'Publish'")
+    log.info("   5. Share the published link as a regular LinkedIn post too")
+    log.info("=" * 50)
+
+    return "linkedin_manual"
+
+
+# ---------------------------------------------------------------------------
+# MAIN PUBLISH LOGIC
+# ---------------------------------------------------------------------------
+
+def publish_article(article, config, dry_run=False):
+    """Publish a single article to the appropriate platform."""
+    day = article["day"]
+    platform = article["platform"]
+    title = article["title"]
+
+    log.info(f"\n{'='*60}")
+    log.info(f"📰 DAY {day} | {platform.upper()} | {title}")
+    log.info(f"{'='*60}")
+
+    if is_published(day) and not dry_run:
+        log.info(f"⏭️  Day {day} already published. Skipping.")
+        return
+
+    if dry_run:
+        log.info(f"🔍 DRY RUN — Would publish to {platform}:")
+        log.info(f"   Title: {title}")
+        log.info(f"   Tags:  {', '.join(article['tags'])}")
+        log.info(f"   Body:  {len(article['body'])} chars, ~{len(article['body'].split())} words")
+        return
+
+    url = ""
+    if platform == "medium":
+        url = publish_to_medium(article, config) or ""
+    elif platform == "linkedin":
+        url = publish_to_linkedin(article, config) or ""
+
+    mark_published(day, platform, url)
+    log.info(f"✅ Day {day} marked as published.")
+
+
+# ---------------------------------------------------------------------------
+# COMMANDS
+# ---------------------------------------------------------------------------
+
+def cmd_publish(args):
+    """Publish today's article or a specific day."""
+    config = get_config()
+    articles = load_articles()
+
+    if args.day:
+        article = next((a for a in articles if a["day"] == args.day), None)
+        if not article:
+            log.error(f"No article found for day {args.day}")
+            return
+    else:
+        article = get_todays_article(articles, config)
+        if not article:
+            log.info("📅 No article scheduled for today.")
+            log.info("   Use --day N to publish a specific day, or check --schedule")
+            return
+
+    publish_article(article, config, dry_run=args.dry_run)
+
+
+def cmd_status(args):
+    """Show publishing status."""
+    articles = load_articles()
+    status = load_status()
+    config = get_config()
+
+    published = status.get("published", {})
+    total = len(articles)
+    done = len(published)
+
+    print(f"\n{'='*60}")
+    print(f"  ORM Publishing Status — Pablo M. Rivera")
+    print(f"  {done}/{total} articles published")
+    print(f"{'='*60}\n")
+
+    for article in articles:
+        day = article["day"]
+        day_str = str(day)
+        pub_date = get_publish_date(day, config).strftime("%a %b %d")
+        platform = article["platform"].upper()
+        title_short = article["title"][:50]
+
+        if day_str in published:
+            pub_info = published[day_str]
+            pub_time = pub_info.get("published_at", "")[:10]
+            print(f"  ✅ D{day:02d} | {pub_date} | {platform:8s} | {title_short}...")
+        else:
+            today = datetime.now().date()
+            sched = get_publish_date(day, config).date()
+            if sched < today:
+                marker = "⚠️ "  # overdue
+            elif sched == today:
+                marker = "📌"  # today
+            else:
+                marker = "⬜"  # upcoming
+            print(f"  {marker} D{day:02d} | {pub_date} | {platform:8s} | {title_short}...")
+
+    print(f"\n  Legend: ✅ Published  📌 Today  ⚠️  Overdue  ⬜ Upcoming\n")
+
+
+def cmd_schedule(args):
+    """Show the full 30-day schedule."""
+    articles = load_articles()
+    config = get_config()
+
+    print(f"\n{'='*60}")
+    print(f"  30-Day Publishing Schedule")
+    print(f"  Start: {config['start_date']} | Frequency: {config['frequency']}")
+    print(f"{'='*60}\n")
+
+    for article in articles:
+        day = article["day"]
+        pub_date = get_publish_date(day, config).strftime("%A, %b %d %Y")
+        platform = article["platform"].upper()
+        print(f"  Day {day:02d} | {pub_date} | {platform:8s} | {article['title']}")
+
+    end_date = get_publish_date(30, config).strftime("%A, %b %d %Y")
+    print(f"\n  📅 Campaign ends: {end_date}\n")
+
+
+def cmd_daemon(args):
+    """Run as a daemon, publishing at the scheduled time each day."""
+    try:
+        import schedule as sched_lib
+    except ImportError:
+        log.error("schedule library not installed. Run: pip install schedule")
+        return
+
+    config = get_config()
+    publish_time = config["publish_time"]
+
+    log.info(f"🤖 Daemon started. Will publish daily at {publish_time}")
+    log.info(f"   Start date: {config['start_date']}")
+    log.info(f"   Frequency: {config['frequency']}")
+    log.info(f"   Press Ctrl+C to stop.\n")
+
+    def daily_job():
+        articles = load_articles()
+        config_fresh = get_config()
+        article = get_todays_article(articles, config_fresh)
+        if article:
+            publish_article(article, config_fresh, dry_run=args.dry_run)
+        else:
+            log.info("📅 No article scheduled for today.")
+
+    sched_lib.every().day.at(publish_time).do(daily_job)
+
+    # Also run immediately if there's something for today
+    daily_job()
+
+    while True:
+        sched_lib.run_pending()
+        time.sleep(60)
+
+
+def cmd_preview(args):
+    """Preview a specific day's article."""
+    articles = load_articles()
+    article = next((a for a in articles if a["day"] == args.day), None)
+    if not article:
+        print(f"No article for day {args.day}")
+        return
+
+    print(f"\n{'='*60}")
+    print(f"  DAY {article['day']} | {article['platform'].upper()}")
+    print(f"  {article['title']}")
+    print(f"  Tags: {', '.join(article['tags'])}")
+    print(f"{'='*60}\n")
+    print(article["body"])
+    print(f"\n{'='*60}")
+    print(f"  Word count: ~{len(article['body'].split())}")
+    print(f"{'='*60}\n")
+
+
+def cmd_export_html(args):
+    """Export all articles as a single HTML file for easy reading."""
+    articles = load_articles()
+    config = get_config()
+
+    html_parts = ["""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>ORM Articles — Pablo M. Rivera</title>
+<style>
+body { font-family: Georgia, serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.8; }
+h1 { color: #1a1a2e; border-bottom: 2px solid #34d399; padding-bottom: 10px; }
+h2 { color: #2d3748; margin-top: 30px; }
+.meta { color: #718096; font-size: 14px; margin-bottom: 20px; }
+.tag { display: inline-block; background: #e2f5ec; color: #276749; padding: 2px 10px; border-radius: 12px; font-size: 12px; margin-right: 4px; }
+hr { border: none; border-top: 1px solid #e2e8f0; margin: 40px 0; }
+article { margin-bottom: 60px; }
+</style></head><body>
+<h1>ORM Content Campaign — Pablo M. Rivera</h1>
+<p>30 SEO-optimized articles for reputation management</p>
+<hr>"""]
+
+    for a in articles:
+        pub_date = get_publish_date(a["day"], config).strftime("%A, %B %d, %Y")
+        tags_html = " ".join(f'<span class="tag">{t}</span>' for t in a["tags"])
+        # Simple markdown to HTML (basic)
+        body_html = a["body"].replace("\n\n", "</p><p>").replace("\n", "<br>")
+        body_html = f"<p>{body_html}</p>"
+        # Headers
+        for i in range(3, 0, -1):
+            prefix = "#" * i + " "
+            body_html = body_html.replace(f"<p>{prefix}", f"<h{i}>").replace(f"<br>{prefix}", f"</p><h{i}>")
+
+        html_parts.append(f"""
+<article>
+<div class="meta">Day {a['day']} | {a['platform'].upper()} | {pub_date}</div>
+{body_html}
+<div style="margin-top:12px">{tags_html}</div>
+</article>
+<hr>""")
+
+    html_parts.append("</body></html>")
+
+    out = BASE_DIR / "articles" / "all_articles.html"
+    with open(out, "w") as f:
+        f.write("\n".join(html_parts))
+    print(f"✅ Exported to {out}")
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="ORM Content Automation Engine — Pablo M. Rivera",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python publish.py --dry-run          Preview today's article without publishing
+  python publish.py                    Publish today's article
+  python publish.py --day 5            Publish day 5's article
+  python publish.py --status           Show what's published and what's pending
+  python publish.py --schedule         Show the full 30-day calendar
+  python publish.py --preview 1        Read day 1's article in terminal
+  python publish.py --daemon           Run continuously, auto-publish at scheduled time
+  python publish.py --export-html      Export all articles as one HTML file
+        """
+    )
+
+    parser.add_argument("--dry-run", action="store_true", help="Preview without publishing")
+    parser.add_argument("--day", type=int, help="Publish a specific day (1-30)")
+    parser.add_argument("--status", action="store_true", help="Show publishing status")
+    parser.add_argument("--schedule", action="store_true", help="Show 30-day schedule")
+    parser.add_argument("--daemon", action="store_true", help="Run as daemon, auto-publish daily")
+    parser.add_argument("--preview", type=int, metavar="DAY", help="Preview a specific day's article")
+    parser.add_argument("--export-html", action="store_true", help="Export all articles as HTML")
+
+    args = parser.parse_args()
+
+    if args.status:
+        cmd_status(args)
+    elif args.schedule:
+        cmd_schedule(args)
+    elif args.daemon:
+        cmd_daemon(args)
+    elif args.preview:
+        args.day = args.preview
+        cmd_preview(args)
+    elif args.export_html:
+        cmd_export_html(args)
+    else:
+        cmd_publish(args)
+
+
+if __name__ == "__main__":
+    main()
