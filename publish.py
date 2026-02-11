@@ -92,6 +92,10 @@ def get_config():
         "wordpress_site_url": os.environ.get("WORDPRESS_SITE_URL", ""),
         "wordpress_username": os.environ.get("WORDPRESS_USERNAME", ""),
         "wordpress_app_password": os.environ.get("WORDPRESS_APP_PASSWORD", ""),
+        "tumblr_consumer_key": os.environ.get("TUMBLR_CONSUMER_KEY", ""),
+        "tumblr_consumer_secret": os.environ.get("TUMBLR_CONSUMER_SECRET", ""),
+        "tumblr_oauth_token": os.environ.get("TUMBLR_OAUTH_TOKEN", ""),
+        "tumblr_oauth_token_secret": os.environ.get("TUMBLR_OAUTH_TOKEN_SECRET", ""),
         "start_date": os.environ.get("START_DATE", datetime.now().strftime("%Y-%m-%d")),
         "frequency": os.environ.get("FREQUENCY", "daily"),  # "daily" or "every_other_day"
         "publish_time": os.environ.get("PUBLISH_TIME", "09:00"),  # 24hr format
@@ -664,6 +668,70 @@ def publish_to_telegraph(article, config):
 
 
 # ---------------------------------------------------------------------------
+# TUMBLR API
+# ---------------------------------------------------------------------------
+
+def publish_to_tumblr(article, config):
+    """Publish an article to Tumblr via OAuth 1.0a API."""
+    consumer_key = config.get("tumblr_consumer_key", "")
+    consumer_secret = config.get("tumblr_consumer_secret", "")
+    oauth_token = config.get("tumblr_oauth_token", "")
+    oauth_token_secret = config.get("tumblr_oauth_token_secret", "")
+
+    if not all([consumer_key, consumer_secret, oauth_token, oauth_token_secret]):
+        log.warning("Tumblr credentials not set. Skipping Tumblr publish.")
+        return None
+
+    try:
+        import requests
+        from requests_oauthlib import OAuth1
+    except ImportError:
+        log.error("requests or requests-oauthlib not installed. Run: pip install requests requests-oauthlib")
+        return None
+
+    try:
+        # Get user info to find blog name
+        auth = OAuth1(consumer_key, consumer_secret, oauth_token, oauth_token_secret)
+
+        user_info_url = "https://api.tumblr.com/v2/user/info"
+        resp = requests.get(user_info_url, auth=auth)
+
+        if resp.status_code != 200:
+            log.error(f"❌ Tumblr user info failed: {resp.status_code}")
+            return None
+
+        user_data = resp.json()
+        blog_name = user_data["response"]["user"]["blogs"][0]["name"]
+
+        # Create post
+        post_url = f"https://api.tumblr.com/v2/blog/{blog_name}.tumblr.com/post"
+
+        post_data = {
+            "type": "text",
+            "title": article["title"],
+            "body": article["body"],
+            "tags": ",".join(article["tags"][:10]),  # Tumblr allows many tags
+            "format": "markdown"
+        }
+
+        resp = requests.post(post_url, auth=auth, data=post_data)
+
+        if resp.status_code == 201:
+            result = resp.json()
+            post_id = result["response"]["id"]
+            tumblr_url = f"https://{blog_name}.tumblr.com/post/{post_id}"
+            log.info(f"✅ Published to Tumblr: {tumblr_url}")
+            return tumblr_url
+        else:
+            log.error(f"❌ Tumblr publish failed: {resp.status_code} - {resp.text}")
+            return None
+
+    except Exception as e:
+        log.error(f"❌ Tumblr error: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
 # MAIN PUBLISH LOGIC
 # ---------------------------------------------------------------------------
 
@@ -706,6 +774,8 @@ def publish_article(article, config, dry_run=False):
             url = publish_to_wordpress(article, config) or ""
         elif platform == "telegraph":
             url = publish_to_telegraph(article, config) or ""
+        elif platform == "tumblr":
+            url = publish_to_tumblr(article, config) or ""
         elif platform == "linkedin":
             url = publish_to_linkedin(article, config) or ""
 
