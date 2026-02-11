@@ -1,15 +1,12 @@
 name: Auto-Publish ORM Content
 
 on:
-  # Run daily at 9:00 AM EST (14:00 UTC)
   schedule:
-    - cron: '0 14 * * *'
-
-  # Allow manual trigger
+    - cron: '0 14 * * *'  # 9 AM EST (2 PM UTC) daily
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Dry run mode'
+        description: 'Dry run mode (test without publishing)'
         required: false
         type: boolean
         default: false
@@ -17,54 +14,42 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
-
+      
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
-
-      - name: Publish articles
+      
+      - name: Run publisher
         env:
           DEVTO_TOKEN: ${{ secrets.DEVTO_TOKEN }}
           HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
           HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
-          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
-          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
-          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
-          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
-          WORDPRESS_SITE_URL: ${{ secrets.WORDPRESS_SITE_URL }}
-          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
-          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
           START_DATE: '2026-02-11'
           FREQUENCY: 'daily'
-          AUTO_OPEN_LINKEDIN: 'false'
         run: |
-          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
             python publish.py --dry-run
           else
             python publish.py
           fi
-
+      
       - name: Commit status updates
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update publishing status [skip ci]"
-          file_pattern: "logs/publish_status.json logs/publish.log"
-          commit_user_name: "ORM Publisher Bot"
-          commit_user_email: "actions@github.com"
-
-      - name: Notify on failure
-        if: failure()
         run: |
-          echo "::error::Publishing failed! Check the logs."
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A logs/ || true
+          git diff --staged --quiet || git commit -m "Update publish status [skip ci]" || true
+      
+      - name: Push changes
+        run: |
+          git push || true
