@@ -38,6 +38,7 @@ jobs:
           TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
           TUMBLR_OAUTH_TOKEN: ${{ secrets.TUMBLR_OAUTH_TOKEN }}
           TUMBLR_OAUTH_TOKEN_SECRET: ${{ secrets.TUMBLR_OAUTH_TOKEN_SECRET }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
           START_DATE: '2026-02-11'
           FREQUENCY: 'daily'
 
