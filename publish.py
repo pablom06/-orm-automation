@@ -97,6 +97,9 @@ def get_config():
         "tumblr_oauth_token": os.environ.get("TUMBLR_OAUTH_TOKEN", ""),
         "tumblr_oauth_token_secret": os.environ.get("TUMBLR_OAUTH_TOKEN_SECRET", ""),
         "github_gist_token": os.environ.get("GIST_TOKEN", ""),
+        "github_pages_token": os.environ.get("GITHUB_PAGES_TOKEN", ""),
+        "github_pages_repo": os.environ.get("GITHUB_PAGES_REPO", "pablom06.github.io"),
+        "gitlab_token": os.environ.get("GITLAB_TOKEN", ""),
         "start_date": os.environ.get("START_DATE", datetime.now().strftime("%Y-%m-%d")),
         "frequency": os.environ.get("FREQUENCY", "daily"),  # "daily" or "every_other_day"
         "publish_time": os.environ.get("PUBLISH_TIME", "09:00"),  # 24hr format
@@ -797,6 +800,145 @@ def publish_to_gist(article, config):
 
 
 # ---------------------------------------------------------------------------
+# GITHUB PAGES API
+# ---------------------------------------------------------------------------
+
+def publish_to_github_pages(article, config):
+    """Publish an article as a page on GitHub Pages site."""
+    token = config.get("github_pages_token", "")
+
+    if not token:
+        log.warning("No GITHUB_PAGES_TOKEN set. Skipping GitHub Pages publish.")
+        return None
+
+    try:
+        import requests
+        import base64
+    except ImportError:
+        log.error("requests library not installed.")
+        return None
+
+    try:
+        repo = config.get("github_pages_repo", "pablom06.github.io")
+        owner = repo.split(".")[0]
+
+        # Create a clean filename
+        slug = article["title"].lower()
+        slug = slug.replace(" ", "-").replace(":", "").replace("?", "").replace("'", "")
+        slug = slug.replace("--", "-").replace(",", "").replace(".", "")[:80]
+
+        # Create Jekyll-compatible markdown with front matter
+        tags_str = "\n".join([f'  - "{tag}"' for tag in article["tags"]])
+        content = f"""---
+layout: post
+title: "{article['title']}"
+author: "Pablo M. Rivera"
+tags:
+{tags_str}
+---
+
+{article['body']}
+"""
+
+        # Encode content
+        encoded = base64.b64encode(content.encode()).decode()
+
+        filepath = f"_posts/2026-02-{11 + (article['day'] - 1) // 2:02d}-{slug}.md"
+
+        url = f"https://api.github.com/repos/{owner}/{repo}/contents/{filepath}"
+
+        payload = {
+            "message": f"Add article: {article['title'][:50]}",
+            "content": encoded
+        }
+
+        resp = requests.put(
+            url,
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github+json",
+                "X-GitHub-Api-Version": "2022-11-28"
+            },
+            json=payload
+        )
+
+        if resp.status_code in (200, 201):
+            page_url = f"https://{repo}/{slug}"
+            log.info(f"✅ Published to GitHub Pages: {page_url}")
+            return page_url
+        else:
+            log.error(f"❌ GitHub Pages publish failed: {resp.status_code} - {resp.text}")
+            return None
+
+    except Exception as e:
+        log.error(f"❌ GitHub Pages error: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
+# GITLAB SNIPPETS API
+# ---------------------------------------------------------------------------
+
+def publish_to_gitlab(article, config):
+    """Publish an article as a public GitLab Snippet."""
+    token = config.get("gitlab_token", "")
+
+    if not token:
+        log.warning("No GITLAB_TOKEN set. Skipping GitLab publish.")
+        return None
+
+    try:
+        import requests
+    except ImportError:
+        log.error("requests library not installed.")
+        return None
+
+    try:
+        url = "https://gitlab.com/api/v4/snippets"
+
+        # Create filename from title
+        filename = article["title"].replace(" ", "-").replace(":", "").replace("?", "")
+        filename = filename[:80] + ".md"
+
+        tags_line = " ".join([f"#{tag.replace(' ', '')}" for tag in article["tags"]])
+        content = f"# {article['title']}\n\n{article['body']}\n\n---\n{tags_line}"
+
+        payload = {
+            "title": article["title"],
+            "description": f"By Pablo M. Rivera - {', '.join(article['tags'][:3])}",
+            "visibility": "public",
+            "files": [
+                {
+                    "file_path": filename,
+                    "content": content
+                }
+            ]
+        }
+
+        resp = requests.post(
+            url,
+            headers={
+                "PRIVATE-TOKEN": token,
+                "Content-Type": "application/json"
+            },
+            json=payload
+        )
+
+        if resp.status_code in (200, 201):
+            data = resp.json()
+            snippet_url = data.get("web_url", "")
+            log.info(f"✅ Published to GitLab Snippet: {snippet_url}")
+            return snippet_url
+        else:
+            log.error(f"❌ GitLab publish failed: {resp.status_code} - {resp.text}")
+            return None
+
+    except Exception as e:
+        log.error(f"❌ GitLab error: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
 # MAIN PUBLISH LOGIC
 # ---------------------------------------------------------------------------
 
@@ -843,6 +985,10 @@ def publish_article(article, config, dry_run=False):
             url = publish_to_tumblr(article, config) or ""
         elif platform == "gist":
             url = publish_to_gist(article, config) or ""
+        elif platform == "github_pages":
+            url = publish_to_github_pages(article, config) or ""
+        elif platform == "gitlab":
+            url = publish_to_gitlab(article, config) or ""
         elif platform == "linkedin":
             url = publish_to_linkedin(article, config) or ""
 
