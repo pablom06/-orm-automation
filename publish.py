@@ -97,8 +97,8 @@ def get_config():
         "tumblr_oauth_token": os.environ.get("TUMBLR_OAUTH_TOKEN", ""),
         "tumblr_oauth_token_secret": os.environ.get("TUMBLR_OAUTH_TOKEN_SECRET", ""),
         "github_gist_token": os.environ.get("GIST_TOKEN", ""),
-        "github_pages_token": os.environ.get("GITHUB_PAGES_TOKEN", ""),
-        "github_pages_repo": os.environ.get("GITHUB_PAGES_REPO", "pablom06.github.io"),
+        "github_pages_token": os.environ.get("GH_PAGES_TOKEN", ""),
+        "github_pages_repo": os.environ.get("GH_PAGES_REPO", "pablom06.github.io"),
         "gitlab_token": os.environ.get("GITLAB_TOKEN", ""),
         "start_date": os.environ.get("START_DATE", datetime.now().strftime("%Y-%m-%d")),
         "frequency": os.environ.get("FREQUENCY", "daily"),  # "daily" or "every_other_day"
