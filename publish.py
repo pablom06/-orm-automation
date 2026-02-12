@@ -616,6 +616,7 @@ def publish_to_telegraph(article, config):
     """Publish an article to Telegraph via API (no auth required!)."""
     try:
         import requests
+        import re
     except ImportError:
         log.error("requests library not installed. Run: pip install requests")
         return None
@@ -625,21 +626,18 @@ def publish_to_telegraph(article, config):
         telegraph_token = config.get("telegraph_token", "")
 
         if not telegraph_token:
-            # Create a new Telegraph account (one-time)
             create_account_url = "https://api.telegra.ph/createAccount"
             account_data = {
-                "short_name": "Pablo M Rivera",
-                "author_name": "Pablo M. Rivera",
-                "author_url": ""
+                "short_name": "PabloMRivera",
+                "author_name": "Pablo M. Rivera"
             }
 
-            resp = requests.post(create_account_url, json=account_data)
+            resp = requests.post(create_account_url, data=account_data)
             if resp.status_code == 200:
                 result = resp.json()
                 if result.get("ok"):
                     telegraph_token = result["result"]["access_token"]
                     log.info(f"📝 Created Telegraph account. Token: {telegraph_token[:20]}...")
-                    log.info(f"💡 Add this to .env: TELEGRAPH_TOKEN={telegraph_token}")
                 else:
                     log.error(f"❌ Telegraph account creation failed: {result}")
                     return None
@@ -647,41 +645,68 @@ def publish_to_telegraph(article, config):
                 log.error(f"❌ Telegraph API error: {resp.status_code}")
                 return None
 
-        # Step 2: Convert markdown to Telegraph HTML format (simplified)
-        # Telegraph accepts HTML in a specific node format, but also accepts simple HTML
-        import re
-
-        # Convert markdown to simple HTML
+        # Step 2: Convert markdown to Telegraph Node format (JSON array)
         content = article["body"]
+        nodes = []
 
-        # Convert headers
-        content = re.sub(r'^### (.+)$', r'<h3>\1</h3>', content, flags=re.MULTILINE)
-        content = re.sub(r'^## (.+)$', r'<h2>\1</h2>', content, flags=re.MULTILINE)
-        content = re.sub(r'^# (.+)$', r'<h1>\1</h1>', content, flags=re.MULTILINE)
+        for block in content.split('\n\n'):
+            block = block.strip()
+            if not block:
+                continue
 
-        # Convert bold and italic
-        content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
-        content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+            # Handle markdown headers
+            h_match = re.match(r'^(#{1,3})\s+(.+)$', block)
+            if h_match:
+                level = len(h_match.group(1))
+                tag = f"h{min(level + 2, 4)}"  # Telegraph uses h3, h4
+                nodes.append({"tag": tag, "children": [h_match.group(2)]})
+                continue
 
-        # Convert code blocks
-        content = re.sub(r'```(.+?)```', r'<pre>\1</pre>', content, flags=re.DOTALL)
-        content = re.sub(r'`(.+?)`', r'<code>\1</code>', content)
+            # Handle horizontal rules
+            if block.startswith('---'):
+                nodes.append({"tag": "hr"})
+                continue
 
-        # Convert line breaks to paragraphs
-        paragraphs = content.split('\n\n')
-        html_content = ''.join([f'<p>{p.strip()}</p>' for p in paragraphs if p.strip()])
+            # Process inline formatting
+            text = block.replace('\n', ' ')
+            # Convert markdown links [text](url)
+            text = re.sub(r'\[([^\]]+)\]\(([^\)]+)\)', r'<a href="\2">\1</a>', text)
+            # Convert bold
+            text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+            # Convert italic
+            text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
 
-        # Step 3: Create the page
+            # Build children with inline elements
+            children = []
+            parts = re.split(r'(<(?:a|strong|em)[^>]*>.*?</(?:a|strong|em)>)', text)
+            for part in parts:
+                if not part:
+                    continue
+                a_match = re.match(r'<a href="([^"]+)">(.+?)</a>', part)
+                strong_match = re.match(r'<strong>(.+?)</strong>', part)
+                em_match = re.match(r'<em>(.+?)</em>', part)
+                if a_match:
+                    children.append({"tag": "a", "attrs": {"href": a_match.group(1)}, "children": [a_match.group(2)]})
+                elif strong_match:
+                    children.append({"tag": "strong", "children": [strong_match.group(1)]})
+                elif em_match:
+                    children.append({"tag": "em", "children": [em_match.group(1)]})
+                else:
+                    children.append(part)
+
+            nodes.append({"tag": "p", "children": children})
+
+        # Step 3: Create the page using form data with JSON-serialized content
         create_page_url = "https://api.telegra.ph/createPage"
         page_data = {
             "access_token": telegraph_token,
             "title": article["title"],
             "author_name": "Pablo M. Rivera",
-            "content": html_content,
-            "return_content": False
+            "content": json.dumps(nodes),
+            "return_content": "false"
         }
 
-        resp = requests.post(create_page_url, json=page_data)
+        resp = requests.post(create_page_url, data=page_data)
 
         if resp.status_code == 200:
             result = resp.json()
@@ -707,13 +732,17 @@ def publish_to_telegraph(article, config):
 
 def publish_to_tumblr(article, config):
     """Publish an article to Tumblr via OAuth 1.0a API."""
-    consumer_key = config.get("tumblr_consumer_key", "")
-    consumer_secret = config.get("tumblr_consumer_secret", "")
-    oauth_token = config.get("tumblr_oauth_token", "")
-    oauth_token_secret = config.get("tumblr_oauth_token_secret", "")
+    consumer_key = config.get("tumblr_consumer_key", "").strip()
+    consumer_secret = config.get("tumblr_consumer_secret", "").strip()
+    oauth_token = config.get("tumblr_oauth_token", "").strip()
+    oauth_token_secret = config.get("tumblr_oauth_token_secret", "").strip()
 
     if not all([consumer_key, consumer_secret, oauth_token, oauth_token_secret]):
         log.warning("Tumblr credentials not set. Skipping Tumblr publish.")
+        log.warning(f"   consumer_key: {'set' if consumer_key else 'MISSING'}")
+        log.warning(f"   consumer_secret: {'set' if consumer_secret else 'MISSING'}")
+        log.warning(f"   oauth_token: {'set' if oauth_token else 'MISSING'}")
+        log.warning(f"   oauth_token_secret: {'set' if oauth_token_secret else 'MISSING'}")
         return None
 
     try:
@@ -731,7 +760,7 @@ def publish_to_tumblr(article, config):
         resp = requests.get(user_info_url, auth=auth)
 
         if resp.status_code != 200:
-            log.error(f"❌ Tumblr user info failed: {resp.status_code}")
+            log.error(f"❌ Tumblr user info failed: {resp.status_code} - {resp.text[:200]}")
             return None
 
         user_data = resp.json()
