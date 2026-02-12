@@ -128,14 +128,31 @@ def get_publish_date(day_num, config):
 
 
 def get_todays_articles(articles, config):
-    """Find which articles should be published today (2 per day)."""
-    today = datetime.now().date()
+    """Find which articles should be published today (2 per day).
+    Also catches up on any missed/unpublished articles from past days.
+    Uses EST timezone since the campaign is based in East Haven, CT."""
+    try:
+        from datetime import timezone
+        # EST is UTC-5
+        est = timezone(timedelta(hours=-5))
+        today = datetime.now(est).date()
+    except Exception:
+        today = datetime.now().date()
+
     todays_articles = []
+    catchup_articles = []
+
     for article in articles:
         pub_date = get_publish_date(article["day"], config).date()
         if pub_date == today:
             todays_articles.append(article)
-    return todays_articles
+        elif pub_date < today and not is_published(article["day"], article.get("platforms")):
+            catchup_articles.append(article)
+
+    if catchup_articles:
+        log.info(f"📋 Found {len(catchup_articles)} missed articles to catch up on")
+
+    return catchup_articles + todays_articles
 
 
 # ---------------------------------------------------------------------------
