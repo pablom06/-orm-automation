@@ -904,22 +904,24 @@ tags:
 
         filepath = f"_posts/2026-02-{11 + (article['day'] - 1) // 2:02d}-{slug}.md"
 
-        url = f"https://api.github.com/repos/{owner}/{repo}/contents/{filepath}"
+        api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/{filepath}"
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28"
+        }
 
+        # Check if file already exists (need sha to update)
+        existing = requests.get(api_url, headers=headers)
         payload = {
             "message": f"Add article: {article['title'][:50]}",
             "content": encoded
         }
+        if existing.status_code == 200:
+            # File exists — include sha to update it
+            payload["sha"] = existing.json()["sha"]
 
-        resp = requests.put(
-            url,
-            headers={
-                "Authorization": f"Bearer {token}",
-                "Accept": "application/vnd.github+json",
-                "X-GitHub-Api-Version": "2022-11-28"
-            },
-            json=payload
-        )
+        resp = requests.put(api_url, headers=headers, json=payload)
 
         if resp.status_code in (200, 201):
             page_url = f"https://{repo}/{slug}"
