@@ -1101,6 +1101,33 @@ def cmd_publish(args):
         for article in todays_articles:
             publish_article(article, config, dry_run=args.dry_run)
 
+        # Check if campaign is complete
+        if not args.dry_run:
+            check_campaign_complete(articles, config)
+
+
+def check_campaign_complete(articles, config):
+    """Check if all articles have been published and write a flag file."""
+    status = load_status()
+    published = status.get("published", {})
+    total = len(articles)
+    done = len(published)
+
+    if done >= total:
+        flag_file = BASE_DIR / "logs" / "campaign_complete.flag"
+        if not flag_file.exists():
+            with open(flag_file, "w") as f:
+                f.write(f"Campaign completed on {datetime.now().isoformat()}\n")
+                f.write(f"Total articles: {total}\n")
+                f.write(f"Published: {done}\n")
+            log.info(f"\n{'='*70}")
+            log.info(f"🎉 CAMPAIGN COMPLETE! All {total} articles published!")
+            log.info(f"{'='*70}")
+    else:
+        remaining = total - done
+        days_left = (remaining + 1) // 2  # 2 articles per day
+        log.info(f"\n📊 Progress: {done}/{total} articles published ({days_left} days remaining)")
+
 
 def cmd_status(args):
     """Show publishing status."""
