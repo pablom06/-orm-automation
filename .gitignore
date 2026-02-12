@@ -17,8 +17,8 @@ ENV/
 logs/*.log
 !logs/.gitkeep
 
-# Status file (will be updated automatically)
-logs/publish_status.json
+# Status file (tracked so workflow persists state between runs)
+# logs/publish_status.json
 
 # LinkedIn exports (optional - comment out if you want to track these)
 logs/linkedin_*.md

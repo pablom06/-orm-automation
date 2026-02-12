@@ -170,10 +170,23 @@ def mark_published(day_num, platforms, urls=None):
     save_status(status)
 
 
-def is_published(day_num):
-    """Check if an article has already been published."""
+def is_published(day_num, platforms=None):
+    """Check if an article has already been published to all platforms."""
     status = load_status()
-    return str(day_num) in status["published"]
+    if str(day_num) not in status["published"]:
+        return False
+    if platforms:
+        published_platforms = status["published"][str(day_num)].get("platforms", [])
+        return all(p in published_platforms for p in platforms)
+    return True
+
+
+def get_published_platforms(day_num):
+    """Get list of platforms already published for a given day."""
+    status = load_status()
+    if str(day_num) in status["published"]:
+        return status["published"][str(day_num)].get("platforms", [])
+    return []
 
 
 # ---------------------------------------------------------------------------
@@ -953,21 +966,33 @@ def publish_article(article, config, dry_run=False):
     log.info(f"   Publishing to: {', '.join([p.upper() for p in platforms])}")
     log.info(f"{'='*70}")
 
-    if is_published(day) and not dry_run:
-        log.info(f"⏭️  Day {day} already published. Skipping.")
+    if is_published(day, platforms) and not dry_run:
+        log.info(f"⏭️  Day {day} already published to all platforms. Skipping.")
         return
 
+    # Check which platforms still need publishing
+    already_published = get_published_platforms(day)
+    remaining_platforms = [p for p in platforms if p not in already_published]
+
     if dry_run:
-        log.info(f"🔍 DRY RUN — Would publish to {len(platforms)} platforms:")
+        log.info(f"🔍 DRY RUN — Would publish to {len(remaining_platforms)} platforms:")
         log.info(f"   Title: {title}")
         log.info(f"   Tags:  {', '.join(article['tags'])}")
         log.info(f"   Body:  {len(article['body'])} chars, ~{len(article['body'].split())} words")
-        log.info(f"   Platforms: {', '.join([p.upper() for p in platforms])}")
+        log.info(f"   Platforms: {', '.join([p.upper() for p in remaining_platforms])}")
+        if already_published:
+            log.info(f"   Already done: {', '.join([p.upper() for p in already_published])}")
         return
 
-    # Publish to each platform
-    results = {}
-    for platform in platforms:
+    # Load existing URLs from previous publishes
+    status = load_status()
+    existing_urls = {}
+    if str(day) in status["published"]:
+        existing_urls = status["published"][str(day)].get("urls", {})
+
+    # Publish to each remaining platform
+    results = dict(existing_urls)
+    for platform in remaining_platforms:
         url = ""
         if platform == "medium":
             url = publish_to_medium(article, config) or ""
@@ -996,7 +1021,8 @@ def publish_article(article, config, dry_run=False):
             results[platform] = url
 
     mark_published(day, platforms, results)
-    log.info(f"✅ Day {day} published to {len(results)}/{len(platforms)} platforms.")
+    new_count = len([p for p in remaining_platforms if p in results])
+    log.info(f"✅ Day {day} published to {new_count}/{len(remaining_platforms)} new platforms ({len(results)}/{len(platforms)} total).")
 
 
 # ---------------------------------------------------------------------------
