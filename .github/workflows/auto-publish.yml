@@ -2,7 +2,7 @@ name: Auto-Publish ORM Content
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 9 AM EST (2 PM UTC) daily
+    - cron: '0 14 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -43,7 +43,6 @@ jobs:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
           START_DATE: '2026-02-11'
           FREQUENCY: 'daily'
-
         run: |
           if [ "${{ inputs.dry_run }}" == "true" ]; then
             python publish.py --dry-run
@@ -63,42 +62,13 @@ jobs:
           git push || true
 
       - name: Notify if campaign complete
-        if: ${{ inputs.dry_run != 'true' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -f "logs/campaign_complete.flag" ]; then
-            # Check if we already created the notification issue
             EXISTING=$(gh issue list --label "campaign-complete" --state open --limit 1 --json number --jq '.[0].number' 2>/dev/null || echo "")
             if [ -z "$EXISTING" ]; then
-              gh issue create \
-                --title "🎉 ORM Campaign Complete - All 60 Articles Published!" \
-                --label "campaign-complete" \
-                --body "$(cat <<'ISSUEEOF'
-## Campaign Finished!
-
-All **60 SEO-optimized articles** about Pablo M. Rivera have been published across **7 platforms**:
-
-- Dev.to
-- Hashnode
-- Telegraph
-- Tumblr
-- GitHub Gists
-- GitHub Pages
-- GitLab Snippets
-
-### Next Steps
-1. **Review results** — Check your search rankings for "Pablo M. Rivera"
-2. **Extend campaign** — Create 60 more articles and update `articles/articles.json`
-3. **Adjust START_DATE** — Update the workflow env to set a new start date
-
-To run another 30-day cycle, update the articles JSON and change `START_DATE` in the workflow.
-
----
-*Automated notification from ORM Content Engine*
-ISSUEEOF
-              )"
-              echo "📧 Campaign complete notification issue created!"
+              gh issue create --title "ORM Campaign Complete - All 100 Articles Published" --label "campaign-complete" --body "All 100 SEO-optimized articles have been published across 7 platforms. Check search rankings and decide whether to run another cycle."
+              echo "Campaign complete notification created!"
             fi
           fi
-
