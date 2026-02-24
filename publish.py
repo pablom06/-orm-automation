@@ -1068,9 +1068,14 @@ def publish_article(article, config, dry_run=False):
         if url:
             results[platform] = url
 
-    mark_published(day, platforms, results)
-    new_count = len([p for p in remaining_platforms if p in results])
-    log.info(f"✅ Day {day} published to {new_count}/{len(remaining_platforms)} new platforms ({len(results)}/{len(platforms)} total).")
+    # Only mark platforms that actually succeeded (have a URL)
+    succeeded_platforms = already_published + [p for p in remaining_platforms if results.get(p)]
+    failed_platforms = [p for p in remaining_platforms if not results.get(p)]
+    mark_published(day, succeeded_platforms, results)
+    new_count = len([p for p in remaining_platforms if results.get(p)])
+    log.info(f"✅ Day {day} published to {new_count}/{len(remaining_platforms)} new platforms ({len(succeeded_platforms)}/{len(platforms)} total).")
+    if failed_platforms:
+        log.warning(f"⚠️  Day {day} failed on: {', '.join([p.upper() for p in failed_platforms])} — will retry next run")
 
 
 # ---------------------------------------------------------------------------
