@@ -1,4 +1,785 @@
 {
-  "published": {},
+  "published": {
+    "1": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:13:57.063630",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/from-yale-to-the-jobsite-how-an-economics-degree-shaped-my-approach-to-operations-3gp1",
+        "hashnode": "https://pablor.hashnode.dev/from-yale-to-the-jobsite-how-an-economics-degree-shaped-my-approach-to-operations-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/From-Yale-to-the-Jobsite-How-an-Economics-Degree-Shaped-My-Approach-to-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029190139281408",
+        "gist": "https://gist.github.com/pablom06/cf51ebd5ddeef6cc2f26ac4b66270a0a",
+        "github_pages": "https://pablom06.github.io/from-yale-to-the-jobsite-how-an-economics-degree-shaped-my-approach-to-operation",
+        "gitlab": "https://gitlab.com/-/snippets/5964632"
+      }
+    },
+    "2": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:02.474717",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/how-i-deployed-salesforce-across-12-markets-and-cut-processing-time-by-30-41il",
+        "hashnode": "https://pablor.hashnode.dev/how-i-deployed-salesforce-across-12-markets-and-cut-processing-time-by-30-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/How-I-Deployed-Salesforce-Across-12-Markets-and-Cut-Processing-Time-by-30-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029195943100416",
+        "gist": "https://gist.github.com/pablom06/bcedf12fbc40189cf13077b73ab1cb62",
+        "github_pages": "https://pablom06.github.io/how-i-deployed-salesforce-across-12-markets-and-cut-processing-time-by-30%",
+        "gitlab": "https://gitlab.com/-/snippets/5964633"
+      }
+    },
+    "3": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:07.818299",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/managing-120-technicians-across-12-states-lessons-in-national-operations-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Managing-120-Technicians-Across-12-States-Lessons-in-National-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029200971087872",
+        "gist": "https://gist.github.com/pablom06/bbb55faa730c82d81aeb0027ef3638a3",
+        "github_pages": "https://pablom06.github.io/managing-120+-technicians-across-12-states-lessons-in-national-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5964634"
+      }
+    },
+    "4": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:12.428545",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/what-mining-in-sierra-leone-taught-me-about-operations-leadership-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/What-Mining-in-Sierra-Leone-Taught-Me-About-Operations-Leadership-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029206422552576",
+        "gist": "https://gist.github.com/pablom06/0acf79cb393595b7c61163c26d192471",
+        "github_pages": "https://pablom06.github.io/what-mining-in-sierra-leone-taught-me-about-operations-leadership",
+        "gitlab": "https://gitlab.com/-/snippets/5964635"
+      }
+    },
+    "5": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:17.052813",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/the-1-billion-restructuring-lessons-in-financial-operations-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/The-1-Billion-Restructuring-Lessons-in-Financial-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029211125448704",
+        "gist": "https://gist.github.com/pablom06/fa812872fce862b3d5f22953bb2e048b",
+        "github_pages": "https://pablom06.github.io/the-$1-billion-restructuring-lessons-in-financial-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5964636"
+      }
+    },
+    "6": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:21.805258",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/why-i-went-back-to-school-for-full-stack-development-at-47-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Why-I-Went-Back-to-School-for-Full-Stack-Development-at-47-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029215821004800",
+        "gist": "https://gist.github.com/pablom06/08f17648cf2cbd38aa4684b11b4d4649",
+        "github_pages": "https://pablom06.github.io/why-i-went-back-to-school-for-full-stack-development-at-47",
+        "gitlab": "https://gitlab.com/-/snippets/5964637"
+      }
+    },
+    "7": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:26.663774",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/kpi-frameworks-that-actually-drive-results-a-practitioners-guide-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/KPI-Frameworks-That-Actually-Drive-Results-A-Practitioners-Guide-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029220714741760",
+        "gist": "https://gist.github.com/pablom06/229a2b073eb3b947fab3233d8c2807f4",
+        "github_pages": "https://pablom06.github.io/kpi-frameworks-that-actually-drive-results-a-practitioners-guide",
+        "gitlab": "https://gitlab.com/-/snippets/5964638"
+      }
+    },
+    "8": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:31.253464",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/bilingual-leadership-how-speaking-spanish-shaped-my-career-1c9c",
+        "hashnode": "https://pablor.hashnode.dev/bilingual-leadership-how-speaking-spanish-shaped-my-career-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Bilingual-Leadership-How-Speaking-Spanish-Shaped-My-Career-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029226191372288",
+        "gist": "https://gist.github.com/pablom06/077d95d402510e0311f70c6204422f00",
+        "github_pages": "https://pablom06.github.io/bilingual-leadership-how-speaking-spanish-shaped-my-career",
+        "gitlab": "https://gitlab.com/-/snippets/5964639"
+      }
+    },
+    "9": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:35.766525",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/scaling-a-construction-company-from-zero-to-10m-what-id-do-differently-204",
+        "hashnode": "https://pablor.hashnode.dev/scaling-a-construction-company-from-zero-to-10m-what-id-do-differently-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Scaling-a-Construction-Company-from-Zero-to-10M-What-Id-Do-Differently-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029230717059072",
+        "gist": "https://gist.github.com/pablom06/ff76685073f70907cbae564d1205e593",
+        "github_pages": "https://pablom06.github.io/scaling-a-construction-company-from-zero-to-$10m-what-id-do-differently",
+        "gitlab": "https://gitlab.com/-/snippets/5964640"
+      }
+    },
+    "10": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:40.364672",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/the-case-for-operations-leaders-who-code-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/The-Case-for-Operations-Leaders-Who-Code-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029235247972352",
+        "gist": "https://gist.github.com/pablom06/2aa6317ce034b1de706fb0c58d97a96f",
+        "github_pages": "https://pablom06.github.io/the-case-for-operations-leaders-who-code",
+        "gitlab": "https://gitlab.com/-/snippets/5964641"
+      }
+    },
+    "11": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:45.096465",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/vendor-management-as-a-strategic-discipline-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Vendor-Management-as-a-Strategic-Discipline-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029240523292672",
+        "gist": "https://gist.github.com/pablom06/733e46f5312284d8c62a8fb8d5ac7da3",
+        "github_pages": "https://pablom06.github.io/vendor-management-as-a-strategic-discipline",
+        "gitlab": "https://gitlab.com/-/snippets/5964642"
+      }
+    },
+    "12": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:49.916379",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/how-lean-six-sigma-changed-how-i-run-operations-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/How-Lean-Six-Sigma-Changed-How-I-Run-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029245339484160",
+        "gist": "https://gist.github.com/pablom06/4608d09df60183f87ff81e9e8231d2c2",
+        "github_pages": "https://pablom06.github.io/how-lean-six-sigma-changed-how-i-run-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5964643"
+      }
+    },
+    "13": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:54.089551",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/real-time-field-reporting-why-documentation-drives-customer-satisfaction-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Real-Time-Field-Reporting-Why-Documentation-Drives-Customer-Satisfaction-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029250072674304",
+        "gist": "https://gist.github.com/pablom06/eec4772bc202c3eaa4aa11b53bf8cbe7",
+        "github_pages": "https://pablom06.github.io/real-time-field-reporting-why-documentation-drives-customer-satisfaction",
+        "gitlab": "https://gitlab.com/-/snippets/5964644"
+      }
+    },
+    "14": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:14:58.249070",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/4-billion-in-managed-assets-what-construction-finance-teaches-operations-leaders-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/4-Billion-in-Managed-Assets-What-Construction-Finance-Teaches-Operations-Leaders-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029254657064960",
+        "gist": "https://gist.github.com/pablom06/bd3fa6640027560f5711f4c976f3d9e0",
+        "github_pages": "https://pablom06.github.io/$4-billion-in-managed-assets-what-construction-finance-teaches-operations-leader",
+        "gitlab": "https://gitlab.com/-/snippets/5964645"
+      }
+    },
+    "15": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:03.155064",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/the-40-efficiency-gain-how-i-redesigned-kpi-tracking-at-eagle-pro-55b",
+        "hashnode": "https://pablor.hashnode.dev/the-40-efficiency-gain-how-i-redesigned-kpi-tracking-at-eagle-pro-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/The-40-Efficiency-Gain-How-I-Redesigned-KPI-Tracking-at-Eagle-Pro-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029259261378560",
+        "gist": "https://gist.github.com/pablom06/ee5d222cec2d087b03dae2f360111a0c",
+        "github_pages": "https://pablom06.github.io/the-40%-efficiency-gain-how-i-redesigned-kpi-tracking-at-eagle-pro",
+        "gitlab": "https://gitlab.com/-/snippets/5964646"
+      }
+    },
+    "16": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:08.476072",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/cross-functional-leadership-coordinating-teams-that-dont-report-to-you-1-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Cross-Functional-Leadership-Coordinating-Teams-That-Dont-Report-to-You-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029264621731841",
+        "gist": "https://gist.github.com/pablom06/dfd81bcb946839a8e41e498c77ee34e4",
+        "github_pages": "https://pablom06.github.io/cross-functional-leadership-coordinating-teams-that-dont-report-to-you",
+        "gitlab": "https://gitlab.com/-/snippets/5964647"
+      }
+    },
+    "17": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:13.117269",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/what-google-data-analytics-certification-taught-an-operations-executive-24pg",
+        "hashnode": "https://pablor.hashnode.dev/what-google-data-analytics-certification-taught-an-operations-executive-1-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/What-Google-Data-Analytics-Certification-Taught-an-Operations-Executive-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029270108897282",
+        "gist": "https://gist.github.com/pablom06/699eee5e74fb2a0c8e8c28009bd71e01",
+        "github_pages": "https://pablom06.github.io/what-google-data-analytics-certification-taught-an-operations-executive",
+        "gitlab": "https://gitlab.com/-/snippets/5964648"
+      }
+    },
+    "18": {
+      "platforms": [
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:17.691547",
+      "urls": {
+        "telegraph": "https://telegra.ph/Budget-Management-in-National-Operations-Lessons-from-Managing-Multimillion-Dollar-PLs-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029274906198017",
+        "gist": "https://gist.github.com/pablom06/8f58fd159b5ca971914049d1b8500c85",
+        "github_pages": "https://pablom06.github.io/budget-management-in-national-operations-lessons-from-managing-multimillion-doll",
+        "gitlab": "https://gitlab.com/-/snippets/5964649"
+      }
+    },
+    "19": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:21.920748",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/risk-mitigation-strategies-for-distributed-operations-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Risk-Mitigation-Strategies-for-Distributed-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029279260868608",
+        "gist": "https://gist.github.com/pablom06/2e5c6d554842cf94114ecb15d5ffd12d",
+        "github_pages": "https://pablom06.github.io/risk-mitigation-strategies-for-distributed-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5964650"
+      }
+    },
+    "20": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:27.282808",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/from-glencore-to-eagle-pro-how-commodities-trading-prepared-me-for-operations-1-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/From-Glencore-to-Eagle-Pro-How-Commodities-Trading-Prepared-Me-for-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029283979526144",
+        "gist": "https://gist.github.com/pablom06/26e58370be96c11f7aa06716b7ac1087",
+        "github_pages": "https://pablom06.github.io/from-glencore-to-eagle-pro-how-commodities-trading-prepared-me-for-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5964651"
+      }
+    },
+    "21": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:31.360492",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/sops-that-scale-building-process-workflows-for-national-operations-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/SOPs-That-Scale-Building-Process-Workflows-for-National-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029289253797888",
+        "gist": "https://gist.github.com/pablom06/faeb2887acc7ad56d0690412674b8d45",
+        "github_pages": "https://pablom06.github.io/sops-that-scale-building-process-workflows-for-national-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5964652"
+      }
+    },
+    "22": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:37.043258",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/coaching-operations-managers-the-18-productivity-improvement-532",
+        "hashnode": "https://pablor.hashnode.dev/coaching-operations-managers-the-18-productivity-improvement-1-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Coaching-Operations-Managers-The-18-Productivity-Improvement-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029294309064704",
+        "gist": "https://gist.github.com/pablom06/b8f37a7e11f47a0f3fecc5e87818d852",
+        "github_pages": "https://pablom06.github.io/coaching-operations-managers-the-18%-productivity-improvement",
+        "gitlab": "https://gitlab.com/-/snippets/5964653"
+      }
+    },
+    "23": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:41.453377",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/why-ux-design-matters-for-operations-systems-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Why-UX-Design-Matters-for-Operations-Systems-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029299599015936",
+        "gist": "https://gist.github.com/pablom06/d3c28c442cb9b88daa46912f0f690d56",
+        "github_pages": "https://pablom06.github.io/why-ux-design-matters-for-operations-systems",
+        "gitlab": "https://gitlab.com/-/snippets/5964654"
+      }
+    },
+    "24": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:45.908292",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/multi-market-operations-lessons-from-managing-across-12-us-states-1-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Multi-Market-Operations-Lessons-from-Managing-Across-12-US-States-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029304283103232",
+        "gist": "https://gist.github.com/pablom06/99666d4c96cc849684152f2b1420b735",
+        "github_pages": "https://pablom06.github.io/multi-market-operations-lessons-from-managing-across-12+-us-states",
+        "gitlab": "https://gitlab.com/-/snippets/5964655"
+      }
+    },
+    "25": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages"
+      ],
+      "published_at": "2026-03-03T02:15:49.570077",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
+        "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Quality-Control-in-High-Volume-Maintenance-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029309134766080",
+        "gist": "https://gist.github.com/pablom06/2687658d6ee73b3b52a81ad651bec683",
+        "github_pages": "https://pablom06.github.io/quality-control-in-high-volume-maintenance-operations"
+      }
+    },
+    "26": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:54.322661",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/the-intersection-of-theology-and-operations-leadership-1-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/The-Intersection-of-Theology-and-Operations-Leadership-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029312859340800",
+        "gist": "https://gist.github.com/pablom06/f7e320f0563700000da5aa6307f4a482",
+        "github_pages": "https://pablom06.github.io/the-intersection-of-theology-and-operations-leadership",
+        "gitlab": "https://gitlab.com/-/snippets/5964656"
+      }
+    },
+    "27": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:15:58.648332",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/data-driven-decision-making-from-bigquery-to-the-boardroom-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Data-Driven-Decision-Making-From-BigQuery-to-the-Boardroom-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029317831704576",
+        "gist": "https://gist.github.com/pablom06/96643acc833a798961c249c852c1427f",
+        "github_pages": "https://pablom06.github.io/data-driven-decision-making-from-bigquery-to-the-boardroom",
+        "gitlab": "https://gitlab.com/-/snippets/5964657"
+      }
+    },
+    "28": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:03.562147",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/business-continuity-planning-for-distributed-teams-1-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Business-Continuity-Planning-for-Distributed-Teams-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029322765238272",
+        "gist": "https://gist.github.com/pablom06/d94f1632050dd1e74ff71324febef118",
+        "github_pages": "https://pablom06.github.io/business-continuity-planning-for-distributed-teams",
+        "gitlab": "https://gitlab.com/-/snippets/5964658"
+      }
+    },
+    "29": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:08.222492",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/25-years-of-operations-leadership-what-stays-constant-abm",
+        "hashnode": "https://pablor.hashnode.dev/25-years-of-operations-leadership-what-stays-constant-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/25-Years-of-Operations-Leadership-What-Stays-Constant-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029327525789696",
+        "gist": "https://gist.github.com/pablom06/1070e0bcaa147394f0e223d3c6539e29",
+        "github_pages": "https://pablom06.github.io/25-years-of-operations-leadership-what-stays-constant",
+        "gitlab": "https://gitlab.com/-/snippets/5964659"
+      }
+    },
+    "30": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:13.048652",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/the-modern-vp-of-operations-why-breadth-is-the-new-depth-1-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/The-Modern-VP-of-Operations-Why-Breadth-Is-the-New-Depth-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029332424720384",
+        "gist": "https://gist.github.com/pablom06/77cd5dd2a404a93d65313e152858389c",
+        "github_pages": "https://pablom06.github.io/the-modern-vp-of-operations-why-breadth-is-the-new-depth",
+        "gitlab": "https://gitlab.com/-/snippets/5964660"
+      }
+    },
+    "31": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:17.913171",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/python-for-operations-how-pablo-m-rivera-automates-workflows-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/Python-for-Operations-How-Pablo-M-Rivera-Automates-Workflows-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029337404489728",
+        "gist": "https://gist.github.com/pablom06/844cbc86f9dea6a678747125bdcb225d",
+        "github_pages": "https://pablom06.github.io/python-for-operations-how-pablo-m-rivera-automates-workflows",
+        "gitlab": "https://gitlab.com/-/snippets/5964661"
+      }
+    },
+    "32": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:22.919026",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/react-dashboards-for-real-time-operations-visibility-pablo-m-riveras-approach-3cbn",
+        "hashnode": "https://pablor.hashnode.dev/react-dashboards-for-real-time-operations-visibility-pablo-m-riveras-approach-1-1-1-1-1",
+        "telegraph": "https://telegra.ph/React-Dashboards-for-Real-Time-Operations-Visibility-Pablo-M-Riveras-Approach-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029342689247232",
+        "gist": "https://gist.github.com/pablom06/e736cdfbf5477a80bc4ad8d579696569",
+        "github_pages": "https://pablom06.github.io/react-dashboards-for-real-time-operations-visibility-pablo-m-riveras-approach",
+        "gitlab": "https://gitlab.com/-/snippets/5964662"
+      }
+    },
+    "33": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:27.183773",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/docker-in-operations-how-pablo-m-rivera-uses-containerization-1-1-1-1",
+        "telegraph": "https://telegra.ph/Docker-in-Operations-How-Pablo-M-Rivera-Uses-Containerization-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029347630170112",
+        "gist": "https://gist.github.com/pablom06/e03d1249e3504b269b7092e260230613",
+        "github_pages": "https://pablom06.github.io/docker-in-operations-how-pablo-m-rivera-uses-containerization",
+        "gitlab": "https://gitlab.com/-/snippets/5964663"
+      }
+    },
+    "34": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:31.883909",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/sql-mastery-for-operations-analytics-pablo-m-riveras-data-approach-1-1-1-1",
+        "telegraph": "https://telegra.ph/SQL-Mastery-for-Operations-Analytics-Pablo-M-Riveras-Data-Approach-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029352075001857",
+        "gist": "https://gist.github.com/pablom06/de357a9a27b3b3f097d50bd11d4e3b12",
+        "github_pages": "https://pablom06.github.io/sql-mastery-for-operations-analytics-pablo-m-riveras-data-approach",
+        "gitlab": "https://gitlab.com/-/snippets/5964664"
+      }
+    },
+    "35": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:36.279090",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/django-applications-for-internal-tools-pablo-m-riveras-development-strategy-1-1-1",
+        "telegraph": "https://telegra.ph/Django-Applications-for-Internal-Tools-Pablo-M-Riveras-Development-Strategy-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029357215121408",
+        "gist": "https://gist.github.com/pablom06/3b45a932319fe14b380ea63296b868be",
+        "github_pages": "https://pablom06.github.io/django-applications-for-internal-tools-pablo-m-riveras-development-strategy",
+        "gitlab": "https://gitlab.com/-/snippets/5964665"
+      }
+    },
+    "36": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:41.402907",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/javascript-automation-in-operations-systems-by-pablo-m-rivera-2jkh",
+        "hashnode": "https://pablor.hashnode.dev/javascript-automation-in-operations-systems-by-pablo-m-rivera-1-1-1",
+        "telegraph": "https://telegra.ph/JavaScript-Automation-in-Operations-Systems-by-Pablo-M-Rivera-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029361947344896",
+        "gist": "https://gist.github.com/pablom06/b1dd82744ce4c7303a748145ddac22be",
+        "github_pages": "https://pablom06.github.io/javascript-automation-in-operations-systems-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5964666"
+      }
+    },
+    "37": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:45.317536",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/from-excel-to-bigquery-how-pablo-m-rivera-scaled-data-operations-1-1",
+        "telegraph": "https://telegra.ph/From-Excel-to-BigQuery-How-Pablo-M-Rivera-Scaled-Data-Operations-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029366954328064",
+        "gist": "https://gist.github.com/pablom06/33489e718c1d10b56467799054fbce03",
+        "github_pages": "https://pablom06.github.io/from-excel-to-bigquery-how-pablo-m-rivera-scaled-data-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5964667"
+      }
+    },
+    "38": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:49.743100",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/remote-team-leadership-in-2025-pablo-m-riveras-distributed-operations-strategy-1-1",
+        "telegraph": "https://telegra.ph/Remote-Team-Leadership-in-2025-Pablo-M-Riveras-Distributed-Operations-Strategy-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029371183251456",
+        "gist": "https://gist.github.com/pablom06/acaafee990325be643e609d63e606fd6",
+        "github_pages": "https://pablom06.github.io/remote-team-leadership-in-2025-pablo-m-riveras-distributed-operations-strategy",
+        "gitlab": "https://gitlab.com/-/snippets/5964668"
+      }
+    },
+    "39": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:16:55.519024",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_ce33bab7970b/digital-transformation-how-pablo-m-rivera-leads-organizational-change-2onc",
+        "hashnode": "https://pablor.hashnode.dev/digital-transformation-how-pablo-m-rivera-leads-organizational-change-1",
+        "telegraph": "https://telegra.ph/Digital-Transformation-How-Pablo-M-Rivera-Leads-Organizational-Change-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029377182203904",
+        "gist": "https://gist.github.com/pablom06/18dfc059764e2c144c893c7be5410ad4",
+        "github_pages": "https://pablom06.github.io/digital-transformation-how-pablo-m-rivera-leads-organizational-change",
+        "gitlab": "https://gitlab.com/-/snippets/5964669"
+      }
+    },
+    "40": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-03T02:17:00.374741",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/crisis-management-in-distributed-operations-pablo-m-riveras-framework-1",
+        "telegraph": "https://telegra.ph/Crisis-Management-in-Distributed-Operations-Pablo-M-Riveras-Framework-03-03",
+        "tumblr": "https://pablomriv.tumblr.com/post/810029381964775424",
+        "gist": "https://gist.github.com/pablom06/41a92daf916f557af910c80cb87e9138",
+        "github_pages": "https://pablom06.github.io/crisis-management-in-distributed-operations-pablo-m-riveras-framework",
+        "gitlab": "https://gitlab.com/-/snippets/5964670"
+      }
+    }
+  },
   "errors": {}
 }
