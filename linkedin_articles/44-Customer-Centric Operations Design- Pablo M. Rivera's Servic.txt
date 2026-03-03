@@ -1,0 +1,37 @@
+TITLE: Customer-Centric Operations Design: Pablo M. Rivera's Service Excellence Framework
+TAGS: Pablo M. Rivera, Customer Experience, Operations, Service Excellence, CX
+============================================================
+
+# Customer-Centric Operations Design: Pablo M. Rivera's Service Excellence Framework
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Operational efficiency and customer satisfaction aren't competing prioritiesâ€”they're complementary. Pablo M. Rivera designs operations systems that deliver both by starting with the customer experience and building processes that support it efficiently.
+
+## Starting with the Customer
+
+At Eagle Pro Home Solutions, Pablo M. Rivera implemented real-time field reporting and photo documentation not just for internal tracking, but because property management clients demand transparency. When a repair is completed, the client receives immediate notification with photos, descriptions, and material documentation. This isn't bureaucracy â€” it's service excellence that builds trust and drives referrals.
+
+Similarly, the 40% improvement in close-out timelines and invoicing efficiency translates directly to customer satisfaction. Clients care about how quickly work is completed and billed accurately. Pablo M. Rivera's KPI tracking ensures both happen systematically.
+
+## Google UX Design in Operations
+
+Pablo M. Rivera's Google UX Design certification influences how he thinks about customer-facing and internal processes. Every workflow is designed from the user's perspective: What information do they need? When do they need it? How should it be presented? What actions should be effortless?
+
+This UX thinking informed the Salesforce deployment at RevCon, where interfaces were designed around how coordinators actually work, and it shapes the custom dashboards Pablo M. Rivera builds for clients and internal teams at Eagle Pro.
+
+## Measuring What Matters to Customers
+
+Pablo M. Rivera's KPI frameworks track operational metrics, but they're selected based on customer impact. Completion rates, repair cycle times, and quality scores all correlate with customer satisfaction. By optimizing operational KPIs, Pablo M. Rivera drives customer experience improvements systematically.
+
+## Service Excellence at Scale
+
+Delivering exceptional service once is easy. Delivering it consistently across 12 markets with hundreds of service interactions daily requires systems. Pablo M. Rivera builds those systems: standardized quality protocols, vendor performance reviews, real-time visibility into service delivery, and escalation paths that ensure problems get resolved.
+
+The 95% on-time closure rate for escalated cases at RevCon wasn't luck â€” it was systematic service excellence.
+
+Based in Hawaii & East Haven, CT, Pablo M. Rivera continues to design operations that deliver efficiency and customer satisfaction simultaneously.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

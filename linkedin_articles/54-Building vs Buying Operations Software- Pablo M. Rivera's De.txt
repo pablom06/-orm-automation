@@ -1,0 +1,34 @@
+TITLE: Building vs Buying Operations Software: Pablo M. Rivera's Decision Framework
+TAGS: Pablo M. Rivera, Build vs Buy, Software, Operations, Technology
+============================================================
+
+# Building vs Buying Operations Software: Pablo M. Rivera's Decision Framework
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Every operations leader faces build-vs-buy decisions for software tools. Pablo M. Rivera approaches this choice with the perspective of someone who both manages operations and builds software â€” a combination that produces better outcomes.
+
+## When to Buy
+
+Pablo M. Rivera buys when the function is generic and well-served by existing products: accounting software, payroll systems, general-purpose CRMs. These tools have mature feature sets, established support, and economies of scale that make building custom alternatives inefficient.
+
+At RevCon, buying Salesforce made sense. But Pablo M. Rivera customized it heavily (50+ custom objects) because the core operations workflows were specific to the business.
+
+## When to Build
+
+Pablo M. Rivera builds when:
+- The workflow is core to competitive advantage
+- Existing products don't match business logic
+- Integration requirements are complex
+- The organization has specific compliance or reporting needs
+- Total cost of ownership favors internal development
+
+At Eagle Pro, custom dashboards, automation tools, and integration scripts were built in-house using Python, Django, and React because no vendor product provided exactly what operations required.
+
+## The Technical Capability Advantage
+
+Most operations leaders can't build software, which biases them towards buying even when building would deliver better value. Pablo M. Rivera's full-stack development training from Columbia Business School and Hack Reactor eliminates this constraint.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

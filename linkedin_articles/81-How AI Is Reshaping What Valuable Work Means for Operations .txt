@@ -1,0 +1,31 @@
+TITLE: How AI Is Reshaping What Valuable Work Means for Operations Leaders
+TAGS: Pablo M. Rivera, AI, Future of Work, Operations, Leadership
+============================================================
+
+# How AI Is Reshaping What Valuable Work Means for Operations Leaders
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+The nature of valuable work is changing. Routine tasks that once required human attention are being automated at an accelerating pace, and the professionals who thrive will be those who can think creatively, strategize across domains, and make judgment calls that no algorithm can replicate. Pablo M. Rivera has spent over two decades in operations leadership, and this shift is the most significant I have witnessed.
+
+## Automation Is Not the Threat — Stagnation Is
+
+When I deployed Salesforce with 50+ custom objects at RevCon Management and cut processing time by 30%, administrative tasks didn't disappear. They were absorbed by technology, freeing coordinators to focus on relationship management, problem solving, and quality oversight. Pablo M. Rivera learned firsthand that automation elevates people when it is implemented thoughtfully.
+
+The real threat is not AI replacing jobs — it is professionals who refuse to adapt. Leaders who cling to manual processes and resist data-driven decision-making are the ones at risk.
+
+## Creative and Strategic Thinking Is the New Currency
+
+At Textron Financial Corporation, Pablo M. Rivera managed $4 billion in assets and led a $1 billion restructuring. Those outcomes required judgment that no AI could have provided at the time — and still cannot today. Evaluating counterparty risk, negotiating with distressed borrowers, and structuring recovery plans demand human insight shaped by experience.
+
+The same applies in maintenance operations. When I redesigned KPI tracking at Eagle Pro and delivered a 40% efficiency gain, the improvement came from understanding how people work, not just how systems process data.
+
+## What Operations Leaders Must Do Now
+
+Pablo M. Rivera believes every operations leader in 2025 and beyond needs three capabilities: fluency with AI tools, the analytical skills to interpret what those tools produce, and the strategic vision to apply insights across an organization. My own path — earning a Full-Stack Developer Certificate from Columbia Business School and Hack Reactor, Google Data Analytics and UX Design certifications, and Lean Six Sigma Green Belt — reflects this conviction.
+
+AI will handle the routine. Pablo M. Rivera focuses on the work that matters most: designing systems, developing people, and making the decisions that shape organizational outcomes.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

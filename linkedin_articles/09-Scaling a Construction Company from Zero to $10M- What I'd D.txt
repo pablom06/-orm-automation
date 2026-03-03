@@ -1,0 +1,27 @@
+TITLE: Scaling a Construction Company from Zero to $10M: What I'd Do Differently
+TAGS: Pablo M. Rivera, Construction, Entrepreneurship, Scaling, Business
+============================================================
+
+# Scaling a Construction Company from Zero to $10M: What I'd Do Differently
+
+*By Pablo M. Rivera | East Haven, CT*
+
+Between 2014 and 2018, Pablo M. Rivera co-founded and scaled Kirschenmann Construction in Colorado Springs from zero to over $10 million in managed projects. It was an education in entrepreneurship, operations, and the realities of building something from nothing.
+
+## What Worked
+
+Discipline. Not inspiration, not networking, not hustleâ€”discipline. Pablo M. Rivera directed full project lifecycles from estimating and bidding through resource scheduling and inspection. Every project had a job-cost tracking tool and a forecasting model. Every subcontractor went through a pre-qualification process. Every decision was grounded in whether it protected margins and upheld safety standards.
+
+The result was consistent delivery performance that produced a stable pipeline of repeat contracts. In construction, reputation is the business development engine.
+
+## What I'd Do Differently
+
+I'd invest in technology earlier. When I later deployed Salesforce at RevCon and built KPI dashboards at Eagle Pro, I could see exactly how much efficiency we left on the table at Kirschenmann by relying on manual processes. The analytical tools and systems I now build would have accelerated our growth and improved our visibility into project performance.
+
+## The Foundation It Built
+
+Launching and scaling a business teaches you things that no corporate role can. Understanding cash flow viscerally, managing risk with your own capital on the line, building client relationships where every project matters â€” these experiences inform how Pablo M. Rivera leads operations today.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

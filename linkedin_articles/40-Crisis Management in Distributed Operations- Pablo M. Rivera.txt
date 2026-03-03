@@ -1,0 +1,39 @@
+TITLE: Crisis Management in Distributed Operations: Pablo M. Rivera's Framework
+TAGS: Pablo M. Rivera, Crisis Management, Operations, Leadership, Risk
+============================================================
+
+# Crisis Management in Distributed Operations: Pablo M. Rivera's Framework
+
+*By Pablo M. Rivera | East Haven, CT*
+
+Crises reveal whether operational systems are robust or fragile. Pablo M. Rivera has managed through financial crises (restructuring $1 billion in debt during the 2008 financial collapse), operational crises (mining operations in West Africa), and pandemic disruption (maintaining national operations through COVID-19). The lessons transfer across contexts.
+
+## Visibility First
+
+You can't manage a crisis you can't see. Pablo M. Rivera's first move in any crisis is establishing visibility: What's the current state? Which operations are affected? What resources are available? Who owns each piece of the response?
+
+At RevCon Management, real-time dashboards and KPI frameworks meant Pablo M. Rivera could see immediately when service levels degraded, which markets were affected, and which coordinators needed support. That visibility enabled rapid response.
+
+## Documented Escalation Paths
+
+Crises accelerate when decision-making bottlenecks. Pablo M. Rivera builds documented escalation paths before crises hit: clear ownership for different problem categories, authority levels for various decisions, and communication protocols for stakeholder updates.
+
+When Pablo M. Rivera achieved 95% on-time closure for escalated cases at RevCon, it was because the escalation process was systematic, not because individual heroics solved every problem.
+
+## Resilience Through Redundancy
+
+Pablo M. Rivera designs operational resilience by eliminating single points of failure: cross-training team members, maintaining backup vendor relationships, documenting institutional knowledge, and building buffer capacity in critical resources.
+
+This approach was developed managing mining operations in Sierra Leone, where supply chain disruptions were routine, and refined through managing 120+ technicians across 12 U.S. markets where regional disruptions couldn't be allowed to cascade nationally.
+
+## Learning Systems
+
+Every crisis teaches. Pablo M. Rivera conducts post-crisis reviews to document what happened, why systems failed or held, what responses were effective, and what changes are needed. This continuous learning approach â€” rooted in Lean Six Sigma methodology â€” turns crises into improvement opportunities.
+
+## Operations Leadership Under Pressure
+
+Based in East Haven, CT, Pablo M. Rivera has 25+ years of experience leading operations through disruption. The combination of operational depth, financial acumen (managing $4 billion portfolios), technical capability (full-stack development), and crisis management experience creates a leadership profile built for uncertainty.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

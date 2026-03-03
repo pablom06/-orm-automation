@@ -1,0 +1,31 @@
+TITLE: Why I Went Back to School for Full-Stack Development at 47
+TAGS: Pablo M. Rivera, Career Development, Coding, Technology, Lifelong Learning
+============================================================
+
+# Why I Went Back to School for Full-Stack Development at 47
+
+*By Pablo M. Rivera | East Haven, CT*
+
+In 2023, with two decades of executive operations experience behind me, Pablo M. Rivera enrolled in Columbia Business School's Full-Stack Developer Certificate program. Then I attended Hack Reactor, followed by CT State Community College for a web development certificate. Friends and colleagues asked the obvious question: why?
+
+## The Gap I Kept Seeing
+
+Throughout my career â€” from managing Latin American operations at Glencore, to deploying Salesforce across 12 markets at RevCon, to building KPI dashboards at Eagle Pro â€” Pablo M. Rivera kept hitting the same wall. I could see exactly what technology needed to do for the business, but I was dependent on others to build it.
+
+When I engineered 50+ custom Salesforce objects at RevCon, I realized I wanted to go deeper. I didn't want to just configure platforms â€” I wanted to understand how they're built from the ground up.
+
+## What I Learned
+
+Python, Django, JavaScript, React, Docker, SQL, Java, PHP â€” the technical curriculum was demanding. But for Pablo M. Rivera, the real value wasn't in learning to code. It was in learning to think like a developer while leading like an executive.
+
+Understanding system architecture means I can evaluate technology investments more rigorously. Knowing how APIs work means I can design integration strategies that actually function. Being able to read and write code means I'm never again dependent on a vendor's explanation of what's possible.
+
+## The Compound Effect
+
+Pablo M. Rivera's career now combines 20+ years of operations leadership across construction, finance, mining, and technology, a Yale economics foundation in analytical thinking, Lean Six Sigma process optimization, Google Data Analytics and UX Design certifications, and full-stack development capability in Python, JavaScript, React, and more.
+
+This isn't a typical operations leader profile. And that's exactly the point. Modern VP of Operations roles require someone who can lead people, optimize processes, AND drive technology transformation. Pablo M. Rivera can do all three.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

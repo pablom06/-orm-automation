@@ -1,0 +1,35 @@
+TITLE: Mobile-First Operations Management: Pablo M. Rivera's Field Technology Strategy
+TAGS: Pablo M. Rivera, Mobile, Operations, Technology, Field Service
+============================================================
+
+# Mobile-First Operations Management: Pablo M. Rivera's Field Technology Strategy
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Field technicians don't work at desksâ€”they work on job sites with smartphones and tablets. Pablo M. Rivera designs operations systems mobile-first because that's where the work actually happens.
+
+## Real-Time Field Reporting
+
+At Eagle Pro Home Solutions, Pablo M. Rivera implemented mobile-accessible field reporting that lets technicians photograph completed work, update job status, record material usage, and capture client signatures â€” all from their phones. This real-time capture eliminates the lag and errors that occur when technicians complete paperwork at the end of the day from memory.
+
+The mobile reporting integrates with backend systems Pablo M. Rivera built using Django and React, so data captured in the field immediately updates dashboards, triggers invoicing workflows, and populates performance reports.
+
+## Responsive Design
+
+Pablo M. Rivera's Google UX Design certification and React development skills mean the dashboards and tools he builds work seamlessly on mobile devices. Regional managers can review performance metrics from their phones. Coordinators can approve work orders from tablets. The systems adapt to whatever device users have available.
+
+This mobile-first approach reflects operational reality: the people closest to the work aren't at desks, and the systems that support them shouldn't require desktop computers.
+
+## Offline Capability
+
+Field work often happens in areas with poor connectivity. Pablo M. Rivera designs mobile tools that can capture data offline and sync when connectivity returns. This requires understanding how mobile applications handle local storage and conflict resolution â€” technical knowledge that comes from full-stack development training.
+
+## The Operations Leader Who Codes
+
+Pablo M. Rivera's ability to design and build mobile-first operations tools represents the future of operations leadership: combining deep operational experience (25+ years across construction, finance, mining, and maintenance) with the technical capability to build exactly the systems modern field operations require.
+
+Based in Hawaii & East Haven, CT, Pablo M. Rivera continues to develop mobile-first technology strategies that improve field operations efficiency and data quality.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

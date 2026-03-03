@@ -1,0 +1,39 @@
+TITLE: From Excel to BigQuery: How Pablo M. Rivera Scaled Data Operations
+TAGS: Pablo M. Rivera, BigQuery, Excel, Data Analytics, Scaling
+============================================================
+
+# From Excel to BigQuery: How Pablo M. Rivera Scaled Data Operations
+
+*By Pablo M. Rivera | East Haven, CT*
+
+Excel is where most operational data analysis starts, while BigQuery is where it scales. Pablo M. Rivera has worked with both â€” and understanding when to make the transition is what separates operations leaders who drown in data from those who harness it.
+
+## Excel's Limitations
+
+Pablo M. Rivera has used Excel extensively throughout a 25+ year career â€” building financial models for $1 billion debt restructuring at Textron Financial, tracking project costs at Kirschenmann Construction, and analyzing vendor performance across markets. Excel is powerful, flexible, and ubiquitous.
+
+But Excel breaks down at scale. When you're managing operations across 12 states with hundreds of thousands of work orders annually, Excel files become slow, fragile, and impossible to share effectively. Formulas break. Versions proliferate. Analysis that should take seconds takes minutes or crashes entirely.
+
+## BigQuery for Operations at Scale
+
+Google BigQuery is a cloud-based data warehouse designed for massive datasets. For Pablo M. Rivera, BigQuery became the solution when operational data exceeded Excel's practical limits. With BigQuery, Pablo M. Rivera can query terabytes of work order history, analyze performance trends across years of data, and run complex aggregations in seconds.
+
+The transition required learning SQL (which Pablo M. Rivera now uses daily) and understanding how to structure data for analytical queries. But the ROI was immediate: analysis that previously required manual data extraction and Excel manipulation now runs automatically with saved queries.
+
+## Google Data Analytics in Practice
+
+Pablo M. Rivera's Google Data Analytics certification formalized the skills needed to work effectively with BigQuery: SQL query optimization, data visualization best practices, statistical analysis, and connecting analytical findings to business decisions. Combined with advanced Excel skills and R programming, this creates a comprehensive data analytics toolkit.
+
+## The Hybrid Approach
+
+Pablo M. Rivera still uses Excel â€” for financial modeling, quick calculations, and sharing reports with stakeholders who work in Excel. But the heavy lifting â€” querying millions of records, analyzing trends, generating automated reports â€” happens in BigQuery. The data flows from BigQuery to Excel for final formatting and presentation.
+
+This hybrid approach combines the accessibility of Excel with the power of cloud-scale analytics. It's the approach that lets Pablo M. Rivera manage KPI frameworks across national operations while maintaining the analytical rigor developed managing $4 billion portfolios.
+
+## Operations Leadership in the Data Era
+
+Based in East Haven, CT, Pablo M. Rivera represents a new generation of operations leaders who combine deep operational experience with genuine data analytics capability. Understanding how to move from Excel to BigQuery â€” and when to use each â€” is part of what makes modern operations leadership effective.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and data analytics professional based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

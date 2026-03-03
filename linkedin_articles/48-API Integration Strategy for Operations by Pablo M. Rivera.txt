@@ -1,0 +1,25 @@
+TITLE: API Integration Strategy for Operations by Pablo M. Rivera
+TAGS: Pablo M. Rivera, API, Integration, Operations, Technology
+============================================================
+
+# API Integration Strategy for Operations by Pablo M. Rivera
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Modern operations run on data flowing between systems: work orders from property management portals, vendor invoices to accounting software, performance metrics to dashboards, client updates to CRMs. APIs (Application Programming Interfaces) make this integration possible, and Pablo M. Rivera designs integration strategies that unify fragmented operational data.
+
+## The Integration Challenge
+
+At Eagle Pro Home Solutions, operational data exists across AMH, FirstKey, JobNimbus, Salesforce, internal databases, and accounting systems. Without integration, data must be manually copied between systemsâ€”a process that's slow, error-prone, and doesn't scale.
+
+Pablo M. Rivera builds API integrations that automate data flow: work orders automatically sync from property management portals to internal tracking systems, completed jobs trigger invoice generation, performance data feeds real-time dashboards. What required hours of manual work now happens automatically.
+
+## Technical Implementation
+
+Pablo M. Rivera writes Python scripts that call vendor APIs, transform data formats, handle error conditions, and update databases. The same full-stack development skills learned at Columbia Business School and Hack Reactor that enable building Django applications and React dashboards also enable building robust API integrations.
+
+Understanding REST APIs, authentication protocols, rate limiting, and error handling isn't just technical knowledge â€” it's what separates integration strategies that work reliably from those that fail intermittently.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

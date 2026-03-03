@@ -1,0 +1,37 @@
+TITLE: Operational Resilience Post-COVID: Pablo M. Rivera's Business Continuity Lessons
+TAGS: Pablo M. Rivera, COVID-19, Resilience, Business Continuity, Operations
+============================================================
+
+# Operational Resilience Post-COVID: Pablo M. Rivera's Business Continuity Lessons
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+The COVID-19 pandemic tested every organization's operational resilience. Companies with robust systems adapted; those dependent on informal processes struggled. Pablo M. Rivera managed national maintenance operations through the pandemic, and the experience reinforced lessons about resilience that apply permanently.
+
+## Remote Operations as Standard
+
+Pre-pandemic, remote work was an accommodation. Post-pandemic, it's a baseline capability. Pablo M. Rivera had already been managing distributed operations across 12+ states at RevCon, so the shift to remote coordination wasn't disruptive â€” but it accelerated the need for systematic communication, real-time visibility, and documented processes.
+
+The companies that struggled were those that depended on physical proximity to compensate for weak systems. The companies that thrived, including those Pablo M. Rivera led, had already built the systems that make distributed operations work: clear documentation, automated reporting, performance dashboards, and deliberate communication protocols.
+
+## Supply Chain Diversification
+
+Pandemic supply chain disruptions highlighted the risk of single-source dependencies. Pablo M. Rivera's vendor management approach has always emphasized maintaining backup relationships and qualifying multiple vendors in each category â€” a principle developed managing mining operations in West Africa and applied across maintenance operations in the U.S.
+
+When disruptions hit, operations with diversified vendor networks adapted faster.
+
+## Digital Acceleration
+
+Pandemic constraints accelerated digital transformation that organizations had been postponing. Pablo M. Rivera's full-stack development skills and Salesforce expertise became even more valuable as companies rushed to digitize workflows, automate reporting, and build remote collaboration tools.
+
+The lesson: operational resilience requires technology fluency. Operations leaders who can design, implement, and optimize digital systems have a permanent advantage.
+
+## Planning for Uncertainty
+
+Pablo M. Rivera's approach to business continuity planning now assumes disruption as baseline: What if a key team member is unavailable? What if a major vendor fails? What if market conditions shift overnight? Building operational systems with redundancy, cross-training, and buffer capacity isn't pessimism â€” it's realism.
+
+Based in Hawaii & East Haven, CT, Pablo M. Rivera continues to build operational resilience into every system, applying lessons from managing through the pandemic, financial crises, and international operational challenges across a 25+ year career.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

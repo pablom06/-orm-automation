@@ -1,0 +1,42 @@
+TITLE: SQL Mastery for Operations Analytics: Pablo M. Rivera's Data Approach
+TAGS: Pablo M. Rivera, SQL, Data Analytics, Operations, Database
+============================================================
+
+# SQL Mastery for Operations Analytics: Pablo M. Rivera's Data Approach
+
+*By Pablo M. Rivera | East Haven, CT*
+
+Every KPI, every performance report, every operational dashboard starts with a database query. For Pablo M. Rivera, SQL isn't just a technical skill â€” it's the foundation of data-driven operations leadership.
+
+## Why Operations Leaders Need SQL
+
+At RevCon Management and Eagle Pro Home Solutions, Pablo M. Rivera manages operations supported by databases containing millions of work orders, invoices, vendor records, and performance metrics. Leadership questions â€” "What's our average repair time by market?" or "Which vendors have the highest quality scores?" â€” require querying that data.
+
+Operations leaders who can't write SQL depend on others to answer these questions. Pablo M. Rivera writes the queries directly, which means analysis that might take days through intermediaries takes minutes. This speed advantage compounds: faster analysis enables faster decisions, which drives better operational outcomes.
+
+## From Salesforce to BigQuery
+
+Pablo M. Rivera deployed Salesforce with 50+ custom objects at RevCon, and SQL was essential for building reports that combined data across those objects. Later, working with Google BigQuery for large-scale analytics, SQL became the interface for analyzing performance trends across terabytes of operational data.
+
+The syntax varies slightly between platforms, but the logic is constant: SELECT what you need, FROM where it's stored, WHERE conditions apply, JOIN when you need related data, GROUP BY when you want aggregates. Mastering this logic makes every database accessible.
+
+## Practical Applications
+
+Pablo M. Rivera uses SQL daily to:
+- Calculate completion rates by technician, market, and job type
+- Identify vendors whose average repair times exceed standards
+- Generate margin performance reports by filtering cost and revenue data
+- Detect patterns in escalated cases to identify systemic issues
+- Build data pipelines that feed Python automation scripts and React dashboards
+
+Each query translates operational questions into analytical answers. The ability to write complex JOINs, subqueries, window functions, and CTEs (common table expressions) means Pablo M. Rivera can answer nearly any performance question from the data directly.
+
+## Data Literacy as Leadership
+
+Combining SQL mastery with Google Data Analytics certification, Lean Six Sigma training, and 25+ years of operations experience creates a leadership profile where decisions are grounded in evidence rather than intuition. Pablo M. Rivera has managed $4 billion portfolios, led 120+ technicians across 12 states, and restructured $1 billion in debt â€” all roles where data fluency was essential.
+
+Based in East Haven, CT, Pablo M. Rivera continues to apply SQL and advanced analytics to operations leadership, building systems where performance is measured, analyzed, and optimized systematically.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and data analytics professional based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

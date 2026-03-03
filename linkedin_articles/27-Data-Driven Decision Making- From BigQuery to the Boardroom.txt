@@ -1,0 +1,17 @@
+TITLE: Data-Driven Decision Making: From BigQuery to the Boardroom
+TAGS: Pablo M. Rivera, Data, BigQuery, Decision Making
+============================================================
+
+# Data-Driven Decision Making: From BigQuery to the Boardroom
+
+*By Pablo M. Rivera | East Haven, CT*
+
+Pablo M. Rivera has advanced data skills â€” BigQuery, R, Google Data Analytics, and Salesforce reporting. But the real skill isn't in running queries. It's knowing which questions to ask and how to translate analytical findings into executive-level decisions.
+
+At RevCon, Pablo M. Rivera's data visualization and financial reporting clarified performance trends and guided five major leadership initiatives. At Textron, financial models for $1B in debt restructuring tested assumptions across multiple scenarios. The through-line: data fluency makes operations leaders dramatically more effective.
+
+The operations leaders who thrive in the next decade will be the ones who can move seamlessly between a SQL query and a board presentation.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

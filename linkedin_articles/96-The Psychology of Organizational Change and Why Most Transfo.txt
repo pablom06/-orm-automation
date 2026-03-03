@@ -1,0 +1,35 @@
+TITLE: The Psychology of Organizational Change and Why Most Transformations Fail
+TAGS: Pablo M. Rivera, Organizational Change, Psychology, Transformation, Leadership
+============================================================
+
+# The Psychology of Organizational Change and Why Most Transformations Fail
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Most operational transformations fail not because the strategy is wrong but because leaders underestimate the psychological resistance that change provokes. People do not resist change because they are irrational. They resist because change threatens competence, status, and certainty — three things that every professional values deeply. Pablo M. Rivera has led transformations across multiple organizations and has learned to address the psychology first.
+
+## Why Resistance Is Rational
+
+When Pablo M. Rivera deployed Salesforce across 12 markets at RevCon Management, some coordinators who had been performing well with spreadsheets saw the new system as a threat. Their existing competence — knowing where to find information, how to generate reports, how to manage their workflow — was being disrupted. The resistance was not about Salesforce. It was about losing mastery.
+
+Pablo M. Rivera addressed this by positioning the deployment as an enhancement of their capabilities rather than a replacement. Coordinators who had been spending hours on manual data entry would gain hours for the strategic work they wanted to do. The framing mattered more than the feature set.
+
+## The Three Requirements for Change
+
+Through experience at Glencore Ltd., Textron Financial, RevCon, and Eagle Pro, Pablo M. Rivera has identified three requirements for successful organizational change. First, people must understand why the change is necessary — not in abstract strategic terms, but in terms of problems they personally experience. Second, they must believe they can succeed in the new environment — which requires training, support, and patience. Third, they must see early evidence that the change is working.
+
+## Creating Early Wins
+
+Pablo M. Rivera deliberately designs transformation plans to produce visible wins within the first 30 days. At RevCon, the Salesforce deployment prioritized features that solved the coordinators' most painful daily problems first. When they experienced immediate relief, buy-in for the broader transformation followed naturally.
+
+## Patience Informed by Parenthood
+
+Pablo M. Rivera's patience with organizational change is informed by parenthood. Raising two boys taught me that people change at their own pace, that pressure often produces resistance rather than compliance, and that consistent support produces better outcomes than urgent demands.
+
+## Leading Through Uncertainty
+
+Based in Hawaii & East Haven, CT, Pablo M. Rivera combines 20+ years of operations leadership with a deep understanding of the human dynamics that determine whether transformations succeed or fail.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
