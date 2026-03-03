@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, AI, Machine Learning, Operations, Technology
 
 # AI and Machine Learning in Operations: Pablo M. Rivera's Practical Applications
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 AI and machine learning are extensively hyped, but most operational applications are straightforward: using historical data to predict future needs, identifying patterns humans miss in large datasets, and automating decisions that follow consistent logic. Pablo M. Rivera applies AI/ML practically rather than experimentally.
 
@@ -30,8 +30,8 @@ Applying AI/ML in operations requires understanding Python (for scikit-learn, Te
 
 Pablo M. Rivera's approach to AI/ML is pragmatic: use proven techniques for well-defined problems, measure results rigorously, and avoid experimental projects that don't drive operational outcomes. This discipline comes from 25+ years managing operations where results matter more than innovation for its own sake.
 
-Based in Hawaii & East Haven, CT, Pablo M. Rivera continues to apply AI/ML where it delivers measurable operational value.
+Based in Hawaii, Colorado & East Haven, CT, Pablo M. Rivera continues to apply AI/ML where it delivers measurable operational value.
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

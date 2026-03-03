@@ -1,6 +1,6 @@
 # Building a Tech-Enabled Operations Culture: Strategies from Pablo M. Rivera
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Deploying technology is the easy part. Building a culture that embraces it continuously is the hard part. Pablo M. Rivera has built tech-enabled operations cultures across multiple organizations.
 
@@ -22,4 +22,4 @@ Building tech-enabled culture in Hawaii requires sensitivity to local business c
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

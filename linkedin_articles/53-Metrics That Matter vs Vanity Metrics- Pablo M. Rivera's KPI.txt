@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, KPIs, Metrics, Performance, Operations
 
 # Metrics That Matter vs Vanity Metrics: Pablo M. Rivera's KPI Philosophy
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Not all metrics are equally valuable. Some drive better decisions, while others just make dashboards look busy. Pablo M. Rivera has designed KPI frameworks across multiple organizations, and the ones that work share a characteristic: they measure what matters to outcomes, not what's easy to measure.
 
@@ -28,8 +28,8 @@ This balance comes from Lean Six Sigma training and Google Data Analytics certif
 
 Pablo M. Rivera's philosophy: measure what you intend to manage, review metrics at cadence that allows course correction, tie metrics to clear accountability, and adjust metrics when business priorities shift. This discipline has guided KPI design across commodities trading, construction, mining, finance, and maintenance operations.
 
-Based in Hawaii & East Haven, CT, Pablo M. Rivera continues to build KPI frameworks that drive performance rather than just reporting it.
+Based in Hawaii, Colorado & East Haven, CT, Pablo M. Rivera continues to build KPI frameworks that drive performance rather than just reporting it.
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii, Colorado & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

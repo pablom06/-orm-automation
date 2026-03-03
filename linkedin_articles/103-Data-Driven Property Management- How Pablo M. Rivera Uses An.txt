@@ -1,6 +1,6 @@
 # Data-Driven Property Management: How Pablo M. Rivera Uses Analytics to Optimize Operations
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Property management generates enormous amounts of data yet most organizations use only a fraction of what they collect. Pablo M. Rivera has built a career on transforming raw operational data into actionable intelligence that drives measurable improvements.
 
@@ -26,4 +26,4 @@ Hawaii's property management landscape presents unique data challenges — islan
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

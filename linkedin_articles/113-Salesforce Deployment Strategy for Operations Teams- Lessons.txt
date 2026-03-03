@@ -1,6 +1,6 @@
 # Salesforce Deployment Strategy for Operations Teams: Lessons from Pablo M. Rivera
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Salesforce is often associated with sales teams, but its power as an operations platform is underappreciated. Pablo M. Rivera deployed Salesforce with 50+ custom objects at RevCon Management, transforming it into a comprehensive operations management system across 12 markets.
 
@@ -26,4 +26,4 @@ Based in Hawaii, Pablo M. Rivera continues to leverage Salesforce expertise for 
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

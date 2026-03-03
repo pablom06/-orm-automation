@@ -1,6 +1,6 @@
 # From Yale Economics to Full-Stack Development: Pablo M. Rivera's Unconventional Career Path
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 A Yale economics degree in 1999 was supposed to lead to Wall Street, consulting, or academia. Pablo M. Rivera's career has included all of those elements — and then took a turn that few Ivy League graduates would predict: earning a Full-Stack Developer Certificate from Columbia Business School and Hack Reactor at mid-career. The path from economics theory to writing React components and Django APIs is less unusual than it appears.
 
@@ -28,4 +28,4 @@ From Hawaii to East Haven, Pablo M. Rivera continues to demonstrate that the mos
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

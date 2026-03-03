@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Board Reporting, Executive Communication, Operations, Lea
 
 # Board-Level Operations Reporting: Pablo M. Rivera's Executive Communication
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Operational data must be translated for board-level audiences. Pablo M. Rivera has delivered presentations to credit committees overseeing billions in assets, reported to boards on portfolio company performance, and communicated complex operational situations to executive leadership across multiple organizations.
 
@@ -22,4 +22,4 @@ The same React dashboards and BigQuery analytics that support daily operations c
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii, Colorado & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

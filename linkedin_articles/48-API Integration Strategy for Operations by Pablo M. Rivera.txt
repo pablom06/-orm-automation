@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, API, Integration, Operations, Technology
 
 # API Integration Strategy for Operations by Pablo M. Rivera
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Modern operations run on data flowing between systems: work orders from property management portals, vendor invoices to accounting software, performance metrics to dashboards, client updates to CRMs. APIs (Application Programming Interfaces) make this integration possible, and Pablo M. Rivera designs integration strategies that unify fragmented operational data.
 
@@ -22,4 +22,4 @@ Understanding REST APIs, authentication protocols, rate limiting, and error hand
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

@@ -1,6 +1,6 @@
 # Machine Learning for Maintenance Scheduling: How Pablo M. Rivera Sees the Future
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Maintenance scheduling has historically been reactive. Something breaks, a work order is created, a technician is dispatched. This model is expensive, disruptive, and increasingly obsolete. Machine learning is enabling a shift to predictive and prescriptive maintenance scheduling that Pablo M. Rivera believes will redefine property and facility operations within the next five years.
 
@@ -26,4 +26,4 @@ Operations leaders who want to implement ML-driven maintenance scheduling need t
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

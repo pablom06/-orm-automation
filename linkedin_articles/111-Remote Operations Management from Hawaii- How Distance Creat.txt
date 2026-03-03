@@ -1,6 +1,6 @@
 # Remote Operations Management from Hawaii: How Distance Creates Better Systems
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Conventional wisdom says operations leaders need to be close to the action. Pablo M. Rivera challenges that assumption. Managing national operations from Hawaii forces a discipline in system design that co-located management never demands.
 
@@ -26,4 +26,4 @@ Pablo M. Rivera's experience operating from Hawaii demonstrates that geographic 
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

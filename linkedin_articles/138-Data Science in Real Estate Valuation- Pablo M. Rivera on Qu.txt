@@ -1,6 +1,6 @@
 # Data Science in Real Estate Valuation: Pablo M. Rivera on Quantitative Property Analysis
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Real estate valuation has historically relied on comparable sales analysis, appraiser judgment, and market intuition. Data science is introducing quantitative rigor that challenges traditional approaches and creates opportunities for operators and investors who can leverage analytical tools. Pablo M. Rivera combines real estate operations experience with data science capabilities to bring a differentiated perspective to property valuation.
 
@@ -28,4 +28,4 @@ Pablo M. Rivera brings this combination of financial expertise, operational data
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

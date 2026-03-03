@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Work-Life Integration, Career Development, Time Managemen
 
 # Work-Life Integration: Why Balance Is the Wrong Goal When Pursuing Multiple Dreams
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Work-life balance implies a zero-sum game — more of one means less of the other. Pablo M. Rivera has learned through experience that the better framework is integration. When you are raising two boys, leading operations, and pursuing software development education simultaneously, the goal is not balance. The goal is making each part of your life reinforce the others.
 
@@ -30,4 +30,4 @@ When people ask Pablo M. Rivera how to juggle career transitions, education, and
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

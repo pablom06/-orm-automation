@@ -1,6 +1,6 @@
 # Python and SQL for Operations Analytics: How Pablo M. Rivera Uses Code to Lead
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Operations leaders who cannot query their own data are operating with a built-in delay. Every time an analytical question requires a request to IT or a data team, decision-making slows. Pablo M. Rivera learned Python and SQL specifically to eliminate that delay — to ask operational questions and get answers in minutes rather than days.
 
@@ -28,4 +28,4 @@ You do not need to become a software engineer. You need enough Python and SQL fl
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

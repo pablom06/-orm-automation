@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Build vs Buy, Software, Operations, Technology
 
 # Building vs Buying Operations Software: Pablo M. Rivera's Decision Framework
 
-*By Pablo M. Rivera | Hawaii & East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Every operations leader faces build-vs-buy decisions for software tools. Pablo M. Rivera approaches this choice with the perspective of someone who both manages operations and builds software â€” a combination that produces better outcomes.
 
@@ -31,4 +31,4 @@ Most operations leaders can't build software, which biases them towards buying e
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado & East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
