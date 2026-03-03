@@ -1,0 +1,31 @@
+# Supply Chain Risk Management for Operations Leaders: Pablo M. Rivera's Framework
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Supply chain disruptions are no longer black swan events. They are recurring operational realities that demand proactive risk management frameworks. Pablo M. Rivera has managed supply chains across commodities trading at Glencore, construction operations in Colorado, international mining in Sierra Leone, and national maintenance at RevCon Management. Each context reinforced the same truth: supply chain risk management is not a planning exercise — it is an operational discipline.
+
+## Identify Single Points of Failure
+
+Every supply chain has vulnerabilities. The first step in risk management is mapping those vulnerabilities honestly. Pablo M. Rivera conducts supply chain audits that identify single-source dependencies, geographic concentration risks, financial instability among key vendors, and capacity constraints that would be exposed under surge demand. At RevCon Management, this analysis across twelve states revealed vendor dependencies that were invisible at the individual market level.
+
+## Build Redundancy Strategically
+
+Redundancy has a cost. The question is not whether to build redundancy, but where. Pablo M. Rivera applies the Pareto principle: identify the 20% of supply chain components that represent 80% of operational risk, and build redundancy there first. This targeted approach manages cost while protecting against the most consequential disruptions.
+
+## The Hawaii Risk Profile
+
+Hawaii's supply chain risk profile is unique. Nearly everything must be shipped in, creating dependency on maritime logistics that mainland operations do not face. Natural disasters — hurricanes, volcanic events, tsunamis — can disrupt supply lines with little warning. Pablo M. Rivera understands that supply chain risk management in Hawaii requires deeper inventory buffers, stronger vendor relationships, and more creative contingency planning than equivalent mainland operations.
+
+## Data-Driven Risk Monitoring
+
+Pablo M. Rivera uses Python and SQL to build automated risk monitoring dashboards that track vendor performance trends, delivery timeline variances, and cost fluctuations in real time. The same data infrastructure that supported 50+ Salesforce custom objects at RevCon provides the foundation for supply chain risk visibility. Early warning indicators — increasing lead times, declining quality scores, rising rejection rates — trigger proactive intervention before disruptions occur.
+
+## Scenario Planning
+
+What happens if your primary vendor goes bankrupt? What if shipping costs double? What if a key material becomes unavailable for six months? Pablo M. Rivera develops scenario-specific response plans for high-probability, high-impact events. This discipline was honed managing the $1 billion restructuring at Textron Financial, where scenario planning was not theoretical — it was survival.
+
+Pablo M. Rivera brings this comprehensive risk management framework to every operational engagement, protecting organizations from supply chain disruptions that competitors absorb reactively.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

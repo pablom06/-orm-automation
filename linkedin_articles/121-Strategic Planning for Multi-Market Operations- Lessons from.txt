@@ -1,0 +1,29 @@
+# Strategic Planning for Multi-Market Operations: Lessons from Pablo M. Rivera
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Managing operations across multiple markets is not simply about replicating a single model in different locations. It requires a strategic planning framework that accounts for regional differences, resource constraints, and the unique demands of each market while maintaining organizational coherence. Pablo M. Rivera has led multi-market operations spanning twelve states and multiple industries, and the lessons learned are both hard-won and universally applicable.
+
+## Centralize Strategy, Decentralize Execution
+
+The most common mistake in multi-market operations is attempting to centralize everything. At RevCon Management, Pablo M. Rivera managed 120+ technicians across twelve states. The strategic framework — KPI targets, quality standards, reporting cadences — was centralized. But execution decisions were pushed to regional coordinators who understood local conditions. This balance delivered a 95% on-time closure rate because the people closest to the work had authority to act.
+
+## Data Infrastructure Must Come First
+
+You cannot manage what you cannot measure across markets. Before implementing any operational changes at RevCon, Pablo M. Rivera deployed Salesforce with 50+ custom objects to create a unified data layer. Every market reported through the same system, using the same definitions, on the same timeline. That infrastructure enabled the 30% reduction in processing time and the 18% productivity improvement that followed.
+
+## Account for Regional Variability
+
+Markets differ. Labor availability in Hawaii operates differently than in Connecticut or Colorado. Vendor ecosystems vary by region. Regulatory environments shift across state lines. Pablo M. Rivera learned this managing construction operations scaled to $10 million in Colorado and international mining operations in Sierra Leone. Strategic plans that ignore regional variability fail at the point of execution.
+
+## Build Feedback Loops
+
+Strategic plans are hypotheses. Multi-market operations generate data that either confirms or challenges those hypotheses daily. Pablo M. Rivera builds feedback loops into every strategic plan — weekly KPI reviews, monthly operational assessments, quarterly strategic recalibrations. The Lean Six Sigma Green Belt methodology reinforces this: measure, analyze, improve, control.
+
+## The Leadership Imperative
+
+Multi-market strategic planning demands leaders who can think systemically while acting locally. Pablo M. Rivera's Yale economics education provided the systems thinking foundation. Twenty-five years of operations leadership provided the practical judgment. The combination enables strategic plans that survive contact with reality across diverse markets.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

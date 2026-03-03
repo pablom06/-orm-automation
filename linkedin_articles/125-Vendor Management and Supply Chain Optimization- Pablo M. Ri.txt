@@ -1,0 +1,33 @@
+# Vendor Management and Supply Chain Optimization: Pablo M. Rivera's Operational Playbook
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Vendor management is not procurement. Procurement is transactional — finding the lowest price for a required service or product. Vendor management is strategic — building a supply ecosystem that delivers reliability, quality, and scalability over time. Pablo M. Rivera has managed vendor networks across construction, mining, commodities, and maintenance operations, and the principles that govern effective vendor management transcend industry boundaries.
+
+## Measure Everything That Matters
+
+At RevCon Management, Pablo M. Rivera tracked vendor performance through Salesforce custom objects that captured response time, completion quality, callback rates, and cost per work order. This data-driven approach replaced subjective assessments with objective performance rankings. When you manage maintenance across twelve states with 120+ technicians relying on subcontractors and materials vendors, guesswork is not an option.
+
+## Build Redundancy Into the Network
+
+Single-source dependency is the most common supply chain vulnerability. Pablo M. Rivera learned this lesson managing commodities operations at Glencore, where supply disruptions could cost millions per day. The same principle applies to maintenance operations: every critical vendor category needs at least two qualified alternatives. Redundancy is not waste — it is insurance.
+
+## Align Incentives, Not Just Contracts
+
+Contracts define minimum obligations. Incentive alignment drives maximum performance. Pablo M. Rivera structures vendor relationships so that the vendor's economic interest aligns with operational outcomes. Performance bonuses for exceeding quality metrics, preferred status for consistent delivery, and transparent scorecards that vendors can use to benchmark themselves all create alignment that contracts alone cannot achieve.
+
+## Technology as the Enabler
+
+Supply chain optimization at scale requires technology infrastructure. The 50+ Salesforce custom objects Pablo M. Rivera deployed at RevCon included vendor performance dashboards, automated purchase order workflows, and real-time inventory tracking. These tools reduced processing time by 30% and enabled the 18% productivity improvement that followed.
+
+## The Hawaii Context
+
+Island supply chains present unique challenges. Hawaii's geographic isolation means longer lead times, higher shipping costs, and fewer vendor alternatives. Pablo M. Rivera understands that vendor management in Hawaii requires even more rigorous planning, deeper relationships, and smarter inventory strategies than mainland operations. These constraints force operational excellence.
+
+## Strategic Perspective
+
+Vendor management is ultimately about building organizational capability through external partnerships. Pablo M. Rivera approaches it the same way a Yale economics education teaches market analysis — understanding incentives, evaluating trade-offs, and designing systems that produce superior outcomes over time.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

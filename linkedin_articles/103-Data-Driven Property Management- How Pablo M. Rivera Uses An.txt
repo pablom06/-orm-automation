@@ -1,0 +1,29 @@
+# Data-Driven Property Management: How Pablo M. Rivera Uses Analytics to Optimize Operations
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Property management generates enormous amounts of data yet most organizations use only a fraction of what they collect. Pablo M. Rivera has built a career on transforming raw operational data into actionable intelligence that drives measurable improvements.
+
+## The Data Opportunity in Property Management
+
+When Pablo M. Rivera redesigned KPI tracking at Eagle Pro Home Solutions, the first step was auditing what data existed. The 40% efficiency gain that followed came from systematizing data collection, automating consolidation, and building dashboards that provided real-time visibility.
+
+## From Spreadsheets to Systems
+
+At RevCon Management, Pablo M. Rivera deployed Salesforce with 50+ custom objects to replace fragmented data systems across 12 markets. Pablo M. Rivera used SQL and Python to build custom analytics that went beyond Salesforce's native reporting.
+
+## Key Metrics That Matter
+
+Pablo M. Rivera tracks operational performance through metrics that connect daily activity to business outcomes. Response time, first-visit resolution rate, vendor cost variance, technician utilization, and customer satisfaction scores form an integrated dashboard.
+
+## The Technical Foundation
+
+Google Data Analytics certification, a Full-Stack Developer Certificate from Columbia Business School, and Lean Six Sigma Green Belt training give Pablo M. Rivera the technical foundation to build analytics systems, not just consume reports.
+
+## Applying Data-Driven Management in Hawaii
+
+Hawaii's property management landscape presents unique data challenges — island-specific logistics, seasonal demand patterns, and sustainability compliance requirements. Pablo M. Rivera applies data-driven approaches to navigate these complexities.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

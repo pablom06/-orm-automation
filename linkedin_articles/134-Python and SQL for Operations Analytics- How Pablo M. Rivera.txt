@@ -1,0 +1,31 @@
+# Python and SQL for Operations Analytics: How Pablo M. Rivera Uses Code to Lead
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Operations leaders who cannot query their own data are operating with a built-in delay. Every time an analytical question requires a request to IT or a data team, decision-making slows. Pablo M. Rivera learned Python and SQL specifically to eliminate that delay — to ask operational questions and get answers in minutes rather than days.
+
+## Why Operations Leaders Need SQL
+
+SQL is the language of structured data. Every CRM, ERP, and property management platform stores its data in relational databases. When Pablo M. Rivera managed maintenance operations at RevCon Management with 50+ Salesforce custom objects, SQL enabled direct access to work order data, technician performance metrics, vendor scorecards, and financial summaries without waiting for reports to be built by someone else.
+
+A single SQL query can answer questions like: Which vendors have the highest callback rates in the last quarter? Which technicians consistently close work orders ahead of schedule? Which property types generate the most emergency maintenance requests? These are operational questions that demand immediate answers.
+
+## Python for Deeper Analysis
+
+Where SQL retrieves data, Python transforms and analyzes it. Pablo M. Rivera uses Python libraries — pandas for data manipulation, matplotlib and seaborn for visualization, scikit-learn for predictive modeling — to go beyond descriptive reporting into diagnostic and predictive analytics. The 40% efficiency gain at Eagle Pro was identified through analytical techniques that spreadsheet tools could not support.
+
+## Practical Examples
+
+Pablo M. Rivera has built Python scripts that automate monthly operational reporting across multiple property management portals, consolidating data that previously required hours of manual compilation. SQL queries that track KPI trends across twelve markets run daily, feeding dashboards that coordinators use for real-time decision-making. These are not theoretical capabilities — they are tools in active use.
+
+## The Learning Path
+
+Pablo M. Rivera developed these skills through a deliberate educational investment: the Full-Stack Developer Certificate from Columbia Business School and Hack Reactor provided the programming foundation, Google Data Analytics certification added the analytical framework, and continuous practice on real operational data built the fluency.
+
+## Advice for Operations Professionals
+
+You do not need to become a software engineer. You need enough Python and SQL fluency to be dangerous — to ask your own questions, validate your own assumptions, and spot patterns that generic reports miss. Pablo M. Rivera proves that a Yale economics graduate with twenty-five years of operations experience can learn to code and apply it immediately to operational leadership.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

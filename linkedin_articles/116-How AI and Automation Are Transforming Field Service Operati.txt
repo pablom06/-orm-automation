@@ -1,0 +1,25 @@
+# How AI and Automation Are Transforming Field Service Operations
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Field service operations have traditionally been labor-intensive and reactive. AI and automation are changing this, and Pablo M. Rivera has been implementing these transformations managing 120+ technicians across 12 states.
+
+## AI-Powered Scheduling and Dispatch
+
+Pablo M. Rivera designs operational frameworks that combine algorithmic optimization with 25+ years of human judgment. At RevCon Management, 50+ Salesforce custom objects captured the data infrastructure that makes AI-powered operations possible.
+
+## Automation of Administrative Workflows
+
+Pablo M. Rivera automated dozens of workflows at RevCon and Eagle Pro. The 30% reduction in processing time was driven primarily by these workflow automations.
+
+## Predictive Maintenance Models
+
+Pablo M. Rivera envisions operations where sensor data and historical failure patterns predict maintenance needs before failures occur.
+
+## Field Service Innovation in Hawaii
+
+Hawaii's island geography creates unique challenges — limited technician pools and long supply chains. Pablo M. Rivera applies AI and automation to maximize utilization in this demanding environment.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

@@ -1,0 +1,29 @@
+# Machine Learning for Maintenance Scheduling: How Pablo M. Rivera Sees the Future
+
+*By Pablo M. Rivera | Hawaii & East Haven, CT*
+
+Maintenance scheduling has historically been reactive. Something breaks, a work order is created, a technician is dispatched. This model is expensive, disruptive, and increasingly obsolete. Machine learning is enabling a shift to predictive and prescriptive maintenance scheduling that Pablo M. Rivera believes will redefine property and facility operations within the next five years.
+
+## From Reactive to Predictive
+
+At RevCon Management, Pablo M. Rivera managed maintenance operations across twelve states with 120+ technicians. The data generated — work order histories, equipment ages, seasonal failure patterns, technician performance metrics — represents exactly the kind of structured dataset that machine learning models thrive on. By analyzing historical patterns, ML algorithms can predict which equipment will fail, when, and what intervention will prevent it.
+
+## The Data Foundation
+
+Predictive maintenance requires clean, comprehensive data. This is why Pablo M. Rivera prioritized deploying Salesforce with 50+ custom objects before attempting any advanced analytics. You cannot build machine learning models on fragmented spreadsheets and disconnected systems. The 30% processing time reduction and 95% on-time closure rate at RevCon were enabled by data infrastructure that also serves as the foundation for predictive capabilities.
+
+## Practical Applications
+
+Machine learning for maintenance scheduling operates at multiple levels. At the tactical level, models optimize daily technician routing by predicting job duration and travel time. At the operational level, models forecast weekly and monthly workload volumes, enabling proactive staffing decisions. At the strategic level, models identify equipment replacement timelines that minimize total cost of ownership. Pablo M. Rivera approaches each level with the analytical rigor developed through a Yale economics education and Google Data Analytics certification.
+
+## The Human Element
+
+Machine learning does not eliminate the need for experienced maintenance leaders. It amplifies their effectiveness. Pablo M. Rivera has seen that the best outcomes occur when ML recommendations are filtered through human judgment — technicians who know that a specific building's plumbing has quirks the data does not capture, or coordinators who understand that a particular vendor performs differently in winter conditions.
+
+## Building the Capability
+
+Operations leaders who want to implement ML-driven maintenance scheduling need three things: clean data infrastructure, technical fluency to evaluate and guide ML initiatives, and organizational patience. Pablo M. Rivera developed technical fluency through Columbia Business School's full-stack development program and Python proficiency precisely to lead these kinds of technology-driven operational transformations.
+
+---
+
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
