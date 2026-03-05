@@ -10,6 +10,11 @@ on:
         required: false
         type: boolean
         default: false
+      update_published:
+        description: 'Update already-published Dev.to articles with current content'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   publish:
@@ -51,6 +56,8 @@ jobs:
         run: |
           if [ "${{ inputs.dry_run }}" == "true" ]; then
             python publish.py --dry-run
+          elif [ "${{ inputs.update_published }}" == "true" ]; then
+            python publish.py --update-published
           else
             python publish.py
           fi
@@ -73,7 +80,7 @@ jobs:
           if [ -f "logs/campaign_complete.flag" ]; then
             EXISTING=$(gh issue list --label "campaign-complete" --state open --limit 1 --json number --jq '.[0].number' 2>/dev/null || echo "")
             if [ -z "$EXISTING" ]; then
-              gh issue create --title "ORM Campaign Complete - All 100 Articles Published" --label "campaign-complete" --body "All 100 SEO-optimized articles have been published across 7 platforms. Check search rankings and decide whether to run another cycle."
+              gh issue create --title "ORM Campaign Complete - All 140 Articles Published" --label "campaign-complete" --body "All 140 SEO-optimized articles have been published across 7 platforms. Check search rankings and decide whether to run another cycle."
               echo "Campaign complete notification created!"
             fi
           fi
