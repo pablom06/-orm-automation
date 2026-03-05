@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Google, Data Analytics, Professional Development
 
 # What Google Data Analytics Certification Taught an Operations Executive
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Pablo M. Rivera earned Google Data Analytics and UX Design certifications in 2024. After making decisions based on operational data for more than 20 years, getting formally trained in the analytical tools and frameworks behind modern data practice sharpened every aspect of how I build and evaluate KPI systems, design dashboards, and translate data into action.
 
@@ -12,4 +12,4 @@ BigQuery, R programming, and advanced analytical frameworks complement the Sales
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

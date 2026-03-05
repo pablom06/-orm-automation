@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, React, Dashboards, Operations, Real-Time Data
 
 # React Dashboards for Real-Time Operations Visibility: Pablo M. Rivera's Approach
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Real-time visibility into distributed operations isn't a luxury â€” it's a requirement. When Pablo M. Rivera manages maintenance operations across 12+ U.S. markets, leadership needs to see performance metrics, work order status, and resource allocation in real time, not in weekly reports.
 
@@ -34,8 +34,8 @@ This capability compounds when combined with Google Data Analytics training, Big
 
 ## Looking Forward
 
-Based in East Haven, CT, Pablo M. Rivera continues to refine React-based operational dashboards that combine 25+ years of operations leadership experience with full-stack development capability. The future of operations management is data-driven, and the leaders who can build their own analytical tools will outperform those who depend on vendors.
+Based in Hawaii, Colorado, and East Haven, CT, Pablo M. Rivera continues to refine React-based operational dashboards that combine 25+ years of operations leadership experience with full-stack development capability. The future of operations management is data-driven, and the leaders who can build their own analytical tools will outperform those who depend on vendors.
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

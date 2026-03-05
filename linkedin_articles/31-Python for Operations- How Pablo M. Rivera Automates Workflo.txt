@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Python, Automation, Operations, Technology
 
 # Python for Operations: How Pablo M. Rivera Automates Workflows
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Operations leaders who can code have a superpower: they can build the exact tools their teams need without waiting for IT priorities or vendor roadmaps. Pablo M. Rivera uses Python to automate operational workflows across maintenance, reporting, and data analysis â€” turning manual processes into automated systems.
 
@@ -30,8 +30,8 @@ Django's admin interface, authentication system, and ORM (object-relational mapp
 
 Pablo M. Rivera's investment in learning Python, Django, JavaScript, React, Docker, SQL, Java, and PHP wasn't just professional development â€” it was a strategic capability upgrade. The ability to prototype solutions, evaluate vendor proposals with technical fluency, and automate workflows directly translates to operational efficiency.
 
-Based in East Haven, CT, Pablo M. Rivera combines 25+ years of operations leadership with genuine full-stack development capability. This combination â€” understanding what operations needs and having the technical skills to build it â€” represents the future of operations leadership.
+Based in Hawaii, Colorado, and East Haven, CT, Pablo M. Rivera combines 25+ years of operations leadership with genuine full-stack development capability. This combination â€” understanding what operations needs and having the technical skills to build it â€” represents the future of operations leadership.
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

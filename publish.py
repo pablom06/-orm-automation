@@ -1310,6 +1310,110 @@ article { margin-bottom: 60px; }
 # CLI
 # ---------------------------------------------------------------------------
 
+def cmd_update_published(args):
+    """Update already-published Dev.to articles with current article content."""
+    import requests
+
+    config = get_config()
+    articles = load_articles()
+    status = load_status()
+    published = status.get("published", {})
+    devto_token = config["devto_token"]
+
+    if not devto_token:
+        log.error("No DEVTO_TOKEN set.")
+        return
+
+    updated = 0
+    skipped = 0
+    failed = 0
+
+    for article in articles:
+        day = article["day"]
+        day_str = str(day)
+        if day_str not in published:
+            continue
+        pub_info = published[day_str]
+        devto_url = pub_info.get("urls", {}).get("devto", "")
+        if not devto_url:
+            continue
+
+        # Extract article ID from Dev.to URL (fetch the article by URL to get ID)
+        # Dev.to API: GET /api/articles/me/published to list our articles
+        # Or we can use GET /api/articles/{username}/{slug}
+        # Easiest: extract slug and use the articles/me endpoint
+
+        # Rate limit
+        if not hasattr(cmd_update_published, '_last_call'):
+            cmd_update_published._last_call = 0
+        elapsed = time.time() - cmd_update_published._last_call
+        if elapsed < 31:
+            wait = 31 - elapsed
+            log.info(f"   ⏳ Waiting {wait:.0f}s for Dev.to rate limit...")
+            time.sleep(wait)
+
+        # Get article ID by fetching the article URL via API
+        slug = devto_url.rstrip("/").split("/")[-1]
+        username = devto_url.rstrip("/").split("/")[-2]
+        resp = requests.get(
+            f"https://dev.to/api/articles/{username}/{slug}",
+            headers={"api-key": devto_token}
+        )
+        cmd_update_published._last_call = time.time()
+
+        if resp.status_code != 200:
+            log.warning(f"Day {day}: Could not fetch Dev.to article (HTTP {resp.status_code}), skipping")
+            skipped += 1
+            continue
+
+        article_id = resp.json().get("id")
+        if not article_id:
+            log.warning(f"Day {day}: No article ID found, skipping")
+            skipped += 1
+            continue
+
+        # Clean tags for Dev.to
+        clean_tags = []
+        for tag in article["tags"][:4]:
+            clean_tag = tag.replace(".", "").replace(" ", "").replace("-", " ").replace("&", "and").lower()
+            clean_tag = clean_tag.replace(" ", "")
+            if clean_tag:
+                clean_tags.append(clean_tag)
+
+        # Wait for rate limit again before PUT
+        elapsed = time.time() - cmd_update_published._last_call
+        if elapsed < 31:
+            wait = 31 - elapsed
+            log.info(f"   ⏳ Waiting {wait:.0f}s for Dev.to rate limit...")
+            time.sleep(wait)
+
+        # Update the article
+        payload = {
+            "article": {
+                "body_markdown": article["body"],
+                "tags": clean_tags
+            }
+        }
+        resp = requests.put(
+            f"https://dev.to/api/articles/{article_id}",
+            headers={
+                "api-key": devto_token,
+                "Content-Type": "application/json"
+            },
+            json=payload
+        )
+        cmd_update_published._last_call = time.time()
+
+        if resp.status_code == 200:
+            log.info(f"✅ Day {day}: Updated Dev.to article with Hawaii/Colorado keywords")
+            updated += 1
+        else:
+            log.error(f"❌ Day {day}: Dev.to update failed ({resp.status_code}): {resp.text[:200]}")
+            failed += 1
+
+    log.info(f"\n📊 Dev.to update complete: {updated} updated, {skipped} skipped, {failed} failed")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="ORM Content Automation Engine — Pablo M. Rivera",
@@ -1334,10 +1438,13 @@ Examples:
     parser.add_argument("--daemon", action="store_true", help="Run as daemon, auto-publish daily")
     parser.add_argument("--preview", type=int, metavar="DAY", help="Preview a specific day's article")
     parser.add_argument("--export-html", action="store_true", help="Export all articles as HTML")
+    parser.add_argument("--update-published", action="store_true", help="Update already-published Dev.to articles with current content")
 
     args = parser.parse_args()
 
-    if args.status:
+    if args.update_published:
+        cmd_update_published(args)
+    elif args.status:
         cmd_status(args)
     elif args.schedule:
         cmd_schedule(args)

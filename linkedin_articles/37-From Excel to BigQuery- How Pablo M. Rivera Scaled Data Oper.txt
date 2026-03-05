@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, BigQuery, Excel, Data Analytics, Scaling
 
 # From Excel to BigQuery: How Pablo M. Rivera Scaled Data Operations
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Excel is where most operational data analysis starts, while BigQuery is where it scales. Pablo M. Rivera has worked with both â€” and understanding when to make the transition is what separates operations leaders who drown in data from those who harness it.
 
@@ -32,8 +32,8 @@ This hybrid approach combines the accessibility of Excel with the power of cloud
 
 ## Operations Leadership in the Data Era
 
-Based in East Haven, CT, Pablo M. Rivera represents a new generation of operations leaders who combine deep operational experience with genuine data analytics capability. Understanding how to move from Excel to BigQuery â€” and when to use each â€” is part of what makes modern operations leadership effective.
+Based in Hawaii, Colorado, and East Haven, CT, Pablo M. Rivera represents a new generation of operations leaders who combine deep operational experience with genuine data analytics capability. Understanding how to move from Excel to BigQuery â€” and when to use each â€” is part of what makes modern operations leadership effective.
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and data analytics professional based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and data analytics professional based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

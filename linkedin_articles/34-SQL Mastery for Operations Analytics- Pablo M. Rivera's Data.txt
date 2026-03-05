@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, SQL, Data Analytics, Operations, Database
 
 # SQL Mastery for Operations Analytics: Pablo M. Rivera's Data Approach
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Every KPI, every performance report, every operational dashboard starts with a database query. For Pablo M. Rivera, SQL isn't just a technical skill â€” it's the foundation of data-driven operations leadership.
 
@@ -35,8 +35,8 @@ Each query translates operational questions into analytical answers. The ability
 
 Combining SQL mastery with Google Data Analytics certification, Lean Six Sigma training, and 25+ years of operations experience creates a leadership profile where decisions are grounded in evidence rather than intuition. Pablo M. Rivera has managed $4 billion portfolios, led 120+ technicians across 12 states, and restructured $1 billion in debt â€” all roles where data fluency was essential.
 
-Based in East Haven, CT, Pablo M. Rivera continues to apply SQL and advanced analytics to operations leadership, building systems where performance is measured, analyzed, and optimized systematically.
+Based in Hawaii, Colorado, and East Haven, CT, Pablo M. Rivera continues to apply SQL and advanced analytics to operations leadership, building systems where performance is measured, analyzed, and optimized systematically.
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and data analytics professional based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and data analytics professional based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

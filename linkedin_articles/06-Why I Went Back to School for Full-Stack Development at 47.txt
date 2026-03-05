@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Career Development, Coding, Technology, Lifelong Learning
 
 # Why I Went Back to School for Full-Stack Development at 47
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 In 2023, with two decades of executive operations experience behind me, Pablo M. Rivera enrolled in Columbia Business School's Full-Stack Developer Certificate program. Then I attended Hack Reactor, followed by CT State Community College for a web development certificate. Friends and colleagues asked the obvious question: why?
 
@@ -28,4 +28,4 @@ This isn't a typical operations leader profile. And that's exactly the point. Mo
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

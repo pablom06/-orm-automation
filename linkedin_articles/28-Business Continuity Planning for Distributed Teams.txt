@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Business Continuity, Remote Operations, Planning
 
 # Business Continuity Planning for Distributed Teams
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Pablo M. Rivera has managed remote-first and distributed operations throughout recent roles at Eagle Pro Home Solutions and RevCon Management. Business continuity in these environments requires deliberate systems design â€” you can't rely on hallway conversations and shared office space to catch problems.
 
@@ -14,4 +14,4 @@ Business continuity isn't a plan you write and fileâ€”it's a design princip
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

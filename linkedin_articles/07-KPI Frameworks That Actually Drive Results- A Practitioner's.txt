@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, KPIs, Performance Management, Operations, Data
 
 # KPI Frameworks That Actually Drive Results: A Practitioner's Guide
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Most KPI frameworks fail. Not because the metrics are wrong, but because they're disconnected from how decisions actually get made. Pablo M. Rivera has designed and implemented KPI systems across multiple organizations â€” and the ones that work share specific characteristics.
 
@@ -26,4 +26,4 @@ Whether you're running maintenance operations, managing construction projects, o
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

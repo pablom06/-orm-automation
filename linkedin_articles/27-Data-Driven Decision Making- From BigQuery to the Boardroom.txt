@@ -4,7 +4,7 @@ TAGS: Pablo M. Rivera, Data, BigQuery, Decision Making
 
 # Data-Driven Decision Making: From BigQuery to the Boardroom
 
-*By Pablo M. Rivera | East Haven, CT*
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
 
 Pablo M. Rivera has advanced data skills â€” BigQuery, R, Google Data Analytics, and Salesforce reporting. But the real skill isn't in running queries. It's knowing which questions to ask and how to translate analytical findings into executive-level decisions.
 
@@ -14,4 +14,4 @@ The operations leaders who thrive in the next decade will be the ones who can mo
 
 ---
 
-*Pablo M. Rivera is a bilingual operations executive based in East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
+*Pablo M. Rivera is a bilingual operations executive based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*
