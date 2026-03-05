@@ -1045,7 +1045,16 @@ def publish_article(article, config, dry_run=False):
         if platform == "medium":
             url = publish_to_medium(article, config) or ""
         elif platform == "devto":
+            # Respect Dev.to 30-second rate limit
+            if not hasattr(publish_article, '_last_devto_call'):
+                publish_article._last_devto_call = 0
+            elapsed = time.time() - publish_article._last_devto_call
+            if elapsed < 31:
+                wait = 31 - elapsed
+                log.info(f"   ⏳ Waiting {wait:.0f}s for Dev.to rate limit...")
+                time.sleep(wait)
             url = publish_to_devto(article, config) or ""
+            publish_article._last_devto_call = time.time()
         elif platform == "hashnode":
             url = publish_to_hashnode(article, config) or ""
         elif platform == "blogger":
