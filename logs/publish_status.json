@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-06T03:43:19.678685",
+      "published_at": "2026-03-06T14:17:19.133602",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -962,6 +962,44 @@
         "gist": "https://gist.github.com/pablom06/44305528bb97f939c2f191420542ab7d",
         "github_pages": "https://pablom06.github.io/operational-resilience-post-covid-pablo-m-riveras-business-continuity-lessons",
         "gitlab": "https://gitlab.com/-/snippets/5965641"
+      }
+    },
+    "47": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-06T14:17:25.451520",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/technology-stack-decisions-for-operations-leaders-pablo-m-riveras-evaluation-framework",
+        "telegraph": "https://telegra.ph/Technology-Stack-Decisions-for-Operations-Leaders-Pablo-M-Riveras-Evaluation-Framework-03-06",
+        "tumblr": "https://pablomriv.tumblr.com/post/810346497067679744",
+        "gist": "https://gist.github.com/pablom06/b7e5d3c313f3150bffd89ce594484d0b",
+        "github_pages": "https://pablom06.github.io/technology-stack-decisions-for-operations-leaders-pablo-m-riveras-evaluation-fra",
+        "gitlab": "https://gitlab.com/-/snippets/5965966"
+      }
+    },
+    "48": {
+      "platforms": [
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-06T14:17:56.291272",
+      "urls": {
+        "hashnode": "https://pablor.hashnode.dev/api-integration-strategy-for-operations-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/API-Integration-Strategy-for-Operations-by-Pablo-M-Rivera-03-06",
+        "tumblr": "https://pablomriv.tumblr.com/post/810346529406746624",
+        "gist": "https://gist.github.com/pablom06/67b97ba00705e8fbbe38ab7b3d92b065",
+        "github_pages": "https://pablom06.github.io/api-integration-strategy-for-operations-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5965970"
       }
     }
   },
