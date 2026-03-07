@@ -1324,9 +1324,39 @@ def cmd_update_published(args):
         log.error("No DEVTO_TOKEN set.")
         return
 
+    # Step 1: Fetch all our published articles from Dev.to (authenticated endpoint)
+    log.info("Fetching all published articles from Dev.to...")
+    my_articles = []
+    page = 1
+    while True:
+        resp = requests.get(
+            "https://dev.to/api/articles/me/published",
+            headers={"api-key": devto_token},
+            params={"page": page, "per_page": 100}
+        )
+        if resp.status_code != 200:
+            log.error(f"Failed to fetch Dev.to articles (HTTP {resp.status_code}): {resp.text[:200]}")
+            log.error("Check that DEVTO_TOKEN is valid.")
+            return
+        batch = resp.json()
+        if not batch:
+            break
+        my_articles.extend(batch)
+        page += 1
+        time.sleep(2)
+
+    log.info(f"Found {len(my_articles)} published Dev.to articles")
+
+    # Step 2: Build a map of URL -> article ID
+    url_to_id = {}
+    for a in my_articles:
+        url_to_id[a.get("url", "")] = a["id"]
+
+    # Step 3: Update each article that has a matching Dev.to URL
     updated = 0
     skipped = 0
     failed = 0
+    last_call = 0
 
     for article in articles:
         day = article["day"]
@@ -1338,37 +1368,9 @@ def cmd_update_published(args):
         if not devto_url:
             continue
 
-        # Extract article ID from Dev.to URL (fetch the article by URL to get ID)
-        # Dev.to API: GET /api/articles/me/published to list our articles
-        # Or we can use GET /api/articles/{username}/{slug}
-        # Easiest: extract slug and use the articles/me endpoint
-
-        # Rate limit
-        if not hasattr(cmd_update_published, '_last_call'):
-            cmd_update_published._last_call = 0
-        elapsed = time.time() - cmd_update_published._last_call
-        if elapsed < 31:
-            wait = 31 - elapsed
-            log.info(f"   ⏳ Waiting {wait:.0f}s for Dev.to rate limit...")
-            time.sleep(wait)
-
-        # Get article ID by fetching the article URL via API
-        slug = devto_url.rstrip("/").split("/")[-1]
-        username = devto_url.rstrip("/").split("/")[-2]
-        resp = requests.get(
-            f"https://dev.to/api/articles/{username}/{slug}",
-            headers={"api-key": devto_token}
-        )
-        cmd_update_published._last_call = time.time()
-
-        if resp.status_code != 200:
-            log.warning(f"Day {day}: Could not fetch Dev.to article (HTTP {resp.status_code}), skipping")
-            skipped += 1
-            continue
-
-        article_id = resp.json().get("id")
+        article_id = url_to_id.get(devto_url)
         if not article_id:
-            log.warning(f"Day {day}: No article ID found, skipping")
+            log.warning(f"Day {day}: Dev.to URL not found in our articles, skipping")
             skipped += 1
             continue
 
@@ -1380,8 +1382,8 @@ def cmd_update_published(args):
             if clean_tag:
                 clean_tags.append(clean_tag)
 
-        # Wait for rate limit again before PUT
-        elapsed = time.time() - cmd_update_published._last_call
+        # Rate limit
+        elapsed = time.time() - last_call
         if elapsed < 31:
             wait = 31 - elapsed
             log.info(f"   ⏳ Waiting {wait:.0f}s for Dev.to rate limit...")
@@ -1402,7 +1404,7 @@ def cmd_update_published(args):
             },
             json=payload
         )
-        cmd_update_published._last_call = time.time()
+        last_call = time.time()
 
         if resp.status_code == 200:
             log.info(f"✅ Day {day}: Updated Dev.to article with Hawaii/Colorado keywords")
