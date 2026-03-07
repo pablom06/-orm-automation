@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-07T04:28:00.951115",
+      "published_at": "2026-03-07T14:08:33.379288",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1004,6 +1004,48 @@
         "github_pages": "https://pablom06.github.io/api-integration-strategy-for-operations-by-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5965970",
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/api-integration-strategy-for-operations-by-pablo-m-rivera-337"
+      }
+    },
+    "49": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-07T14:08:37.804959",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/mobile-first-operations-management-pablo-m-riveras-field-technology-strategy-2pek",
+        "hashnode": "https://pablor.hashnode.dev/mobile-first-operations-management-pablo-m-riveras-field-technology-strategy",
+        "telegraph": "https://telegra.ph/Mobile-First-Operations-Management-Pablo-M-Riveras-Field-Technology-Strategy-03-07",
+        "tumblr": "https://pablomriv.tumblr.com/post/810436542198956032",
+        "gist": "https://gist.github.com/pablom06/ca742a72d4f7856671cda84924e17e60",
+        "github_pages": "https://pablom06.github.io/mobile-first-operations-management-pablo-m-riveras-field-technology-strategy",
+        "gitlab": "https://gitlab.com/-/snippets/5966352"
+      }
+    },
+    "50": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-07T14:09:09.097777",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/real-time-dashboards-vs-traditional-reporting-pablo-m-riveras-data-strategy-hj8",
+        "hashnode": "https://pablor.hashnode.dev/real-time-dashboards-vs-traditional-reporting-pablo-m-riveras-data-strategy",
+        "telegraph": "https://telegra.ph/Real-Time-Dashboards-vs-Traditional-Reporting-Pablo-M-Riveras-Data-Strategy-03-07",
+        "tumblr": "https://pablomriv.tumblr.com/post/810436574813798400",
+        "gist": "https://gist.github.com/pablom06/11441e6e9b5c1ea2cb3f6e102e4af335",
+        "github_pages": "https://pablom06.github.io/real-time-dashboards-vs-traditional-reporting-pablo-m-riveras-data-strategy",
+        "gitlab": "https://gitlab.com/-/snippets/5966353"
       }
     }
   },
