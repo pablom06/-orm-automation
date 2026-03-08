@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-07T14:08:33.379288",
+      "published_at": "2026-03-08T14:08:53.080062",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1046,6 +1046,48 @@
         "gist": "https://gist.github.com/pablom06/11441e6e9b5c1ea2cb3f6e102e4af335",
         "github_pages": "https://pablom06.github.io/real-time-dashboards-vs-traditional-reporting-pablo-m-riveras-data-strategy",
         "gitlab": "https://gitlab.com/-/snippets/5966353"
+      }
+    },
+    "51": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-08T14:08:58.333759",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/change-management-in-legacy-organizations-pablo-m-riveras-transformation-playbook-5a2l",
+        "hashnode": "https://pablor.hashnode.dev/change-management-in-legacy-organizations-pablo-m-riveras-transformation-playbook",
+        "telegraph": "https://telegra.ph/Change-Management-in-Legacy-Organizations-Pablo-M-Riveras-Transformation-Playbook-03-08",
+        "tumblr": "https://pablomriv.tumblr.com/post/810527160145182720",
+        "gist": "https://gist.github.com/pablom06/4da52ec0dffd558175d24bdf16e1da97",
+        "github_pages": "https://pablom06.github.io/change-management-in-legacy-organizations-pablo-m-riveras-transformation-playboo",
+        "gitlab": "https://gitlab.com/-/snippets/5966782"
+      }
+    },
+    "52": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-08T14:09:29.428813",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/scaling-teams-without-losing-quality-pablo-m-riveras-growth-framework-149a",
+        "hashnode": "https://pablor.hashnode.dev/scaling-teams-without-losing-quality-pablo-m-riveras-growth-framework",
+        "telegraph": "https://telegra.ph/Scaling-Teams-Without-Losing-Quality-Pablo-M-Riveras-Growth-Framework-03-08",
+        "tumblr": "https://pablomriv.tumblr.com/post/810527192777900032",
+        "gist": "https://gist.github.com/pablom06/bd65f908af78bae69f458b9ac6177da9",
+        "github_pages": "https://pablom06.github.io/scaling-teams-without-losing-quality-pablo-m-riveras-growth-framework",
+        "gitlab": "https://gitlab.com/-/snippets/5966783"
       }
     }
   },
