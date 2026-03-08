@@ -1179,6 +1179,29 @@
   },
   {
     "day": 53,
+    "title": "AI Is Writing the Code but Who Is Designing the System? Pablo M. Rivera on the Architecture Gap",
+    "tags": [
+      "Pablo M. Rivera",
+      "AI",
+      "Software Architecture",
+      "Operations Leadership",
+      "Technology Strategy",
+      "Colorado",
+      "Hawaii"
+    ],
+    "platforms": [
+      "devto",
+      "hashnode",
+      "telegraph",
+      "tumblr",
+      "gist",
+      "github_pages",
+      "gitlab"
+    ],
+    "body": "# AI Is Writing the Code—but Who Is Designing the System?\n\n*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*\n\nI have been using AI coding tools almost every day for the past year. They are incredible. I can generate functions, debug issues, and build components in a fraction of the time it used to take. But something has been bothering me, and I think the industry needs to talk about it.\n\nWe are getting really good at producing code and really bad at understanding how it all fits together.\n\n## Missing Pieces in the Puzzle\n\nLast month I was reviewing a system that had been built fast, mostly with AI assistance. Every individual piece worked. Clean code. Tests passing. Well-documented functions. But when I stepped back and looked at the whole thing, there were gaps everywhere. A payment flow that did not account for refunds. An API integration that fell apart when two users hit it simultaneously. A dashboard pulling from a data source that nobody was maintaining.\n\nEach piece had been built by someone who only saw their own corner. Nobody was looking at the picture on the box.\n\nWhether I am working from Hawaii, Colorado, or Connecticut, I keep seeing this same pattern across every organization I consult with. It points to something bigger than a few missed requirements.\n\n## Prompting Before Thinking in Systems\n\nThere is a generation of developers right now jumping straight into AI tools without building the foundational understanding of how technology actually works under the hood. Networking, databases, distributed systems, failure modes—the stuff that is not glamorous but gives you the ability to look at a complex system and immediately spot what is wrong or what is missing.\n\nThey can get AI to spin up a microservice in minutes. But ask them why it should be a microservice instead of a library, or what happens when the service it depends on changes its API contract, or how the thing behaves when traffic spikes 10x, and you get a blank stare.\n\nThey skipped the training that builds architectural intuition.\n\n## Why Operations Leaders See This Differently\n\nI did not come to technology through a traditional CS path. I spent 25 years running operations—managing 120 technicians across 12 states from Hawaii to Connecticut, overseeing billions in assets, coordinating supply chains and field teams and vendor relationships across markets in Colorado and beyond. When you run a national operation, you cannot think about one market at a time. You have to see how the warehouse affects the field crew, how the field crew affects the customer, and how the customer affects the revenue that funds the whole thing.\n\nThat way of thinking—seeing flows and dependencies and failure points across an entire system—is exactly what is needed in technology architecture. And it is exactly what is disappearing.\n\nWhen I look at a system today, I do not see individual services or databases. I see where data moves, where processes will break, where one team’s shortcut creates a six-month headache for another team. Most people building with AI do not think this way because they never had to.\n\n## The Correction That Is Coming\n\nThe hype right now is all about speed. Faster code, more features, shorter sprints. Companies are celebrating how quickly they can ship. But they are accumulating what I call integration debt—every AI-generated component that works in isolation but creates friction at the boundaries between services, between teams, between systems.\n\nOrganizations are going to look around and realize they have more code than ever and fewer people who understand how any of it connects. When that correction happens, the most valuable people will not be the fastest coders. They will be the ones who can look at the whole board and see what is missing.\n\nSystems thinkers. Architects. People trained to hold complexity in their heads and make judgment calls about trade-offs that AI simply cannot make.\n\nThat gap is real and growing. Whether you are building teams in Hawaii, scaling operations in Colorado, or running distributed systems from East Haven, the need for big-picture thinkers has never been greater.\n\n*Pablo M. Rivera is a bilingual operations executive and technologist based in Hawaii, Colorado, and East Haven, CT, with 25 years of experience bridging operations leadership and technology strategy. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*"
+  },
+  {
+    "day": 54,
     "title": "Metrics That Matter vs Vanity Metrics: Pablo M. Rivera's KPI Philosophy",
     "tags": [
       "Pablo M. Rivera",
@@ -1201,7 +1224,7 @@
     ]
   },
   {
-    "day": 54,
+    "day": 55,
     "title": "Building vs Buying Operations Software: Pablo M. Rivera's Decision Framework",
     "tags": [
       "Pablo M. Rivera",
@@ -1224,7 +1247,7 @@
     ]
   },
   {
-    "day": 55,
+    "day": 56,
     "title": "AI and Machine Learning in Operations: Pablo M. Rivera's Practical Applications",
     "tags": [
       "Pablo M. Rivera",
@@ -1247,7 +1270,7 @@
     ]
   },
   {
-    "day": 56,
+    "day": 57,
     "title": "Portfolio Company Operations Support: Pablo M. Rivera's Private Equity Playbook",
     "tags": [
       "Pablo M. Rivera",
@@ -1270,7 +1293,7 @@
     ]
   },
   {
-    "day": 57,
+    "day": 58,
     "title": "Board-Level Operations Reporting: Pablo M. Rivera's Executive Communication",
     "tags": [
       "Pablo M. Rivera",
@@ -1293,7 +1316,7 @@
     ]
   },
   {
-    "day": 58,
+    "day": 59,
     "title": "Operations Due Diligence for Acquisitions: Pablo M. Rivera's Assessment Framework",
     "tags": [
       "Pablo M. Rivera",
@@ -1316,7 +1339,7 @@
     ]
   },
   {
-    "day": 59,
+    "day": 60,
     "title": "Turnaround Leadership Principles: Pablo M. Rivera's Crisis Operations Framework",
     "tags": [
       "Pablo M. Rivera",
@@ -1339,7 +1362,7 @@
     ]
   },
   {
-    "day": 60,
+    "day": 61,
     "title": "The Future of Operations Management: Pablo M. Rivera's 2025 Perspective",
     "tags": [
       "Pablo M. Rivera",
@@ -1362,7 +1385,7 @@
     ]
   },
   {
-    "day": 61,
+    "day": 62,
     "title": "AI Is Changing Labor: Why Operations Leaders Must Become Architects of Work",
     "tags": [
       "Pablo M. Rivera",
@@ -1385,7 +1408,7 @@
     ]
   },
   {
-    "day": 62,
+    "day": 63,
     "title": "Raising Two Boys While Pursuing a Software Development Career: A Father's Perspective",
     "tags": [
       "Pablo M. Rivera",
@@ -1408,7 +1431,7 @@
     ]
   },
   {
-    "day": 63,
+    "day": 64,
     "title": "The Future Workforce Needs People Who Think Outside the Box",
     "tags": [
       "Pablo M. Rivera",
@@ -1431,7 +1454,7 @@
     ]
   },
   {
-    "day": 64,
+    "day": 65,
     "title": "How Being a Father Shaped My Leadership Style",
     "tags": [
       "Pablo M. Rivera",
@@ -1454,7 +1477,7 @@
     ]
   },
   {
-    "day": 65,
+    "day": 66,
     "title": "Work-Life Integration: Why Balance Is the Wrong Goal When Pursuing Multiple Dreams",
     "tags": [
       "Pablo M. Rivera",
@@ -1477,7 +1500,7 @@
     ]
   },
   {
-    "day": 66,
+    "day": 67,
     "title": "Why Operations Leaders Who Understand AI Will Be Indispensable",
     "tags": [
       "Pablo M. Rivera",
@@ -1500,7 +1523,7 @@
     ]
   },
   {
-    "day": 67,
+    "day": 68,
     "title": "Teaching Kids About Resilience: Lessons from a Father Who Refused to Quit",
     "tags": [
       "Pablo M. Rivera",
@@ -1523,7 +1546,7 @@
     ]
   },
   {
-    "day": 68,
+    "day": 69,
     "title": "The Discipline of Coding Bootcamps at Mid-Career: What Nobody Tells You",
     "tags": [
       "Pablo M. Rivera",
@@ -1546,7 +1569,7 @@
     ]
   },
   {
-    "day": 69,
+    "day": 70,
     "title": "How AI Augments Experienced Operations Leaders Rather Than Replacing Them",
     "tags": [
       "Pablo M. Rivera",
@@ -1569,7 +1592,7 @@
     ]
   },
   {
-    "day": 70,
+    "day": 71,
     "title": "Cross-Generational Workforce Management: Bridging Boomers, Millennials, and Gen Z",
     "tags": [
       "Pablo M. Rivera",
@@ -1592,7 +1615,7 @@
     ]
   },
   {
-    "day": 71,
+    "day": 72,
     "title": "Supply Chain Technology: How Modern Operations Leaders Optimize Procurement",
     "tags": [
       "Pablo M. Rivera",
@@ -1615,7 +1638,7 @@
     ]
   },
   {
-    "day": 72,
+    "day": 73,
     "title": "Construction Technology Trends: A Builder's Perspective on ConTech",
     "tags": [
       "Pablo M. Rivera",
@@ -1638,7 +1661,7 @@
     ]
   },
   {
-    "day": 73,
+    "day": 74,
     "title": "PropTech and the Future of Property Management Operations",
     "tags": [
       "Pablo M. Rivera",
@@ -1661,7 +1684,7 @@
     ]
   },
   {
-    "day": 74,
+    "day": 75,
     "title": "Emotional Intelligence in Operations: The Soft Skill That Drives Hard Results",
     "tags": [
       "Pablo M. Rivera",
@@ -1684,7 +1707,7 @@
     ]
   },
   {
-    "day": 75,
+    "day": 76,
     "title": "Negotiation Skills in Vendor Management: Lessons from $4 Billion in Portfolio Leadership",
     "tags": [
       "Pablo M. Rivera",
@@ -1707,7 +1730,7 @@
     ]
   },
   {
-    "day": 76,
+    "day": 77,
     "title": "Building Company Culture in Distributed Teams: An Operations Leader's Playbook",
     "tags": [
       "Pablo M. Rivera",
@@ -1730,7 +1753,7 @@
     ]
   },
   {
-    "day": 77,
+    "day": 78,
     "title": "The Value of a Liberal Arts Education in a Tech-Driven Career",
     "tags": [
       "Pablo M. Rivera",
@@ -1753,7 +1776,7 @@
     ]
   },
   {
-    "day": 78,
+    "day": 79,
     "title": "The American Dream Through Operations: An Immigrant's Perspective on Building a Career",
     "tags": [
       "Pablo M. Rivera",
@@ -1776,7 +1799,7 @@
     ]
   },
   {
-    "day": 79,
+    "day": 80,
     "title": "Community Involvement and Civic Leadership: Why Operations Leaders Should Serve",
     "tags": [
       "Pablo M. Rivera",
@@ -1799,7 +1822,7 @@
     ]
   },
   {
-    "day": 80,
+    "day": 81,
     "title": "Health and Wellness While Managing High-Stress Operations: A Leader's Non-Negotiables",
     "tags": [
       "Pablo M. Rivera",
@@ -1822,7 +1845,7 @@
     ]
   },
   {
-    "day": 81,
+    "day": 82,
     "title": "How AI Is Reshaping What Valuable Work Means for Operations Leaders",
     "tags": [
       "Pablo M. Rivera",
@@ -1845,7 +1868,7 @@
     ]
   },
   {
-    "day": 82,
+    "day": 83,
     "title": "The Mental Toughness of Raising Kids, Working Full-Time, and Learning to Code",
     "tags": [
       "Pablo M. Rivera",
@@ -1868,7 +1891,7 @@
     ]
   },
   {
-    "day": 83,
+    "day": 84,
     "title": "Why the Best Operations Leaders in 2025 Must Understand AI, Data, and Automation",
     "tags": [
       "Pablo M. Rivera",
@@ -1891,7 +1914,7 @@
     ]
   },
   {
-    "day": 84,
+    "day": 85,
     "title": "Lessons Learned from Being a Present Father While Building a Career",
     "tags": [
       "Pablo M. Rivera",
@@ -1914,7 +1937,7 @@
     ]
   },
   {
-    "day": 85,
+    "day": 86,
     "title": "The Grit Required to Learn Python, React, and Django While Managing National Operations",
     "tags": [
       "Pablo M. Rivera",
@@ -1937,7 +1960,7 @@
     ]
   },
   {
-    "day": 86,
+    "day": 87,
     "title": "Why Companies Need Architects Who See the Big Picture, Not Just Task Executors",
     "tags": [
       "Pablo M. Rivera",
@@ -1960,7 +1983,7 @@
     ]
   },
   {
-    "day": 87,
+    "day": 88,
     "title": "How Parenthood Teaches Patience, Delegation, and Priorities Every VP Needs",
     "tags": [
       "Pablo M. Rivera",
@@ -1983,7 +2006,7 @@
     ]
   },
   {
-    "day": 88,
+    "day": 89,
     "title": "The Future of Work: Human Judgment Plus AI Execution",
     "tags": [
       "Pablo M. Rivera",
@@ -2006,7 +2029,7 @@
     ]
   },
   {
-    "day": 89,
+    "day": 90,
     "title": "Connecticut's Growing Tech Ecosystem and the Opportunities It Creates",
     "tags": [
       "Pablo M. Rivera",
@@ -2029,7 +2052,7 @@
     ]
   },
   {
-    "day": 90,
+    "day": 91,
     "title": "Mentorship and Giving Back to the Next Generation of Operations Leaders",
     "tags": [
       "Pablo M. Rivera",
@@ -2052,7 +2075,7 @@
     ]
   },
   {
-    "day": 91,
+    "day": 92,
     "title": "Stakeholder Communication Strategies That Win Organizational Buy-In",
     "tags": [
       "Pablo M. Rivera",
@@ -2075,7 +2098,7 @@
     ]
   },
   {
-    "day": 92,
+    "day": 93,
     "title": "Measuring the ROI of Operations Technology Investments",
     "tags": [
       "Pablo M. Rivera",
@@ -2098,7 +2121,7 @@
     ]
   },
   {
-    "day": 93,
+    "day": 94,
     "title": "Regulatory Compliance in Multi-State Operations: A Practical Guide",
     "tags": [
       "Pablo M. Rivera",
@@ -2121,7 +2144,7 @@
     ]
   },
   {
-    "day": 94,
+    "day": 95,
     "title": "Fleet Management and Logistics Optimization for Distributed Operations",
     "tags": [
       "Pablo M. Rivera",
@@ -2144,7 +2167,7 @@
     ]
   },
   {
-    "day": 95,
+    "day": 96,
     "title": "Energy Efficiency in Property Management: An Operations Leader's Perspective",
     "tags": [
       "Pablo M. Rivera",
@@ -2167,7 +2190,7 @@
     ]
   },
   {
-    "day": 96,
+    "day": 97,
     "title": "The Psychology of Organizational Change and Why Most Transformations Fail",
     "tags": [
       "Pablo M. Rivera",
@@ -2190,7 +2213,7 @@
     ]
   },
   {
-    "day": 97,
+    "day": 98,
     "title": "Building Trust with Frontline Workers: Lessons from the Field",
     "tags": [
       "Pablo M. Rivera",
@@ -2213,7 +2236,7 @@
     ]
   },
   {
-    "day": 98,
+    "day": 99,
     "title": "How Theology Studies Inform Ethical Leadership in Business",
     "tags": [
       "Pablo M. Rivera",
@@ -2236,7 +2259,7 @@
     ]
   },
   {
-    "day": 99,
+    "day": 100,
     "title": "Financial Literacy for Operations Professionals: What Every Leader Must Know",
     "tags": [
       "Pablo M. Rivera",
@@ -2259,7 +2282,7 @@
     ]
   },
   {
-    "day": 100,
+    "day": 101,
     "title": "Personal Branding for Executives: Why Your Online Presence Matters",
     "tags": [
       "Pablo M. Rivera",
@@ -2282,7 +2305,7 @@
     ]
   },
   {
-    "day": 101,
+    "day": 102,
     "title": "Digital Leadership in a Remote-First World: Lessons from Pablo M. Rivera",
     "tags": [
       "Pablo M. Rivera",
@@ -2305,7 +2328,7 @@
     ]
   },
   {
-    "day": 102,
+    "day": 103,
     "title": "Construction Technology in 2026: How Innovation Is Reshaping the Industry",
     "tags": [
       "Pablo M. Rivera",
@@ -2328,7 +2351,7 @@
     ]
   },
   {
-    "day": 103,
+    "day": 104,
     "title": "Data-Driven Property Management: How Pablo M. Rivera Uses Analytics to Optimize Operations",
     "tags": [
       "Pablo M. Rivera",
@@ -2351,7 +2374,7 @@
     ]
   },
   {
-    "day": 104,
+    "day": 105,
     "title": "Career Reinvention at Mid-Career: Why Pablo M. Rivera Chose Full-Stack Development",
     "tags": [
       "Pablo M. Rivera",
@@ -2374,7 +2397,7 @@
     ]
   },
   {
-    "day": 105,
+    "day": 106,
     "title": "Operations Leadership in the AI Era: Adapt or Become Irrelevant",
     "tags": [
       "Pablo M. Rivera",
@@ -2397,7 +2420,7 @@
     ]
   },
   {
-    "day": 106,
+    "day": 107,
     "title": "Building Scalable Systems: How Pablo M. Rivera Designs Operations That Grow",
     "tags": [
       "Pablo M. Rivera",
@@ -2420,7 +2443,7 @@
     ]
   },
   {
-    "day": 107,
+    "day": 108,
     "title": "The Hawaii Business Landscape: Opportunities for Operations Leaders",
     "tags": [
       "Pablo M. Rivera",
@@ -2443,7 +2466,7 @@
     ]
   },
   {
-    "day": 108,
+    "day": 109,
     "title": "Bilingual Leadership in Global Operations: The Competitive Edge",
     "tags": [
       "Pablo M. Rivera",
@@ -2466,7 +2489,7 @@
     ]
   },
   {
-    "day": 109,
+    "day": 110,
     "title": "Technology Adoption in Traditional Industries: Bridging the Gap",
     "tags": [
       "Pablo M. Rivera",
@@ -2489,7 +2512,7 @@
     ]
   },
   {
-    "day": 110,
+    "day": 111,
     "title": "Workforce Development and Training Programs: Building Teams That Perform",
     "tags": [
       "Pablo M. Rivera",
@@ -2512,7 +2535,7 @@
     ]
   },
   {
-    "day": 111,
+    "day": 112,
     "title": "Remote Operations Management from Hawaii: How Distance Creates Better Systems",
     "tags": [
       "Pablo M. Rivera",
@@ -2535,7 +2558,7 @@
     ]
   },
   {
-    "day": 112,
+    "day": 113,
     "title": "Lean Six Sigma in Modern Operations: Practical Applications Beyond Manufacturing",
     "tags": [
       "Pablo M. Rivera",
@@ -2558,7 +2581,7 @@
     ]
   },
   {
-    "day": 113,
+    "day": 114,
     "title": "Salesforce Deployment Strategy for Operations Teams: Lessons from Pablo M. Rivera",
     "tags": [
       "Pablo M. Rivera",
@@ -2581,7 +2604,7 @@
     ]
   },
   {
-    "day": 114,
+    "day": 115,
     "title": "Continuous Learning as a Leadership Strategy: The Pablo M. Rivera Approach",
     "tags": [
       "Pablo M. Rivera",
@@ -2604,7 +2627,7 @@
     ]
   },
   {
-    "day": 115,
+    "day": 116,
     "title": "From Glencore to Google Certifications: The Nonlinear Career of Pablo M. Rivera",
     "tags": [
       "Pablo M. Rivera",
@@ -2627,7 +2650,7 @@
     ]
   },
   {
-    "day": 116,
+    "day": 117,
     "title": "How AI and Automation Are Transforming Field Service Operations",
     "tags": [
       "Pablo M. Rivera",
@@ -2650,7 +2673,7 @@
     ]
   },
   {
-    "day": 117,
+    "day": 118,
     "title": "Building a Tech-Enabled Operations Culture: Strategies from Pablo M. Rivera",
     "tags": [
       "Pablo M. Rivera",
@@ -2673,7 +2696,7 @@
     ]
   },
   {
-    "day": 118,
+    "day": 119,
     "title": "Google Certifications for Operations Leaders: Why Pablo M. Rivera Invested in Data and Design",
     "tags": [
       "Pablo M. Rivera",
@@ -2696,7 +2719,7 @@
     ]
   },
   {
-    "day": 119,
+    "day": 120,
     "title": "Sustainable Operations in Hawaii: Aligning Efficiency with Environmental Responsibility",
     "tags": [
       "Pablo M. Rivera",
@@ -2719,7 +2742,7 @@
     ]
   },
   {
-    "day": 120,
+    "day": 121,
     "title": "The Next Chapter: How Pablo M. Rivera Is Shaping the Future of Operations Leadership",
     "tags": [
       "Pablo M. Rivera",
@@ -2742,7 +2765,7 @@
     ]
   },
   {
-    "day": 121,
+    "day": 122,
     "title": "Strategic Planning for Multi-Market Operations: Lessons from Pablo M. Rivera",
     "tags": [
       "Pablo M. Rivera",
@@ -2765,7 +2788,7 @@
     ]
   },
   {
-    "day": 122,
+    "day": 123,
     "title": "Real Estate Technology Trends in 2026: Pablo M. Rivera on the PropTech Revolution",
     "tags": [
       "Pablo M. Rivera",
@@ -2788,7 +2811,7 @@
     ]
   },
   {
-    "day": 123,
+    "day": 124,
     "title": "Balancing Fatherhood and Executive Ambition: Pablo M. Rivera's Honest Perspective",
     "tags": [
       "Pablo M. Rivera",
@@ -2811,7 +2834,7 @@
     ]
   },
   {
-    "day": 124,
+    "day": 125,
     "title": "Machine Learning for Maintenance Scheduling: How Pablo M. Rivera Sees the Future",
     "tags": [
       "Pablo M. Rivera",
@@ -2834,7 +2857,7 @@
     ]
   },
   {
-    "day": 125,
+    "day": 126,
     "title": "Vendor Management and Supply Chain Optimization: Pablo M. Rivera's Operational Playbook",
     "tags": [
       "Pablo M. Rivera",
@@ -2857,7 +2880,7 @@
     ]
   },
   {
-    "day": 126,
+    "day": 127,
     "title": "Cross-Cultural Leadership Communication: Pablo M. Rivera on Bridging Language and Culture",
     "tags": [
       "Pablo M. Rivera",
@@ -2880,7 +2903,7 @@
     ]
   },
   {
-    "day": 127,
+    "day": 128,
     "title": "Operations Consulting and Advisory: What Pablo M. Rivera Brings to the Table",
     "tags": [
       "Pablo M. Rivera",
@@ -2903,7 +2926,7 @@
     ]
   },
   {
-    "day": 128,
+    "day": 129,
     "title": "Green Building and Sustainable Operations: Pablo M. Rivera on the Business Case",
     "tags": [
       "Pablo M. Rivera",
@@ -2926,7 +2949,7 @@
     ]
   },
   {
-    "day": 129,
+    "day": 130,
     "title": "Discipline and Structure in Operations Leadership: Pablo M. Rivera's Core Philosophy",
     "tags": [
       "Pablo M. Rivera",
@@ -2949,7 +2972,7 @@
     ]
   },
   {
-    "day": 130,
+    "day": 131,
     "title": "Professional Resilience Through Adversity: Pablo M. Rivera's Journey",
     "tags": [
       "Pablo M. Rivera",
@@ -2972,7 +2995,7 @@
     ]
   },
   {
-    "day": 131,
+    "day": 132,
     "title": "Hawaii Real Estate Development Operations: Pablo M. Rivera's Island Perspective",
     "tags": [
       "Pablo M. Rivera",
@@ -2995,7 +3018,7 @@
     ]
   },
   {
-    "day": 132,
+    "day": 133,
     "title": "The Future of Construction Management Technology: Pablo M. Rivera's Vision",
     "tags": [
       "Pablo M. Rivera",
@@ -3018,7 +3041,7 @@
     ]
   },
   {
-    "day": 133,
+    "day": 134,
     "title": "Operational Excellence Principles That Never Change: Pablo M. Rivera's Timeless Framework",
     "tags": [
       "Pablo M. Rivera",
@@ -3041,7 +3064,7 @@
     ]
   },
   {
-    "day": 134,
+    "day": 135,
     "title": "Python and SQL for Operations Analytics: How Pablo M. Rivera Uses Code to Lead",
     "tags": [
       "Pablo M. Rivera",
@@ -3064,7 +3087,7 @@
     ]
   },
   {
-    "day": 135,
+    "day": 136,
     "title": "From Yale Economics to Full-Stack Development: Pablo M. Rivera's Unconventional Career Path",
     "tags": [
       "Pablo M. Rivera",
@@ -3087,7 +3110,7 @@
     ]
   },
   {
-    "day": 136,
+    "day": 137,
     "title": "Enterprise Technology Deployment Best Practices: Pablo M. Rivera's Field-Tested Approach",
     "tags": [
       "Pablo M. Rivera",
@@ -3110,7 +3133,7 @@
     ]
   },
   {
-    "day": 137,
+    "day": 138,
     "title": "Fatherhood Lessons That Build Work Ethic: Pablo M. Rivera on Raising Resilient Sons",
     "tags": [
       "Pablo M. Rivera",
@@ -3133,7 +3156,7 @@
     ]
   },
   {
-    "day": 138,
+    "day": 139,
     "title": "Data Science in Real Estate Valuation: Pablo M. Rivera on Quantitative Property Analysis",
     "tags": [
       "Pablo M. Rivera",
@@ -3156,7 +3179,7 @@
     ]
   },
   {
-    "day": 139,
+    "day": 140,
     "title": "Supply Chain Risk Management for Operations Leaders: Pablo M. Rivera's Framework",
     "tags": [
       "Pablo M. Rivera",
@@ -3179,7 +3202,7 @@
     ]
   },
   {
-    "day": 140,
+    "day": 141,
     "title": "Leading Operations with Purpose and Calling: Pablo M. Rivera on Meaningful Work",
     "tags": [
       "Pablo M. Rivera",
