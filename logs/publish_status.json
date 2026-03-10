@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-09T14:25:18.680032",
+      "published_at": "2026-03-10T14:22:34.686474",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1130,6 +1130,48 @@
         "gist": "https://gist.github.com/pablom06/a9324bee8ffc4969625efcafca6c2ebb",
         "github_pages": "https://pablom06.github.io/metrics-that-matter-vs-vanity-metrics-pablo-m-riveras-kpi-philosophy",
         "gitlab": "https://gitlab.com/-/snippets/5967288"
+      }
+    },
+    "55": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-10T14:22:41.686493",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/building-vs-buying-operations-software-pablo-m-riveras-decision-framework-19b8",
+        "hashnode": "https://pablor.hashnode.dev/building-vs-buying-operations-software-pablo-m-riveras-decision-framework",
+        "telegraph": "https://telegra.ph/Building-vs-Buying-Operations-Software-Pablo-M-Riveras-Decision-Framework-03-10",
+        "tumblr": "https://pablomriv.tumblr.com/post/810709215704432640",
+        "gist": "https://gist.github.com/pablom06/c152aae8b991fd7bbc84f3924c499fd5",
+        "github_pages": "https://pablom06.github.io/building-vs-buying-operations-software-pablo-m-riveras-decision-framework",
+        "gitlab": "https://gitlab.com/-/snippets/5967931"
+      }
+    },
+    "56": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-10T14:23:12.089447",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/ai-and-machine-learning-in-operations-pablo-m-riveras-practical-applications-2ej8",
+        "hashnode": "https://pablor.hashnode.dev/ai-and-machine-learning-in-operations-pablo-m-riveras-practical-applications",
+        "telegraph": "https://telegra.ph/AI-and-Machine-Learning-in-Operations-Pablo-M-Riveras-Practical-Applications-03-10",
+        "tumblr": "https://pablomriv.tumblr.com/post/810709248637026304",
+        "gist": "https://gist.github.com/pablom06/698548c1ceb5c6a21e4d2ad3562acb7c",
+        "github_pages": "https://pablom06.github.io/ai-and-machine-learning-in-operations-pablo-m-riveras-practical-applications",
+        "gitlab": "https://gitlab.com/-/snippets/5967933"
       }
     }
   },
