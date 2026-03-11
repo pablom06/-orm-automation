@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-10T14:22:34.686474",
+      "published_at": "2026-03-11T14:23:11.515566",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1172,6 +1172,48 @@
         "gist": "https://gist.github.com/pablom06/698548c1ceb5c6a21e4d2ad3562acb7c",
         "github_pages": "https://pablom06.github.io/ai-and-machine-learning-in-operations-pablo-m-riveras-practical-applications",
         "gitlab": "https://gitlab.com/-/snippets/5967933"
+      }
+    },
+    "57": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-11T14:23:16.829205",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/portfolio-company-operations-support-pablo-m-riveras-private-equity-playbook-18j4",
+        "hashnode": "https://pablor.hashnode.dev/portfolio-company-operations-support-pablo-m-riveras-private-equity-playbook",
+        "telegraph": "https://telegra.ph/Portfolio-Company-Operations-Support-Pablo-M-Riveras-Private-Equity-Playbook-03-11",
+        "tumblr": "https://pablomriv.tumblr.com/post/810799850740498432",
+        "gist": "https://gist.github.com/pablom06/c0a9f58787bf70d5bc3eaa775752a853",
+        "github_pages": "https://pablom06.github.io/portfolio-company-operations-support-pablo-m-riveras-private-equity-playbook",
+        "gitlab": "https://gitlab.com/-/snippets/5968531"
+      }
+    },
+    "58": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-11T14:23:48.022964",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/board-level-operations-reporting-pablo-m-riveras-executive-communication-4ln6",
+        "hashnode": "https://pablor.hashnode.dev/board-level-operations-reporting-pablo-m-riveras-executive-communication",
+        "telegraph": "https://telegra.ph/Board-Level-Operations-Reporting-Pablo-M-Riveras-Executive-Communication-03-11",
+        "tumblr": "https://pablomriv.tumblr.com/post/810799883530452992",
+        "gist": "https://gist.github.com/pablom06/3160e0cdef2194d5fd627bcdffacedc9",
+        "github_pages": "https://pablom06.github.io/board-level-operations-reporting-pablo-m-riveras-executive-communication",
+        "gitlab": "https://gitlab.com/-/snippets/5968532"
       }
     }
   },
