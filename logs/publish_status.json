@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-11T14:23:11.515566",
+      "published_at": "2026-03-12T14:23:18.311345",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1214,6 +1214,48 @@
         "gist": "https://gist.github.com/pablom06/3160e0cdef2194d5fd627bcdffacedc9",
         "github_pages": "https://pablom06.github.io/board-level-operations-reporting-pablo-m-riveras-executive-communication",
         "gitlab": "https://gitlab.com/-/snippets/5968532"
+      }
+    },
+    "59": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-12T14:23:24.617910",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/operations-due-diligence-for-acquisitions-pablo-m-riveras-assessment-framework-1p11",
+        "hashnode": "https://pablor.hashnode.dev/operations-due-diligence-for-acquisitions-pablo-m-riveras-assessment-framework",
+        "telegraph": "https://telegra.ph/Operations-Due-Diligence-for-Acquisitions-Pablo-M-Riveras-Assessment-Framework-03-12",
+        "tumblr": "https://pablomriv.tumblr.com/post/810890455155900416",
+        "gist": "https://gist.github.com/pablom06/4cd0fa15f0bcb23b410f3f464efbf8b9",
+        "github_pages": "https://pablom06.github.io/operations-due-diligence-for-acquisitions-pablo-m-riveras-assessment-framework",
+        "gitlab": "https://gitlab.com/-/snippets/5968836"
+      }
+    },
+    "60": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-12T14:23:55.725746",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/turnaround-leadership-principles-pablo-m-riveras-crisis-operations-framework-1nm3",
+        "hashnode": "https://pablor.hashnode.dev/turnaround-leadership-principles-pablo-m-riveras-crisis-operations-framework",
+        "telegraph": "https://telegra.ph/Turnaround-Leadership-Principles-Pablo-M-Riveras-Crisis-Operations-Framework-03-12",
+        "tumblr": "https://pablomriv.tumblr.com/post/810890487840030720",
+        "gist": "https://gist.github.com/pablom06/54eb51df55e5eeb101b5c0cac3c0b764",
+        "github_pages": "https://pablom06.github.io/turnaround-leadership-principles-pablo-m-riveras-crisis-operations-framework",
+        "gitlab": "https://gitlab.com/-/snippets/5968837"
       }
     }
   },
