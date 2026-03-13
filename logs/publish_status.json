@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-12T14:23:18.311345",
+      "published_at": "2026-03-13T14:22:36.443692",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1256,6 +1256,48 @@
         "gist": "https://gist.github.com/pablom06/54eb51df55e5eeb101b5c0cac3c0b764",
         "github_pages": "https://pablom06.github.io/turnaround-leadership-principles-pablo-m-riveras-crisis-operations-framework",
         "gitlab": "https://gitlab.com/-/snippets/5968837"
+      }
+    },
+    "61": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-13T14:22:42.266233",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-operations-management-pablo-m-riveras-2025-perspective-4dl9",
+        "hashnode": "https://pablor.hashnode.dev/the-future-of-operations-management-pablo-m-riveras-2025-perspective",
+        "telegraph": "https://telegra.ph/The-Future-of-Operations-Management-Pablo-M-Riveras-2025-Perspective-03-13",
+        "tumblr": "https://pablomriv.tumblr.com/post/810981008289742848",
+        "gist": "https://gist.github.com/pablom06/36362d3fe776f8f3ccd406bf1ef8dfae",
+        "github_pages": "https://pablom06.github.io/the-future-of-operations-management-pablo-m-riveras-2025-perspective",
+        "gitlab": "https://gitlab.com/-/snippets/5969244"
+      }
+    },
+    "62": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-13T14:23:13.544855",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/ai-is-changing-labor-why-operations-leaders-must-become-architects-of-work-5a1f",
+        "hashnode": "https://pablor.hashnode.dev/ai-is-changing-labor-why-operations-leaders-must-become-architects-of-work",
+        "telegraph": "https://telegra.ph/AI-Is-Changing-Labor-Why-Operations-Leaders-Must-Become-Architects-of-Work-03-13",
+        "tumblr": "https://pablomriv.tumblr.com/post/810981041158471680",
+        "gist": "https://gist.github.com/pablom06/ceeb7d3638117d5e44d4b889ae1aee9d",
+        "github_pages": "https://pablom06.github.io/ai-is-changing-labor-why-operations-leaders-must-become-architects-of-work",
+        "gitlab": "https://gitlab.com/-/snippets/5969245"
       }
     }
   },
