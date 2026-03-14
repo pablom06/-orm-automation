@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-13T14:22:36.443692",
+      "published_at": "2026-03-14T14:12:32.759864",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1298,6 +1298,46 @@
         "gist": "https://gist.github.com/pablom06/ceeb7d3638117d5e44d4b889ae1aee9d",
         "github_pages": "https://pablom06.github.io/ai-is-changing-labor-why-operations-leaders-must-become-architects-of-work",
         "gitlab": "https://gitlab.com/-/snippets/5969245"
+      }
+    },
+    "63": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages"
+      ],
+      "published_at": "2026-03-14T14:12:37.298504",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
+        "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
+        "telegraph": "https://telegra.ph/Raising-Two-Boys-While-Pursuing-a-Software-Development-Career-A-Fathers-Perspective-03-14",
+        "tumblr": "https://pablomriv.tumblr.com/post/811070972477259776",
+        "gist": "https://gist.github.com/pablom06/828c8d44d97b1d358ca1c51d180c173d",
+        "github_pages": "https://pablom06.github.io/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspect"
+      }
+    },
+    "64": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-14T14:13:08.468605",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-workforce-needs-people-who-think-outside-the-box-4j8j",
+        "hashnode": "https://pablor.hashnode.dev/the-future-workforce-needs-people-who-think-outside-the-box",
+        "telegraph": "https://telegra.ph/The-Future-Workforce-Needs-People-Who-Think-Outside-the-Box-03-14",
+        "tumblr": "https://pablomriv.tumblr.com/post/811071004754509824",
+        "gist": "https://gist.github.com/pablom06/e9ee4176aec5357ce1f5027251623a92",
+        "github_pages": "https://pablom06.github.io/the-future-workforce-needs-people-who-think-outside-the-box",
+        "gitlab": "https://gitlab.com/-/snippets/5969466"
       }
     }
   },
