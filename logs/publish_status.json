@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-14T14:12:32.759864",
+      "published_at": "2026-03-15T14:14:02.416282",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-14T14:12:37.298504",
+      "published_at": "2026-03-15T14:14:02.730199",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1338,6 +1338,48 @@
         "gist": "https://gist.github.com/pablom06/e9ee4176aec5357ce1f5027251623a92",
         "github_pages": "https://pablom06.github.io/the-future-workforce-needs-people-who-think-outside-the-box",
         "gitlab": "https://gitlab.com/-/snippets/5969466"
+      }
+    },
+    "65": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-15T14:14:08.528032",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/how-being-a-father-shaped-my-leadership-style-4afj",
+        "hashnode": "https://pablor.hashnode.dev/how-being-a-father-shaped-my-leadership-style",
+        "telegraph": "https://telegra.ph/How-Being-a-Father-Shaped-My-Leadership-Style-03-15",
+        "tumblr": "https://pablomriv.tumblr.com/post/811161663977963520",
+        "gist": "https://gist.github.com/pablom06/4a3900733f3784fcd83f1557bb24240f",
+        "github_pages": "https://pablom06.github.io/how-being-a-father-shaped-my-leadership-style",
+        "gitlab": "https://gitlab.com/-/snippets/5969674"
+      }
+    },
+    "66": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-15T14:14:39.946554",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/work-life-integration-why-balance-is-the-wrong-goal-when-pursuing-multiple-dreams-17mo",
+        "hashnode": "https://pablor.hashnode.dev/work-life-integration-why-balance-is-the-wrong-goal-when-pursuing-multiple-dreams",
+        "telegraph": "https://telegra.ph/Work-Life-Integration-Why-Balance-Is-the-Wrong-Goal-When-Pursuing-Multiple-Dreams-03-15",
+        "tumblr": "https://pablomriv.tumblr.com/post/811161696732364800",
+        "gist": "https://gist.github.com/pablom06/07cf81b2dd37d13846fe762d3e32bb22",
+        "github_pages": "https://pablom06.github.io/work-life-integration-why-balance-is-the-wrong-goal-when-pursuing-multiple-dream",
+        "gitlab": "https://gitlab.com/-/snippets/5969675"
       }
     }
   },
