@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-15T14:14:02.416282",
+      "published_at": "2026-03-16T14:33:42.019190",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-15T14:14:02.730199",
+      "published_at": "2026-03-16T14:33:42.373442",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1380,6 +1380,48 @@
         "gist": "https://gist.github.com/pablom06/07cf81b2dd37d13846fe762d3e32bb22",
         "github_pages": "https://pablom06.github.io/work-life-integration-why-balance-is-the-wrong-goal-when-pursuing-multiple-dream",
         "gitlab": "https://gitlab.com/-/snippets/5969675"
+      }
+    },
+    "67": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-16T14:33:47.617712",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/why-operations-leaders-who-understand-ai-will-be-indispensable-2enl",
+        "hashnode": "https://pablor.hashnode.dev/why-operations-leaders-who-understand-ai-will-be-indispensable",
+        "telegraph": "https://telegra.ph/Why-Operations-Leaders-Who-Understand-AI-Will-Be-Indispensable-03-16",
+        "tumblr": "https://pablomriv.tumblr.com/post/811253497285722112",
+        "gist": "https://gist.github.com/pablom06/24ed65059e62adc6ce3cda53cbac71d9",
+        "github_pages": "https://pablom06.github.io/why-operations-leaders-who-understand-ai-will-be-indispensable",
+        "gitlab": "https://gitlab.com/-/snippets/5969978"
+      }
+    },
+    "68": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-16T14:34:19.499199",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/teaching-kids-about-resilience-lessons-from-a-father-who-refused-to-quit-2dfg",
+        "hashnode": "https://pablor.hashnode.dev/teaching-kids-about-resilience-lessons-from-a-father-who-refused-to-quit",
+        "telegraph": "https://telegra.ph/Teaching-Kids-About-Resilience-Lessons-from-a-Father-Who-Refused-to-Quit-03-16",
+        "tumblr": "https://pablomriv.tumblr.com/post/811253530098827264",
+        "gist": "https://gist.github.com/pablom06/92ec917c10485b4715dd64ec5288483d",
+        "github_pages": "https://pablom06.github.io/teaching-kids-about-resilience-lessons-from-a-father-who-refused-to-quit",
+        "gitlab": "https://gitlab.com/-/snippets/5969979"
       }
     }
   },
