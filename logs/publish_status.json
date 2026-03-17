@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-16T14:33:42.019190",
+      "published_at": "2026-03-17T14:31:40.718167",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-16T14:33:42.373442",
+      "published_at": "2026-03-17T14:31:41.145131",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1422,6 +1422,48 @@
         "gist": "https://gist.github.com/pablom06/92ec917c10485b4715dd64ec5288483d",
         "github_pages": "https://pablom06.github.io/teaching-kids-about-resilience-lessons-from-a-father-who-refused-to-quit",
         "gitlab": "https://gitlab.com/-/snippets/5969979"
+      }
+    },
+    "69": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-17T14:31:46.317685",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-discipline-of-coding-bootcamps-at-mid-career-what-nobody-tells-you-204h",
+        "hashnode": "https://pablor.hashnode.dev/the-discipline-of-coding-bootcamps-at-mid-career-what-nobody-tells-you",
+        "telegraph": "https://telegra.ph/The-Discipline-of-Coding-Bootcamps-at-Mid-Career-What-Nobody-Tells-You-03-17",
+        "tumblr": "https://pablomriv.tumblr.com/post/811343966839717888",
+        "gist": "https://gist.github.com/pablom06/5e3d3042311d988e5bbb879cda2a4c89",
+        "github_pages": "https://pablom06.github.io/the-discipline-of-coding-bootcamps-at-mid-career-what-nobody-tells-you",
+        "gitlab": "https://gitlab.com/-/snippets/5970246"
+      }
+    },
+    "70": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-17T14:32:17.697594",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/how-ai-augments-experienced-operations-leaders-rather-than-replacing-them-3m4o",
+        "hashnode": "https://pablor.hashnode.dev/how-ai-augments-experienced-operations-leaders-rather-than-replacing-them",
+        "telegraph": "https://telegra.ph/How-AI-Augments-Experienced-Operations-Leaders-Rather-Than-Replacing-Them-03-17",
+        "tumblr": "https://pablomriv.tumblr.com/post/811343999665405952",
+        "gist": "https://gist.github.com/pablom06/fe5f70870e8bd43a7776f3346c63ce46",
+        "github_pages": "https://pablom06.github.io/how-ai-augments-experienced-operations-leaders-rather-than-replacing-them",
+        "gitlab": "https://gitlab.com/-/snippets/5970247"
       }
     }
   },
