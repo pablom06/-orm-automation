@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-17T14:31:40.718167",
+      "published_at": "2026-03-18T14:35:08.967393",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-17T14:31:41.145131",
+      "published_at": "2026-03-18T14:35:09.216935",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1464,6 +1464,48 @@
         "gist": "https://gist.github.com/pablom06/fe5f70870e8bd43a7776f3346c63ce46",
         "github_pages": "https://pablom06.github.io/how-ai-augments-experienced-operations-leaders-rather-than-replacing-them",
         "gitlab": "https://gitlab.com/-/snippets/5970247"
+      }
+    },
+    "71": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-18T14:35:15.277280",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/cross-generational-workforce-management-bridging-boomers-millennials-and-gen-z-1bog",
+        "hashnode": "https://pablor.hashnode.dev/cross-generational-workforce-management-bridging-boomers-millennials-and-gen-z",
+        "telegraph": "https://telegra.ph/Cross-Generational-Workforce-Management-Bridging-Boomers-Millennials-and-Gen-Z-03-18",
+        "tumblr": "https://pablomriv.tumblr.com/post/811434782061985792",
+        "gist": "https://gist.github.com/pablom06/15d21322f116acb380a1a6662121ee2b",
+        "github_pages": "https://pablom06.github.io/cross-generational-workforce-management-bridging-boomers-millennials-and-gen-z",
+        "gitlab": "https://gitlab.com/-/snippets/5970611"
+      }
+    },
+    "72": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-18T14:35:45.484793",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/supply-chain-technology-how-modern-operations-leaders-optimize-procurement-5b31",
+        "hashnode": "https://pablor.hashnode.dev/supply-chain-technology-how-modern-operations-leaders-optimize-procurement",
+        "telegraph": "https://telegra.ph/Supply-Chain-Technology-How-Modern-Operations-Leaders-Optimize-Procurement-03-18",
+        "tumblr": "https://pablomriv.tumblr.com/post/811434814862491648",
+        "gist": "https://gist.github.com/pablom06/27b25ec3dba54bf02e2fc6225fad1801",
+        "github_pages": "https://pablom06.github.io/supply-chain-technology-how-modern-operations-leaders-optimize-procurement",
+        "gitlab": "https://gitlab.com/-/snippets/5970612"
       }
     }
   },
