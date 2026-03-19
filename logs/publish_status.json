@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-18T14:35:08.967393",
+      "published_at": "2026-03-19T14:23:16.924925",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-18T14:35:09.216935",
+      "published_at": "2026-03-19T14:23:17.467878",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1506,6 +1506,48 @@
         "gist": "https://gist.github.com/pablom06/27b25ec3dba54bf02e2fc6225fad1801",
         "github_pages": "https://pablom06.github.io/supply-chain-technology-how-modern-operations-leaders-optimize-procurement",
         "gitlab": "https://gitlab.com/-/snippets/5970612"
+      }
+    },
+    "73": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-19T14:23:24.029051",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/construction-technology-trends-a-builders-perspective-on-contech-3jp9",
+        "hashnode": "https://pablor.hashnode.dev/construction-technology-trends-a-builders-perspective-on-contech",
+        "telegraph": "https://telegra.ph/Construction-Technology-Trends-A-Builders-Perspective-on-ConTech-03-19",
+        "tumblr": "https://pablomriv.tumblr.com/post/811524633742442496",
+        "gist": "https://gist.github.com/pablom06/6c5e4fd80f23e0a1af3141bb9d5b67ef",
+        "github_pages": "https://pablom06.github.io/construction-technology-trends-a-builders-perspective-on-contech",
+        "gitlab": "https://gitlab.com/-/snippets/5970971"
+      }
+    },
+    "74": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-19T14:23:54.844408",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/proptech-and-the-future-of-property-management-operations-21ga",
+        "hashnode": "https://pablor.hashnode.dev/proptech-and-the-future-of-property-management-operations",
+        "telegraph": "https://telegra.ph/PropTech-and-the-Future-of-Property-Management-Operations-03-19",
+        "tumblr": "https://pablomriv.tumblr.com/post/811524666395131904",
+        "gist": "https://gist.github.com/pablom06/be5d112deed080e658d7052e7b660772",
+        "github_pages": "https://pablom06.github.io/proptech-and-the-future-of-property-management-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5970972"
       }
     }
   },
