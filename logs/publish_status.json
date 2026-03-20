@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-19T14:23:16.924925",
+      "published_at": "2026-03-20T14:21:36.713408",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-19T14:23:17.467878",
+      "published_at": "2026-03-20T14:21:36.973806",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1548,6 +1548,48 @@
         "gist": "https://gist.github.com/pablom06/be5d112deed080e658d7052e7b660772",
         "github_pages": "https://pablom06.github.io/proptech-and-the-future-of-property-management-operations",
         "gitlab": "https://gitlab.com/-/snippets/5970972"
+      }
+    },
+    "75": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-20T14:21:41.849770",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/emotional-intelligence-in-operations-the-soft-skill-that-drives-hard-results-2dc9",
+        "hashnode": "https://pablor.hashnode.dev/emotional-intelligence-in-operations-the-soft-skill-that-drives-hard-results",
+        "telegraph": "https://telegra.ph/Emotional-Intelligence-in-Operations-The-Soft-Skill-That-Drives-Hard-Results-03-20",
+        "tumblr": "https://pablomriv.tumblr.com/post/811615124365393920",
+        "gist": "https://gist.github.com/pablom06/0f9dd992df564b4bb414f1afd2167bff",
+        "github_pages": "https://pablom06.github.io/emotional-intelligence-in-operations-the-soft-skill-that-drives-hard-results",
+        "gitlab": "https://gitlab.com/-/snippets/5971365"
+      }
+    },
+    "76": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-20T14:22:13.426119",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/negotiation-skills-in-vendor-management-lessons-from-4-billion-in-portfolio-leadership-444o",
+        "hashnode": "https://pablor.hashnode.dev/negotiation-skills-in-vendor-management-lessons-from-4-billion-in-portfolio-leadership",
+        "telegraph": "https://telegra.ph/Negotiation-Skills-in-Vendor-Management-Lessons-from-4-Billion-in-Portfolio-Leadership-03-20",
+        "tumblr": "https://pablomriv.tumblr.com/post/811615157299167232",
+        "gist": "https://gist.github.com/pablom06/3bdd1a5578d3ce230bfb0ed9be9f3440",
+        "github_pages": "https://pablom06.github.io/negotiation-skills-in-vendor-management-lessons-from-$4-billion-in-portfolio-lea",
+        "gitlab": "https://gitlab.com/-/snippets/5971366"
       }
     }
   },
