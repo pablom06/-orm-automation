@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-20T14:21:36.713408",
+      "published_at": "2026-03-21T14:10:29.060456",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-20T14:21:36.973806",
+      "published_at": "2026-03-21T14:10:29.435517",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1590,6 +1590,48 @@
         "gist": "https://gist.github.com/pablom06/3bdd1a5578d3ce230bfb0ed9be9f3440",
         "github_pages": "https://pablom06.github.io/negotiation-skills-in-vendor-management-lessons-from-$4-billion-in-portfolio-lea",
         "gitlab": "https://gitlab.com/-/snippets/5971366"
+      }
+    },
+    "77": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-21T14:10:35.557807",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/building-company-culture-in-distributed-teams-an-operations-leaders-playbook-59ek",
+        "hashnode": "https://pablor.hashnode.dev/building-company-culture-in-distributed-teams-an-operations-leaders-playbook",
+        "telegraph": "https://telegra.ph/Building-Company-Culture-in-Distributed-Teams-An-Operations-Leaders-Playbook-03-21",
+        "tumblr": "https://pablomriv.tumblr.com/post/811705022070030336",
+        "gist": "https://gist.github.com/pablom06/768fb1755deb81ffa5363775f56d939a",
+        "github_pages": "https://pablom06.github.io/building-company-culture-in-distributed-teams-an-operations-leaders-playbook",
+        "gitlab": "https://gitlab.com/-/snippets/5971573"
+      }
+    },
+    "78": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-21T14:11:07.490930",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-value-of-a-liberal-arts-education-in-a-tech-driven-career-1ebm",
+        "hashnode": "https://pablor.hashnode.dev/the-value-of-a-liberal-arts-education-in-a-tech-driven-career",
+        "telegraph": "https://telegra.ph/The-Value-of-a-Liberal-Arts-Education-in-a-Tech-Driven-Career-03-21",
+        "tumblr": "https://pablomriv.tumblr.com/post/811705055409487872",
+        "gist": "https://gist.github.com/pablom06/0faa1927ac97a66a2bf2976550c91b81",
+        "github_pages": "https://pablom06.github.io/the-value-of-a-liberal-arts-education-in-a-tech-driven-career",
+        "gitlab": "https://gitlab.com/-/snippets/5971574"
       }
     }
   },
