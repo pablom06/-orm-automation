@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-21T14:10:29.060456",
+      "published_at": "2026-03-22T14:11:56.024778",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-21T14:10:29.435517",
+      "published_at": "2026-03-22T14:11:56.378324",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1632,6 +1632,48 @@
         "gist": "https://gist.github.com/pablom06/0faa1927ac97a66a2bf2976550c91b81",
         "github_pages": "https://pablom06.github.io/the-value-of-a-liberal-arts-education-in-a-tech-driven-career",
         "gitlab": "https://gitlab.com/-/snippets/5971574"
+      }
+    },
+    "79": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-22T14:12:01.534354",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-american-dream-through-operations-an-immigrants-perspective-on-building-a-career-5c41",
+        "hashnode": "https://pablor.hashnode.dev/the-american-dream-through-operations-an-immigrants-perspective-on-building-a-career",
+        "telegraph": "https://telegra.ph/The-American-Dream-Through-Operations-An-Immigrants-Perspective-on-Building-a-Career-03-22",
+        "tumblr": "https://pablomriv.tumblr.com/post/811795709898752000",
+        "gist": "https://gist.github.com/pablom06/9c83c47f285ec3bddd9b24c880d2d922",
+        "github_pages": "https://pablom06.github.io/the-american-dream-through-operations-an-immigrants-perspective-on-building-a-ca",
+        "gitlab": "https://gitlab.com/-/snippets/5971753"
+      }
+    },
+    "80": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-22T14:12:32.553194",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/community-involvement-and-civic-leadership-why-operations-leaders-should-serve-2pea",
+        "hashnode": "https://pablor.hashnode.dev/community-involvement-and-civic-leadership-why-operations-leaders-should-serve",
+        "telegraph": "https://telegra.ph/Community-Involvement-and-Civic-Leadership-Why-Operations-Leaders-Should-Serve-03-22",
+        "tumblr": "https://pablomriv.tumblr.com/post/811795742533517313",
+        "gist": "https://gist.github.com/pablom06/f7a35e7f7042d5b9e3359c46eb852435",
+        "github_pages": "https://pablom06.github.io/community-involvement-and-civic-leadership-why-operations-leaders-should-serve",
+        "gitlab": "https://gitlab.com/-/snippets/5971754"
       }
     }
   },
