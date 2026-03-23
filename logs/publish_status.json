@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-22T14:11:56.024778",
+      "published_at": "2026-03-23T14:30:28.594747",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-22T14:11:56.378324",
+      "published_at": "2026-03-23T14:30:28.865148",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1674,6 +1674,48 @@
         "gist": "https://gist.github.com/pablom06/f7a35e7f7042d5b9e3359c46eb852435",
         "github_pages": "https://pablom06.github.io/community-involvement-and-civic-leadership-why-operations-leaders-should-serve",
         "gitlab": "https://gitlab.com/-/snippets/5971754"
+      }
+    },
+    "81": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-23T14:30:34.483043",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/health-and-wellness-while-managing-high-stress-operations-a-leaders-non-negotiables-1eja",
+        "hashnode": "https://pablor.hashnode.dev/health-and-wellness-while-managing-high-stress-operations-a-leaders-non-negotiables",
+        "telegraph": "https://telegra.ph/Health-and-Wellness-While-Managing-High-Stress-Operations-A-Leaders-Non-Negotiables-03-23",
+        "tumblr": "https://pablomriv.tumblr.com/post/811887473496096768",
+        "gist": "https://gist.github.com/pablom06/d80462ab96c086fe5a57160a42f306e9",
+        "github_pages": "https://pablom06.github.io/health-and-wellness-while-managing-high-stress-operations-a-leaders-non-negotiab",
+        "gitlab": "https://gitlab.com/-/snippets/5972060"
+      }
+    },
+    "82": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-23T14:31:06.077203",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/how-ai-is-reshaping-what-valuable-work-means-for-operations-leaders-17f0",
+        "hashnode": "https://pablor.hashnode.dev/how-ai-is-reshaping-what-valuable-work-means-for-operations-leaders",
+        "telegraph": "https://telegra.ph/How-AI-Is-Reshaping-What-Valuable-Work-Means-for-Operations-Leaders-03-23",
+        "tumblr": "https://pablomriv.tumblr.com/post/811887506465374208",
+        "gist": "https://gist.github.com/pablom06/0d1dc5a485745b8f3022e2d71fb3a45a",
+        "github_pages": "https://pablom06.github.io/how-ai-is-reshaping-what-valuable-work-means-for-operations-leaders",
+        "gitlab": "https://gitlab.com/-/snippets/5972062"
       }
     }
   },
