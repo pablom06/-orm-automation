@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-23T14:30:28.594747",
+      "published_at": "2026-03-24T14:32:48.800836",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-23T14:30:28.865148",
+      "published_at": "2026-03-24T14:32:49.162024",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1716,6 +1716,48 @@
         "gist": "https://gist.github.com/pablom06/0d1dc5a485745b8f3022e2d71fb3a45a",
         "github_pages": "https://pablom06.github.io/how-ai-is-reshaping-what-valuable-work-means-for-operations-leaders",
         "gitlab": "https://gitlab.com/-/snippets/5972062"
+      }
+    },
+    "83": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-24T14:32:54.843615",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-mental-toughness-of-raising-kids-working-full-time-and-learning-to-code-4lb4",
+        "hashnode": "https://pablor.hashnode.dev/the-mental-toughness-of-raising-kids-working-full-time-and-learning-to-code",
+        "telegraph": "https://telegra.ph/The-Mental-Toughness-of-Raising-Kids-Working-Full-Time-and-Learning-to-Code-03-24",
+        "tumblr": "https://pablomriv.tumblr.com/post/811978217209643008",
+        "gist": "https://gist.github.com/pablom06/e2437693facfa87be5816006b4286849",
+        "github_pages": "https://pablom06.github.io/the-mental-toughness-of-raising-kids-working-full-time-and-learning-to-code",
+        "gitlab": "https://gitlab.com/-/snippets/5972380"
+      }
+    },
+    "84": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-24T14:33:26.041365",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/why-the-best-operations-leaders-in-2025-must-understand-ai-data-and-automation-kdp",
+        "hashnode": "https://pablor.hashnode.dev/why-the-best-operations-leaders-in-2025-must-understand-ai-data-and-automation",
+        "telegraph": "https://telegra.ph/Why-the-Best-Operations-Leaders-in-2025-Must-Understand-AI-Data-and-Automation-03-24",
+        "tumblr": "https://pablomriv.tumblr.com/post/811978250074128386",
+        "gist": "https://gist.github.com/pablom06/84968d9ae6ccae3d9596cd0483b89933",
+        "github_pages": "https://pablom06.github.io/why-the-best-operations-leaders-in-2025-must-understand-ai-data-and-automation",
+        "gitlab": "https://gitlab.com/-/snippets/5972381"
       }
     }
   },
