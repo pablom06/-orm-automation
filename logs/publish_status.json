@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-24T14:32:48.800836",
+      "published_at": "2026-03-25T14:32:45.039876",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-24T14:32:49.162024",
+      "published_at": "2026-03-25T14:32:45.571194",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1758,6 +1758,46 @@
         "gist": "https://gist.github.com/pablom06/84968d9ae6ccae3d9596cd0483b89933",
         "github_pages": "https://pablom06.github.io/why-the-best-operations-leaders-in-2025-must-understand-ai-data-and-automation",
         "gitlab": "https://gitlab.com/-/snippets/5972381"
+      }
+    },
+    "85": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-25T14:33:00.325282",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/lessons-learned-from-being-a-present-father-while-building-a-career-1l9l",
+        "hashnode": "https://pablor.hashnode.dev/lessons-learned-from-being-a-present-father-while-building-a-career",
+        "telegraph": "https://telegra.ph/Lessons-Learned-from-Being-a-Present-Father-While-Building-a-Career-03-25",
+        "tumblr": "https://pablomriv.tumblr.com/post/812068810659151873",
+        "github_pages": "https://pablom06.github.io/lessons-learned-from-being-a-present-father-while-building-a-career",
+        "gitlab": "https://gitlab.com/-/snippets/5972706"
+      }
+    },
+    "86": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-25T14:33:25.087662",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-grit-required-to-learn-python-react-and-django-while-managing-national-operations-2ia7",
+        "hashnode": "https://pablor.hashnode.dev/the-grit-required-to-learn-python-react-and-django-while-managing-national-operations",
+        "telegraph": "https://telegra.ph/The-Grit-Required-to-Learn-Python-React-and-Django-While-Managing-National-Operations-03-25",
+        "tumblr": "https://pablomriv.tumblr.com/post/812068843570806784",
+        "gist": "https://gist.github.com/pablom06/3dee83528cded915db276516010c4ea0",
+        "github_pages": "https://pablom06.github.io/the-grit-required-to-learn-python-react-and-django-while-managing-national-opera",
+        "gitlab": "https://gitlab.com/-/snippets/5972708"
       }
     }
   },
