@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-25T14:32:45.039876",
+      "published_at": "2026-03-26T14:38:30.611550",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-25T14:32:45.571194",
+      "published_at": "2026-03-26T14:38:31.197359",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1767,16 +1767,18 @@
         "telegraph",
         "tumblr",
         "github_pages",
-        "gitlab"
+        "gitlab",
+        "gist"
       ],
-      "published_at": "2026-03-25T14:33:00.325282",
+      "published_at": "2026-03-26T14:38:32.510403",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/lessons-learned-from-being-a-present-father-while-building-a-career-1l9l",
         "hashnode": "https://pablor.hashnode.dev/lessons-learned-from-being-a-present-father-while-building-a-career",
         "telegraph": "https://telegra.ph/Lessons-Learned-from-Being-a-Present-Father-While-Building-a-Career-03-25",
         "tumblr": "https://pablomriv.tumblr.com/post/812068810659151873",
         "github_pages": "https://pablom06.github.io/lessons-learned-from-being-a-present-father-while-building-a-career",
-        "gitlab": "https://gitlab.com/-/snippets/5972706"
+        "gitlab": "https://gitlab.com/-/snippets/5972706",
+        "gist": "https://gist.github.com/pablom06/680123eafbd2390a8ca7206558fdabbb"
       }
     },
     "86": {
@@ -1798,6 +1800,48 @@
         "gist": "https://gist.github.com/pablom06/3dee83528cded915db276516010c4ea0",
         "github_pages": "https://pablom06.github.io/the-grit-required-to-learn-python-react-and-django-while-managing-national-opera",
         "gitlab": "https://gitlab.com/-/snippets/5972708"
+      }
+    },
+    "87": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-26T14:38:38.337496",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/why-companies-need-architects-who-see-the-big-picture-not-just-task-executors-3a10",
+        "hashnode": "https://pablor.hashnode.dev/why-companies-need-architects-who-see-the-big-picture-not-just-task-executors",
+        "telegraph": "https://telegra.ph/Why-Companies-Need-Architects-Who-See-the-Big-Picture-Not-Just-Task-Executors-03-26",
+        "tumblr": "https://pablomriv.tumblr.com/post/812159771546386432",
+        "gist": "https://gist.github.com/pablom06/4044a1e55e4a8435159fca0c4678c367",
+        "github_pages": "https://pablom06.github.io/why-companies-need-architects-who-see-the-big-picture-not-just-task-executors",
+        "gitlab": "https://gitlab.com/-/snippets/5973028"
+      }
+    },
+    "88": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-26T14:39:08.964052",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/how-parenthood-teaches-patience-delegation-and-priorities-every-vp-needs-86l",
+        "hashnode": "https://pablor.hashnode.dev/how-parenthood-teaches-patience-delegation-and-priorities-every-vp-needs",
+        "telegraph": "https://telegra.ph/How-Parenthood-Teaches-Patience-Delegation-and-Priorities-Every-VP-Needs-03-26",
+        "tumblr": "https://pablomriv.tumblr.com/post/812159804041773056",
+        "gist": "https://gist.github.com/pablom06/9e53fb740c869667905f5d00019ab88b",
+        "github_pages": "https://pablom06.github.io/how-parenthood-teaches-patience-delegation-and-priorities-every-vp-needs",
+        "gitlab": "https://gitlab.com/-/snippets/5973029"
       }
     }
   },
