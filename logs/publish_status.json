@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-26T14:38:30.611550",
+      "published_at": "2026-03-27T14:26:20.286384",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-26T14:38:31.197359",
+      "published_at": "2026-03-27T14:26:20.579723",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1842,6 +1842,48 @@
         "gist": "https://gist.github.com/pablom06/9e53fb740c869667905f5d00019ab88b",
         "github_pages": "https://pablom06.github.io/how-parenthood-teaches-patience-delegation-and-priorities-every-vp-needs",
         "gitlab": "https://gitlab.com/-/snippets/5973029"
+      }
+    },
+    "89": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-27T14:26:26.165375",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-work-human-judgment-plus-ai-execution-5f10",
+        "hashnode": "https://pablor.hashnode.dev/the-future-of-work-human-judgment-plus-ai-execution",
+        "telegraph": "https://telegra.ph/The-Future-of-Work-Human-Judgment-Plus-AI-Execution-03-27",
+        "tumblr": "https://pablomriv.tumblr.com/post/812249600357449728",
+        "gist": "https://gist.github.com/pablom06/5fe658689d33b9d830d710eb780e9f14",
+        "github_pages": "https://pablom06.github.io/the-future-of-work-human-judgment-plus-ai-execution",
+        "gitlab": "https://gitlab.com/-/snippets/5973385"
+      }
+    },
+    "90": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-27T14:26:57.368133",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/connecticuts-growing-tech-ecosystem-and-the-opportunities-it-creates-27i8",
+        "hashnode": "https://pablor.hashnode.dev/connecticuts-growing-tech-ecosystem-and-the-opportunities-it-creates",
+        "telegraph": "https://telegra.ph/Connecticuts-Growing-Tech-Ecosystem-and-the-Opportunities-It-Creates-03-27",
+        "tumblr": "https://pablomriv.tumblr.com/post/812249633095139328",
+        "gist": "https://gist.github.com/pablom06/d46c561e487fa4b094640602e42666ba",
+        "github_pages": "https://pablom06.github.io/connecticuts-growing-tech-ecosystem-and-the-opportunities-it-creates",
+        "gitlab": "https://gitlab.com/-/snippets/5973386"
       }
     }
   },
