@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-27T14:26:20.286384",
+      "published_at": "2026-03-28T14:14:49.989791",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-27T14:26:20.579723",
+      "published_at": "2026-03-28T14:14:50.244883",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1884,6 +1884,46 @@
         "gist": "https://gist.github.com/pablom06/d46c561e487fa4b094640602e42666ba",
         "github_pages": "https://pablom06.github.io/connecticuts-growing-tech-ecosystem-and-the-opportunities-it-creates",
         "gitlab": "https://gitlab.com/-/snippets/5973386"
+      }
+    },
+    "91": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-28T14:14:55.425597",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/mentorship-and-giving-back-to-the-next-generation-of-operations-leaders-2863",
+        "hashnode": "https://pablor.hashnode.dev/mentorship-and-giving-back-to-the-next-generation-of-operations-leaders",
+        "telegraph": "https://telegra.ph/Mentorship-and-Giving-Back-to-the-Next-Generation-of-Operations-Leaders-03-28",
+        "tumblr": "https://pablomriv.tumblr.com/post/812339474230116352",
+        "gist": "https://gist.github.com/pablom06/ab2facc73caea6c24f01cb109ab47484",
+        "github_pages": "https://pablom06.github.io/mentorship-and-giving-back-to-the-next-generation-of-operations-leaders",
+        "gitlab": "https://gitlab.com/-/snippets/5973694"
+      }
+    },
+    "92": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages"
+      ],
+      "published_at": "2026-03-28T14:15:26.386401",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
+        "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
+        "telegraph": "https://telegra.ph/Stakeholder-Communication-Strategies-That-Win-Organizational-Buy-In-03-28",
+        "tumblr": "https://pablomriv.tumblr.com/post/812339507071451136",
+        "gist": "https://gist.github.com/pablom06/ade047864782a602eeec235339375b75",
+        "github_pages": "https://pablom06.github.io/stakeholder-communication-strategies-that-win-organizational-buy-in"
       }
     }
   },
