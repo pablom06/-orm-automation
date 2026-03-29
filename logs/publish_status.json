@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-28T14:14:49.989791",
+      "published_at": "2026-03-29T14:15:03.377064",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-28T14:14:50.244883",
+      "published_at": "2026-03-29T14:15:03.999307",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1916,7 +1916,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-28T14:15:26.386401",
+      "published_at": "2026-03-29T14:15:04.299337",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -1924,6 +1924,48 @@
         "tumblr": "https://pablomriv.tumblr.com/post/812339507071451136",
         "gist": "https://gist.github.com/pablom06/ade047864782a602eeec235339375b75",
         "github_pages": "https://pablom06.github.io/stakeholder-communication-strategies-that-win-organizational-buy-in"
+      }
+    },
+    "93": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-29T14:15:10.047174",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/measuring-the-roi-of-operations-technology-investments-4hl8",
+        "hashnode": "https://pablor.hashnode.dev/measuring-the-roi-of-operations-technology-investments",
+        "telegraph": "https://telegra.ph/Measuring-the-ROI-of-Operations-Technology-Investments-03-29",
+        "tumblr": "https://pablomriv.tumblr.com/post/812430085815746560",
+        "gist": "https://gist.github.com/pablom06/faaac88960e1623de22ddfd412c61b2d",
+        "github_pages": "https://pablom06.github.io/measuring-the-roi-of-operations-technology-investments",
+        "gitlab": "https://gitlab.com/-/snippets/5973874"
+      }
+    },
+    "94": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-29T14:15:41.348312",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/regulatory-compliance-in-multi-state-operations-a-practical-guide-jjc",
+        "hashnode": "https://pablor.hashnode.dev/regulatory-compliance-in-multi-state-operations-a-practical-guide",
+        "telegraph": "https://telegra.ph/Regulatory-Compliance-in-Multi-State-Operations-A-Practical-Guide-03-29",
+        "tumblr": "https://pablomriv.tumblr.com/post/812430118857359360",
+        "gist": "https://gist.github.com/pablom06/4dfdb110b0dd29a3003477c53227a592",
+        "github_pages": "https://pablom06.github.io/regulatory-compliance-in-multi-state-operations-a-practical-guide",
+        "gitlab": "https://gitlab.com/-/snippets/5973875"
       }
     }
   },
