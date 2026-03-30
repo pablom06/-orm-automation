@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-29T14:15:03.377064",
+      "published_at": "2026-03-30T14:38:03.321976",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-29T14:15:03.999307",
+      "published_at": "2026-03-30T14:38:03.695640",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1916,7 +1916,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-29T14:15:04.299337",
+      "published_at": "2026-03-30T14:38:04.038705",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -1966,6 +1966,48 @@
         "gist": "https://gist.github.com/pablom06/4dfdb110b0dd29a3003477c53227a592",
         "github_pages": "https://pablom06.github.io/regulatory-compliance-in-multi-state-operations-a-practical-guide",
         "gitlab": "https://gitlab.com/-/snippets/5973875"
+      }
+    },
+    "95": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-30T14:38:10.353685",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/fleet-management-and-logistics-optimization-for-distributed-operations-4k8l",
+        "hashnode": "https://pablor.hashnode.dev/fleet-management-and-logistics-optimization-for-distributed-operations",
+        "telegraph": "https://telegra.ph/Fleet-Management-and-Logistics-Optimization-for-Distributed-Operations-03-30",
+        "tumblr": "https://pablomriv.tumblr.com/post/812522129829642240",
+        "gist": "https://gist.github.com/pablom06/0e2ba301a9dd7a4bc4a750f513bf66c7",
+        "github_pages": "https://pablom06.github.io/fleet-management-and-logistics-optimization-for-distributed-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5974197"
+      }
+    },
+    "96": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-30T14:38:41.497647",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/energy-efficiency-in-property-management-an-operations-leaders-perspective-438a",
+        "hashnode": "https://pablor.hashnode.dev/energy-efficiency-in-property-management-an-operations-leaders-perspective",
+        "telegraph": "https://telegra.ph/Energy-Efficiency-in-Property-Management-An-Operations-Leaders-Perspective-03-30",
+        "tumblr": "https://pablomriv.tumblr.com/post/812522162536710144",
+        "gist": "https://gist.github.com/pablom06/1a93cd4e76133c88536a07a030300aa0",
+        "github_pages": "https://pablom06.github.io/energy-efficiency-in-property-management-an-operations-leaders-perspective",
+        "gitlab": "https://gitlab.com/-/snippets/5974198"
       }
     }
   },
