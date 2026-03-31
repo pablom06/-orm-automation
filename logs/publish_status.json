@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-30T14:38:03.321976",
+      "published_at": "2026-03-31T14:37:02.004089",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-30T14:38:03.695640",
+      "published_at": "2026-03-31T14:37:02.354634",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1916,7 +1916,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-30T14:38:04.038705",
+      "published_at": "2026-03-31T14:37:02.689745",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2008,6 +2008,48 @@
         "gist": "https://gist.github.com/pablom06/1a93cd4e76133c88536a07a030300aa0",
         "github_pages": "https://pablom06.github.io/energy-efficiency-in-property-management-an-operations-leaders-perspective",
         "gitlab": "https://gitlab.com/-/snippets/5974198"
+      }
+    },
+    "97": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-31T14:37:09.508359",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-psychology-of-organizational-change-and-why-most-transformations-fail-3kk5",
+        "hashnode": "https://pablor.hashnode.dev/the-psychology-of-organizational-change-and-why-most-transformations-fail",
+        "telegraph": "https://telegra.ph/The-Psychology-of-Organizational-Change-and-Why-Most-Transformations-Fail-03-31",
+        "tumblr": "https://pablomriv.tumblr.com/post/812612662328541184",
+        "gist": "https://gist.github.com/pablom06/f15b08e1f89bd70297d80b882f8195a5",
+        "github_pages": "https://pablom06.github.io/the-psychology-of-organizational-change-and-why-most-transformations-fail",
+        "gitlab": "https://gitlab.com/-/snippets/5974584"
+      }
+    },
+    "98": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-03-31T14:37:39.706636",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/building-trust-with-frontline-workers-lessons-from-the-field-3gi0",
+        "hashnode": "https://pablor.hashnode.dev/building-trust-with-frontline-workers-lessons-from-the-field",
+        "telegraph": "https://telegra.ph/Building-Trust-with-Frontline-Workers-Lessons-from-the-Field-03-31",
+        "tumblr": "https://pablomriv.tumblr.com/post/812612695059742720",
+        "gist": "https://gist.github.com/pablom06/258da10bc6e6fa8c8da380da88a182cc",
+        "github_pages": "https://pablom06.github.io/building-trust-with-frontline-workers-lessons-from-the-field",
+        "gitlab": "https://gitlab.com/-/snippets/5974585"
       }
     }
   },
