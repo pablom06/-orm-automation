@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-31T14:37:02.004089",
+      "published_at": "2026-04-01T14:38:42.566132",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-31T14:37:02.354634",
+      "published_at": "2026-04-01T14:38:42.839013",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1916,7 +1916,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-03-31T14:37:02.689745",
+      "published_at": "2026-04-01T14:38:43.335432",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2050,6 +2050,46 @@
         "gist": "https://gist.github.com/pablom06/258da10bc6e6fa8c8da380da88a182cc",
         "github_pages": "https://pablom06.github.io/building-trust-with-frontline-workers-lessons-from-the-field",
         "gitlab": "https://gitlab.com/-/snippets/5974585"
+      }
+    },
+    "99": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-01T14:38:54.414015",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/how-theology-studies-inform-ethical-leadership-in-business-de0",
+        "hashnode": "https://pablor.hashnode.dev/how-theology-studies-inform-ethical-leadership-in-business",
+        "telegraph": "https://telegra.ph/How-Theology-Studies-Inform-Ethical-Leadership-in-Business-04-01",
+        "tumblr": "https://pablomriv.tumblr.com/post/812703369682731008",
+        "gist": "https://gist.github.com/pablom06/0fc5e212c6c84c8e8e290861bc99fb8d",
+        "github_pages": "https://pablom06.github.io/how-theology-studies-inform-ethical-leadership-in-business",
+        "gitlab": "https://gitlab.com/-/snippets/5974881"
+      }
+    },
+    "100": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages"
+      ],
+      "published_at": "2026-04-01T14:39:20.562219",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
+        "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
+        "telegraph": "https://telegra.ph/Financial-Literacy-for-Operations-Professionals-What-Every-Leader-Must-Know-04-01",
+        "tumblr": "https://pablomriv.tumblr.com/post/812703397952323584",
+        "gist": "https://gist.github.com/pablom06/c6b3d869fbc4ba4889a7040bfb4812d2",
+        "github_pages": "https://pablom06.github.io/financial-literacy-for-operations-professionals-what-every-leader-must-know"
       }
     }
   },
