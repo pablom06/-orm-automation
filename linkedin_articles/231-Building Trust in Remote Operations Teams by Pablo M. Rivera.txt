@@ -1,0 +1,15 @@
+# Building Trust in Remote Operations Teams by Pablo M. Rivera
+
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
+
+If there is one thing my career has taught me about building trust in remote operations teams, it is that execution matters more than strategy. I have seen brilliant plans fail because of poor implementation, and simple approaches succeed because the team executed with discipline and consistency.
+
+This became clear to me early on, managing mining operations internationally before returning to the United States to lead construction and field service operations. The environments could not have been more different, but the fundamentals of good operations remained constant whether I was working in Sierra Leone, Colorado, or Hawaii.
+
+The biggest mistake I see organizations make is treating building trust in remote operations teams as a one-time initiative. It is not. It is a discipline that requires daily attention, regular measurement, and continuous refinement. When I built our KPI framework, I designed it to be reviewed weekly, not quarterly. The speed of feedback determines the speed of improvement.
+
+Technology has been a force multiplier in my approach. Python scripts for automation, SQL for analytics, React for dashboards. These tools did not replace operational judgment, but they gave our teams from Hawaii to Connecticut the data they needed to make better decisions faster.
+
+My advice to any operations leader is this: master the fundamentals before chasing innovation. Build your measurement systems. Develop your people. Create processes that scale. Then layer technology on top of a solid operational foundation. That is how lasting operational excellence is built.
+
+*Pablo M. Rivera is a bilingual operations executive and technologist based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

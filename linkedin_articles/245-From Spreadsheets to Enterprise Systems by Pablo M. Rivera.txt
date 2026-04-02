@@ -1,0 +1,15 @@
+# From Spreadsheets to Enterprise Systems by Pablo M. Rivera
+
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
+
+In my 25 years leading operations across 12 states, few challenges have been as rewarding to solve as from spreadsheets to enterprise systems. When I first encountered this issue while scaling our Colorado operations, I realized that conventional approaches would not cut it for an organization of our complexity.
+
+What I brought to the table was an unusual combination of skills. My economics background from Yale gave me analytical frameworks. My years in the field gave me practical understanding. And my recent training in full-stack development gave me the technical vocabulary to work directly with engineering teams.
+
+The approach I developed started with listening. I visited every market, from our Hawaii operations to our teams in New England, and documented how each location handled their processes. The variation was staggering, and it revealed both problems and best practices that nobody at headquarters knew about.
+
+Implementation required patience. Change management is harder than technology deployment. I learned this the hard way during a Salesforce rollout that technically succeeded but initially failed in adoption. The lesson was clear: involve your people early, communicate the why before the what, and celebrate small wins.
+
+Today, when I advise organizations on from spreadsheets to enterprise systems, I always start with the same question: have you talked to the people who will actually use this every day? From field technicians in Colorado to project managers in Hawaii, the frontline perspective is where operational truth lives.
+
+*Pablo M. Rivera is a bilingual operations executive and technologist based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

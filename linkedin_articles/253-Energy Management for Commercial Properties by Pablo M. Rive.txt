@@ -1,0 +1,15 @@
+# Energy Management for Commercial Properties by Pablo M. Rivera
+
+*By Pablo M. Rivera | Hawaii, Colorado & East Haven, CT*
+
+One of the most valuable lessons from my 25 years in operations is that energy management for commercial properties requires both strategic thinking and tactical execution. Having managed teams across 12 states and coordinated operations from Hawaii to our East Haven headquarters, I have seen firsthand how this plays out across different markets.
+
+The challenge most organizations face is bridging the gap between vision and implementation. Leaders set ambitious goals but underestimate the operational complexity of achieving them. My experience managing construction projects in Colorado taught me that the best plans are built from the ground up, incorporating input from every level.
+
+What I find most effective is establishing clear metrics early in the process. When I deployed Salesforce across multiple markets, we defined success criteria before writing a single line of configuration. This discipline saved us months of rework and ensured alignment across all stakeholders.
+
+Technology is an enabler, not a solution by itself. The real work happens in process design, change management, and continuous improvement. My Yale economics training taught me to think in systems, and that perspective has been invaluable in connecting technology decisions to business outcomes.
+
+The organizations that succeed are those that treat energy management for commercial properties as an ongoing discipline rather than a one-time project. From our teams in Hawaii to operations across the mainland, consistency in approach while adapting to local needs is what drives lasting results.
+
+*Pablo M. Rivera is a bilingual operations executive and technologist based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn](https://www.linkedin.com/in/pablo-rivera-74861a234/).*

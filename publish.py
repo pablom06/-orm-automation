@@ -118,10 +118,17 @@ def load_articles():
 
 
 def get_publish_date(day_num, config):
-    """Calculate the publish date for a given day number (2 articles per day)."""
+    """Calculate the publish date for a given day number.
+    Articles 1-88: 2 per day (original schedule, already published).
+    Articles 89+: 3 per day starting from Mar 27, 2026."""
     start = datetime.strptime(config["start_date"], "%Y-%m-%d")
-    # With 2 articles per day: articles 1-2 on day 0, 3-4 on day 1, etc.
-    offset = (day_num - 1) // 2
+    if day_num <= 88:
+        # Original 2/day schedule for already-published articles
+        offset = (day_num - 1) // 2
+    else:
+        # 3/day starting from day after article 88's publish date
+        # Article 88 at offset (88-1)//2 = 43 (Mar 26), so 89+ starts at offset 44 (Mar 27)
+        offset = 44 + (day_num - 89) // 3
     if config["frequency"] == "every_other_day":
         offset *= 2
     return start + timedelta(days=offset)
