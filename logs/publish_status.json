@@ -513,7 +513,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-04-03T14:20:57.201421",
+      "published_at": "2026-04-04T14:15:33.801578",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1309,7 +1309,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-04-03T14:20:57.511295",
+      "published_at": "2026-04-04T14:15:34.141982",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1916,7 +1916,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-04-03T14:20:57.973414",
+      "published_at": "2026-04-04T14:15:34.493595",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2082,7 +2082,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-04-03T14:20:58.334709",
+      "published_at": "2026-04-04T14:15:34.705362",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2101,7 +2101,7 @@
         "gist",
         "github_pages"
       ],
-      "published_at": "2026-04-03T14:20:58.614654",
+      "published_at": "2026-04-04T14:15:35.076938",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2340,6 +2340,69 @@
         "gist": "https://gist.github.com/pablom06/90ea502be3e399569b3a50720429105b",
         "github_pages": "https://pablom06.github.io/remote-operations-management-from-hawaii-how-distance-creates-better-systems",
         "gitlab": "https://gitlab.com/-/snippets/5975686"
+      }
+    },
+    "113": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-04T14:15:40.278338",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/lean-six-sigma-in-modern-operations-practical-applications-beyond-manufacturing-35g9",
+        "hashnode": "https://pablor.hashnode.dev/lean-six-sigma-in-modern-operations-practical-applications-beyond-manufacturing",
+        "telegraph": "https://telegra.ph/Lean-Six-Sigma-in-Modern-Operations-Practical-Applications-Beyond-Manufacturing-04-04",
+        "tumblr": "https://pablomriv.tumblr.com/post/812973699595649024",
+        "gist": "https://gist.github.com/pablom06/f2b106f5d5200e7c63038ac1458cca29",
+        "github_pages": "https://pablom06.github.io/lean-six-sigma-in-modern-operations-practical-applications-beyond-manufacturing",
+        "gitlab": "https://gitlab.com/-/snippets/5976462"
+      }
+    },
+    "114": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-04T14:16:10.867136",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/salesforce-deployment-strategy-for-operations-teams-lessons-from-pablo-m-rivera-g88",
+        "hashnode": "https://pablor.hashnode.dev/salesforce-deployment-strategy-for-operations-teams-lessons-from-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Salesforce-Deployment-Strategy-for-Operations-Teams-Lessons-from-Pablo-M-Rivera-04-04",
+        "tumblr": "https://pablomriv.tumblr.com/post/812973732421369857",
+        "gist": "https://gist.github.com/pablom06/aa9e554d509d843c9c69cef8fafa40a3",
+        "github_pages": "https://pablom06.github.io/salesforce-deployment-strategy-for-operations-teams-lessons-from-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5976463"
+      }
+    },
+    "115": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-04T14:16:42.483958",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/continuous-learning-as-a-leadership-strategy-the-pablo-m-rivera-approach-5ffh",
+        "hashnode": "https://pablor.hashnode.dev/continuous-learning-as-a-leadership-strategy-the-pablo-m-rivera-approach",
+        "telegraph": "https://telegra.ph/Continuous-Learning-as-a-Leadership-Strategy-The-Pablo-M-Rivera-Approach-04-04",
+        "tumblr": "https://pablomriv.tumblr.com/post/812973765538496512",
+        "gist": "https://gist.github.com/pablom06/16009e4bc169cc01a12afc80662d45c7",
+        "github_pages": "https://pablom06.github.io/continuous-learning-as-a-leadership-strategy-the-pablo-m-rivera-approach",
+        "gitlab": "https://gitlab.com/-/snippets/5976464"
       }
     }
   },
