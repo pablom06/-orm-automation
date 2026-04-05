@@ -104,6 +104,14 @@ def get_config():
         "frequency": os.environ.get("FREQUENCY", "daily"),  # "daily" or "every_other_day"
         "publish_time": os.environ.get("PUBLISH_TIME", "09:00"),  # 24hr format
         "auto_open_linkedin": os.environ.get("AUTO_OPEN_LINKEDIN", "true").lower() == "true",
+        # Substack
+        "substack_email": os.environ.get("SUBSTACK_EMAIL", ""),
+        "substack_password": os.environ.get("SUBSTACK_PASSWORD", ""),
+        "substack_pub_url": os.environ.get("SUBSTACK_PUB_URL", ""),  # e.g. "pablomrivera.substack.com"
+        # YouTube
+        "youtube_channel_url": os.environ.get("YOUTUBE_CHANNEL_URL", ""),
+        # Personal site URL for cross-linking
+        "personal_site_url": os.environ.get("PERSONAL_SITE_URL", "https://pablomrivera.com"),
     }
 
 
@@ -1007,14 +1015,460 @@ def publish_to_gitlab(article, config):
 
 
 # ---------------------------------------------------------------------------
+# SUBSTACK API
+# ---------------------------------------------------------------------------
+
+def publish_to_substack(article, config):
+    """Publish an article to Substack via their internal API."""
+    email = config.get("substack_email", "")
+    password = config.get("substack_password", "")
+    pub_url = config.get("substack_pub_url", "")
+
+    if not all([email, password, pub_url]):
+        log.warning("Substack not configured (SUBSTACK_EMAIL, SUBSTACK_PASSWORD, SUBSTACK_PUB_URL). Skipping.")
+        return None
+
+    try:
+        import requests
+        import re
+    except ImportError:
+        log.error("requests library not installed.")
+        return None
+
+    try:
+        session = requests.Session()
+        session.headers.update({"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"})
+
+        # Step 1: Login
+        login_resp = session.post(
+            "https://substack.com/api/v1/login",
+            json={"email": email, "password": password, "for_pub": ""}
+        )
+        if login_resp.status_code not in (200, 201):
+            log.error(f"❌ Substack login failed: {login_resp.status_code} - {login_resp.text[:200]}")
+            return None
+
+        # Step 2: Convert markdown to HTML
+        body_html = article["body"]
+        body_html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', body_html, flags=re.MULTILINE)
+        body_html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', body_html, flags=re.MULTILINE)
+        body_html = re.sub(r'^# (.+)$', r'<h1>\1</h1>', body_html, flags=re.MULTILINE)
+        body_html = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', body_html)
+        body_html = re.sub(r'\*(.+?)\*', r'<em>\1</em>', body_html)
+        body_html = re.sub(r'\[([^\]]+)\]\(([^\)]+)\)', r'<a href="\2">\1</a>', body_html)
+        paragraphs = [f"<p>{p.strip()}</p>" for p in body_html.split("\n\n") if p.strip()]
+        body_html = "\n".join(paragraphs)
+
+        # Step 3: Create draft
+        base = pub_url.rstrip("/")
+        if not base.startswith("http"):
+            base = f"https://{base}"
+
+        subtitle = f"By Pablo M. Rivera | {', '.join(article['tags'][:3])}"
+        create_resp = session.post(
+            f"{base}/api/v1/posts",
+            json={
+                "draft_title": article["title"],
+                "draft_subtitle": subtitle,
+                "draft_body": body_html,
+                "type": "newsletter",
+                "audience": "everyone",
+            }
+        )
+        if create_resp.status_code not in (200, 201):
+            log.error(f"❌ Substack draft creation failed: {create_resp.status_code} - {create_resp.text[:200]}")
+            return None
+
+        post_id = create_resp.json().get("id")
+        if not post_id:
+            log.error("❌ Substack: no post ID returned after draft creation.")
+            return None
+
+        # Step 4: Publish (no email send — just web publish)
+        pub_resp = session.put(
+            f"{base}/api/v1/posts/{post_id}/publish",
+            json={"send": False, "share_automatically": False}
+        )
+        if pub_resp.status_code in (200, 201):
+            slug = article["title"].lower()
+            slug = re.sub(r'[^a-z0-9]+', '-', slug).strip('-')[:60]
+            post_url = f"{base}/p/{slug}"
+            log.info(f"✅ Published to Substack: {post_url}")
+            return post_url
+        else:
+            log.error(f"❌ Substack publish failed: {pub_resp.status_code} - {pub_resp.text[:200]}")
+            return None
+
+    except Exception as e:
+        log.error(f"❌ Substack error: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
+# YOUTUBE SCRIPT GENERATOR
+# ---------------------------------------------------------------------------
+
+def generate_youtube_script(article, config):
+    """Generate a YouTube video script from an article and save to youtube_scripts/."""
+    import re
+
+    out_dir = BASE_DIR / "youtube_scripts"
+    out_dir.mkdir(exist_ok=True)
+
+    title = article["title"]
+    body = article["body"]
+    tags = article["tags"]
+    personal_site = config.get("personal_site_url", "https://pablomrivera.com")
+    youtube_channel = config.get("youtube_channel_url", "")
+
+    # Extract section headings and their content from markdown
+    sections = []
+    current_heading = "Introduction"
+    current_lines = []
+    for line in body.split("\n"):
+        heading_match = re.match(r'^#{1,3}\s+(.+)$', line)
+        if heading_match:
+            if current_lines:
+                sections.append((current_heading, " ".join(current_lines).strip()))
+            current_heading = heading_match.group(1)
+            current_lines = []
+        elif line.strip() and not line.startswith("*By ") and not line.startswith("["):
+            current_lines.append(line.strip())
+    if current_lines:
+        sections.append((current_heading, " ".join(current_lines).strip()))
+
+    # Build script
+    slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:60]
+    filename = f"day_{article['day']:03d}_{slug}.txt"
+    filepath = out_dir / filename
+
+    lines = [
+        f"YOUTUBE VIDEO SCRIPT — Day {article['day']}",
+        "=" * 60,
+        f"TITLE: {title}",
+        f"TAGS: {', '.join(tags)}",
+        "=" * 60,
+        "",
+        "--- HOOK (0–15 seconds) ---",
+        f"Did you know that {title.lower().replace('pablo m. rivera', 'my experience')}?",
+        "In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.",
+        "",
+        "--- INTRO (15–45 seconds) ---",
+        "Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years",
+        "leading teams across construction, finance, tech, and property management.",
+        "If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.",
+        "",
+    ]
+
+    for i, (heading, content) in enumerate(sections[:6], 1):
+        lines += [
+            f"--- SECTION {i}: {heading.upper()} ---",
+            content[:400] + ("..." if len(content) > 400 else ""),
+            "",
+        ]
+
+    lines += [
+        "--- CALL TO ACTION ---",
+        f"If this was useful, drop a comment below with your biggest operations challenge.",
+        f"And check out more at {personal_site} — link in the description.",
+        "",
+        "--- OUTRO ---",
+        "I'm Pablo Rivera. Thanks for watching — see you next week.",
+        "",
+        "=" * 60,
+        "DESCRIPTION (copy-paste to YouTube):",
+        "=" * 60,
+        f"{title}",
+        "",
+        f"In this video, Pablo M. Rivera discusses {title.lower()}.",
+        "",
+        "\n".join(f"• {s[0]}" for s in sections[:5]),
+        "",
+        f"Connect with Pablo M. Rivera:",
+        f"Website: {personal_site}",
+        "LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/",
+        (f"YouTube: {youtube_channel}" if youtube_channel else ""),
+        "",
+        f"Tags: {' '.join('#' + t.replace(' ', '') for t in tags[:8])}",
+    ]
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+    log.info(f"✅ YouTube script saved: {filepath.name}")
+    return str(filepath)
+
+
+# ---------------------------------------------------------------------------
+# PRESS RELEASE GENERATOR
+# ---------------------------------------------------------------------------
+
+def generate_press_release(article, config):
+    """Generate a formatted press release and save to press_releases/."""
+    import re
+
+    out_dir = BASE_DIR / "press_releases"
+    out_dir.mkdir(exist_ok=True)
+
+    title = article["title"]
+    body = article["body"]
+    personal_site = config.get("personal_site_url", "https://pablomrivera.com")
+
+    # Extract first substantive paragraph as lead
+    paragraphs = [p.strip() for p in body.split("\n\n") if p.strip()
+                  and not p.startswith("#") and not p.startswith("*By ")]
+    lead = paragraphs[0] if paragraphs else ""
+    lead = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', lead)  # strip markdown links
+    lead = re.sub(r'[*#]', '', lead).strip()
+
+    supporting = ""
+    if len(paragraphs) > 1:
+        supporting = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', paragraphs[1])
+        supporting = re.sub(r'[*#]', '', supporting).strip()[:500]
+
+    slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:60]
+    filename = f"day_{article['day']:03d}_{slug}.txt"
+    filepath = out_dir / filename
+
+    today = datetime.now().strftime("%B %d, %Y")
+    headline = title.upper()
+
+    content = f"""FOR IMMEDIATE RELEASE
+
+Contact:
+Pablo M. Rivera
+East Haven, CT | Hawaii | Colorado
+Website: {personal_site}
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+{headline}
+
+Operations Executive Pablo M. Rivera Shares Insights on {title}
+
+EAST HAVEN, CT, {today} — Pablo M. Rivera, a seasoned operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management, today shared perspectives on {title.lower()}.
+
+{lead}
+
+{supporting}
+
+Pablo M. Rivera brings a unique background that includes a Yale economics degree, executive roles at Textron Financial Corporation and Glencore Ltd., and certifications in Google Data Analytics, UX Design, and Lean Six Sigma Green Belt. He has managed over $4 billion in assets, led 120+ technicians across 12 states, and deployed enterprise systems across multiple markets.
+
+"My career has always been about finding the operational discipline inside complex organizations," said Rivera. "Whether it's structuring debt, deploying Salesforce, or rebuilding maintenance workflows from the ground up, the fundamentals are the same."
+
+Rivera is currently based in Hawaii, Colorado, and East Haven, CT, and is available for VP of Operations, COO, and senior operations consulting engagements.
+
+For more information, visit {personal_site}.
+
+###
+
+About Pablo M. Rivera:
+Pablo M. Rivera is a bilingual (English/Spanish) operations executive with 25+ years of experience in construction, finance, property management, and technology. He holds a B.A. in Economics from Yale University and professional certifications from Columbia Business School, Google, and the Lean Six Sigma Institute. He has led operations for companies ranging from startups to Fortune 500 organizations.
+"""
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    log.info(f"✅ Press release saved: {filepath.name}")
+    return str(filepath)
+
+
+# ---------------------------------------------------------------------------
+# PPTX SLIDE GENERATOR
+# ---------------------------------------------------------------------------
+
+def generate_pptx(article, config):
+    """Generate a PowerPoint presentation from an article and save to slides/."""
+    import re
+
+    out_dir = BASE_DIR / "slides"
+    out_dir.mkdir(exist_ok=True)
+
+    try:
+        from pptx import Presentation
+        from pptx.util import Inches, Pt, Emu
+        from pptx.dml.color import RGBColor
+        from pptx.enum.text import PP_ALIGN
+    except ImportError:
+        log.warning("python-pptx not installed. Run: pip install python-pptx. Skipping PPTX generation.")
+        return None
+
+    title = article["title"]
+    body = article["body"]
+    tags = article["tags"]
+    personal_site = config.get("personal_site_url", "https://pablomrivera.com")
+
+    # Brand colors
+    DARK_BLUE = RGBColor(0x1a, 0x1a, 0x2e)
+    GREEN = RGBColor(0x34, 0xd3, 0x99)
+    WHITE = RGBColor(0xFF, 0xFF, 0xFF)
+    LIGHT_GRAY = RGBColor(0xF0, 0xF4, 0xF8)
+
+    # Parse sections from markdown
+    sections = []
+    current_heading = None
+    current_bullets = []
+    for line in body.split("\n"):
+        h = re.match(r'^#{1,3}\s+(.+)$', line)
+        if h:
+            if current_heading and current_bullets:
+                sections.append((current_heading, current_bullets[:4]))
+            current_heading = h.group(1)
+            current_bullets = []
+        elif line.strip() and not line.startswith("*By ") and not line.startswith("[") and not line.startswith("#"):
+            clean = re.sub(r'[*_`]', '', line.strip())
+            clean = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', clean)
+            if clean and len(clean) > 15:
+                current_bullets.append(clean[:120])
+    if current_heading and current_bullets:
+        sections.append((current_heading, current_bullets[:4]))
+
+    prs = Presentation()
+    prs.slide_width = Inches(13.33)
+    prs.slide_height = Inches(7.5)
+
+    def add_text_box(slide, text, left, top, width, height, font_size=18, bold=False,
+                     color=WHITE, align=PP_ALIGN.LEFT, wrap=True):
+        txBox = slide.shapes.add_textbox(Inches(left), Inches(top), Inches(width), Inches(height))
+        tf = txBox.text_frame
+        tf.word_wrap = wrap
+        p = tf.paragraphs[0]
+        p.alignment = align
+        run = p.add_run()
+        run.text = text
+        run.font.size = Pt(font_size)
+        run.font.bold = bold
+        run.font.color.rgb = color
+        return txBox
+
+    def fill_slide_bg(slide, color):
+        from pptx.util import Emu
+        fill = slide.background.fill
+        fill.solid()
+        fill.fore_color.rgb = color
+
+    blank_layout = prs.slide_layouts[6]  # blank
+
+    # --- Slide 1: Title ---
+    slide = prs.slides.add_slide(blank_layout)
+    fill_slide_bg(slide, DARK_BLUE)
+    # Green accent bar
+    bar = slide.shapes.add_shape(1, Inches(0), Inches(6.8), Inches(13.33), Inches(0.15))
+    bar.fill.solid()
+    bar.fill.fore_color.rgb = GREEN
+    bar.line.fill.background()
+
+    add_text_box(slide, "PABLO M. RIVERA", 0.5, 0.5, 12, 0.6, font_size=14, bold=True, color=GREEN)
+    add_text_box(slide, title, 0.5, 1.3, 12, 2.5, font_size=32, bold=True, color=WHITE, align=PP_ALIGN.LEFT)
+    add_text_box(slide, "Operations Executive | Yale Economics | 25+ Years Experience",
+                 0.5, 4.2, 12, 0.6, font_size=16, color=LIGHT_GRAY)
+    add_text_box(slide, personal_site, 0.5, 5.0, 12, 0.5, font_size=13, color=GREEN)
+
+    # --- Slide 2: About ---
+    slide = prs.slides.add_slide(blank_layout)
+    fill_slide_bg(slide, DARK_BLUE)
+    bar = slide.shapes.add_shape(1, Inches(0), Inches(0), Inches(0.12), Inches(7.5))
+    bar.fill.solid()
+    bar.fill.fore_color.rgb = GREEN
+    bar.line.fill.background()
+
+    add_text_box(slide, "About Pablo M. Rivera", 0.5, 0.3, 12, 0.7, font_size=26, bold=True, color=WHITE)
+    about_points = [
+        "• Yale B.A. Economics | Columbia Business School Certificate",
+        "• 25+ years in construction, finance, tech & property management",
+        "• Led 120+ technicians across 12 U.S. states",
+        "• Managed $4B+ in assets | Deployed Salesforce across 12 markets",
+        "• Google Data Analytics & UX Design certified | Lean Six Sigma Green Belt",
+        "• Bilingual: English & Spanish",
+    ]
+    add_text_box(slide, "\n".join(about_points), 0.5, 1.3, 12, 5.0, font_size=17, color=LIGHT_GRAY)
+
+    # --- Content slides (up to 4 sections) ---
+    for heading, bullets in sections[:4]:
+        slide = prs.slides.add_slide(blank_layout)
+        fill_slide_bg(slide, DARK_BLUE)
+        bar = slide.shapes.add_shape(1, Inches(0), Inches(0), Inches(0.12), Inches(7.5))
+        bar.fill.solid()
+        bar.fill.fore_color.rgb = GREEN
+        bar.line.fill.background()
+
+        add_text_box(slide, heading, 0.5, 0.3, 12, 0.7, font_size=24, bold=True, color=WHITE)
+        bullet_text = "\n".join(f"• {b}" for b in bullets[:5])
+        add_text_box(slide, bullet_text, 0.5, 1.3, 12, 5.0, font_size=17, color=LIGHT_GRAY)
+
+    # --- Key Achievements slide ---
+    slide = prs.slides.add_slide(blank_layout)
+    fill_slide_bg(slide, DARK_BLUE)
+    bar = slide.shapes.add_shape(1, Inches(0), Inches(0), Inches(0.12), Inches(7.5))
+    bar.fill.solid()
+    bar.fill.fore_color.rgb = GREEN
+    bar.line.fill.background()
+
+    add_text_box(slide, "Key Achievements", 0.5, 0.3, 12, 0.7, font_size=26, bold=True, color=WHITE)
+    achievements = [
+        "• 30% reduction in processing time via Salesforce deployment",
+        "• 40% efficiency gain at Eagle Pro through operational redesign",
+        "• $350M in structured construction financing at Textron Financial",
+        "• Built construction company from $0 to $10M in managed projects",
+        "• 18% productivity increase through manager coaching programs",
+    ]
+    add_text_box(slide, "\n".join(achievements), 0.5, 1.3, 12, 5.0, font_size=17, color=LIGHT_GRAY)
+
+    # --- Final slide: Connect ---
+    slide = prs.slides.add_slide(blank_layout)
+    fill_slide_bg(slide, DARK_BLUE)
+    bar = slide.shapes.add_shape(1, Inches(0), Inches(6.8), Inches(13.33), Inches(0.15))
+    bar.fill.solid()
+    bar.fill.fore_color.rgb = GREEN
+    bar.line.fill.background()
+
+    add_text_box(slide, "Connect with Pablo M. Rivera", 0.5, 1.0, 12, 0.8,
+                 font_size=28, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+    add_text_box(slide, personal_site, 0.5, 2.2, 12, 0.6,
+                 font_size=20, bold=True, color=GREEN, align=PP_ALIGN.CENTER)
+    add_text_box(slide, "linkedin.com/in/pablo-rivera-74861a234", 0.5, 3.0, 12, 0.6,
+                 font_size=18, color=LIGHT_GRAY, align=PP_ALIGN.CENTER)
+    add_text_box(slide, "East Haven, CT | Hawaii | Colorado", 0.5, 3.8, 12, 0.5,
+                 font_size=16, color=LIGHT_GRAY, align=PP_ALIGN.CENTER)
+    tag_line = "  ".join(f"#{t.replace(' ', '')}" for t in tags[:6])
+    add_text_box(slide, tag_line, 0.5, 5.5, 12, 0.5, font_size=12, color=GREEN, align=PP_ALIGN.CENTER)
+
+    slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:60]
+    filename = f"day_{article['day']:03d}_{slug}.pptx"
+    filepath = out_dir / filename
+    prs.save(str(filepath))
+
+    log.info(f"✅ PPTX slide deck saved: {filepath.name}")
+    return str(filepath)
+
+
+# ---------------------------------------------------------------------------
 # MAIN PUBLISH LOGIC
 # ---------------------------------------------------------------------------
 
-def publish_article(article, config, dry_run=False):
+def publish_article(article, config, dry_run=False, generate_extras=True):
     """Publish a single article to all configured platforms."""
     day = article["day"]
-    platforms = article.get("platforms", ["devto", "hashnode", "linkedin"])
+    platforms = list(article.get("platforms", ["devto", "hashnode", "linkedin"]))
     title = article["title"]
+
+    # Auto-inject Substack if credentials are configured and not already in list
+    if config.get("substack_email") and config.get("substack_pub_url") and "substack" not in platforms:
+        platforms.append("substack")
+
+    # Generate side-effect content (YouTube scripts, press releases, slides) once per article
+    if generate_extras and not dry_run:
+        _already = get_published_platforms(day)
+        if "extras_generated" not in _already:
+            generate_youtube_script(article, config)
+            generate_press_release(article, config)
+            generate_pptx(article, config)
+            # Mark extras as done so we don't regenerate on retries
+            status = load_status()
+            if str(day) in status["published"]:
+                status["published"][str(day)].setdefault("platforms", [])
+                if "extras_generated" not in status["published"][str(day)]["platforms"]:
+                    status["published"][str(day)]["platforms"].append("extras_generated")
+                save_status(status)
 
     log.info(f"\n{'='*70}")
     log.info(f"📰 DAY {day} | {title}")
@@ -1078,6 +1532,8 @@ def publish_article(article, config, dry_run=False):
             url = publish_to_github_pages(article, config) or ""
         elif platform == "gitlab":
             url = publish_to_gitlab(article, config) or ""
+        elif platform == "substack":
+            url = publish_to_substack(article, config) or ""
         elif platform == "linkedin":
             url = publish_to_linkedin(article, config) or ""
 
@@ -1317,6 +1773,36 @@ article { margin-bottom: 60px; }
 # CLI
 # ---------------------------------------------------------------------------
 
+def cmd_generate_youtube(args):
+    """Generate YouTube scripts for all (or one) article(s)."""
+    config = get_config()
+    articles = load_articles()
+    targets = [a for a in articles if a["day"] == args.day] if args.day else articles
+    for article in targets:
+        generate_youtube_script(article, config)
+    print(f"\n✅ YouTube scripts saved to: {BASE_DIR / 'youtube_scripts'}")
+
+
+def cmd_generate_press_releases(args):
+    """Generate press releases for all (or one) article(s)."""
+    config = get_config()
+    articles = load_articles()
+    targets = [a for a in articles if a["day"] == args.day] if args.day else articles
+    for article in targets:
+        generate_press_release(article, config)
+    print(f"\n✅ Press releases saved to: {BASE_DIR / 'press_releases'}")
+
+
+def cmd_generate_slides(args):
+    """Generate PPTX slide decks for all (or one) article(s)."""
+    config = get_config()
+    articles = load_articles()
+    targets = [a for a in articles if a["day"] == args.day] if args.day else articles
+    for article in targets:
+        generate_pptx(article, config)
+    print(f"\n✅ Slide decks saved to: {BASE_DIR / 'slides'}")
+
+
 def cmd_update_published(args):
     """Update already-published Dev.to articles with current article content."""
     import requests
@@ -1448,11 +1934,20 @@ Examples:
     parser.add_argument("--preview", type=int, metavar="DAY", help="Preview a specific day's article")
     parser.add_argument("--export-html", action="store_true", help="Export all articles as HTML")
     parser.add_argument("--update-published", action="store_true", help="Update already-published Dev.to articles with current content")
+    parser.add_argument("--generate-youtube", action="store_true", help="Generate YouTube video scripts for all articles")
+    parser.add_argument("--generate-press-releases", action="store_true", help="Generate press releases for all articles")
+    parser.add_argument("--generate-slides", action="store_true", help="Generate PPTX slide decks for all articles")
 
     args = parser.parse_args()
 
     if args.update_published:
         cmd_update_published(args)
+    elif args.generate_youtube:
+        cmd_generate_youtube(args)
+    elif args.generate_press_releases:
+        cmd_generate_press_releases(args)
+    elif args.generate_slides:
+        cmd_generate_slides(args)
     elif args.status:
         cmd_status(args)
     elif args.schedule:

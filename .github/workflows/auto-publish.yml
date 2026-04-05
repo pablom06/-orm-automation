@@ -25,12 +25,12 @@ jobs:
     
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       
@@ -51,6 +51,10 @@ jobs:
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          SUBSTACK_EMAIL: ${{ secrets.SUBSTACK_EMAIL }}
+          SUBSTACK_PASSWORD: ${{ secrets.SUBSTACK_PASSWORD }}
+          SUBSTACK_PUB_URL: ${{ secrets.SUBSTACK_PUB_URL }}
+          PERSONAL_SITE_URL: ${{ secrets.PERSONAL_SITE_URL }}
           START_DATE: '2026-02-11'
           FREQUENCY: 'daily'
         run: |
@@ -61,12 +65,23 @@ jobs:
           else
             python publish.py
           fi
-      
+
+      - name: Generate YouTube scripts, press releases, and slide decks
+        env:
+          PERSONAL_SITE_URL: ${{ secrets.PERSONAL_SITE_URL }}
+          YOUTUBE_CHANNEL_URL: ${{ secrets.YOUTUBE_CHANNEL_URL }}
+          START_DATE: '2026-02-11'
+          FREQUENCY: 'daily'
+        run: |
+          python publish.py --generate-youtube
+          python publish.py --generate-press-releases
+          python publish.py --generate-slides
+
       - name: Commit status updates
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A logs/ || true
+          git add -A logs/ youtube_scripts/ press_releases/ slides/ || true
           git diff --staged --quiet || git commit -m "Update publish status [skip ci]" || true
       
       - name: Push changes
