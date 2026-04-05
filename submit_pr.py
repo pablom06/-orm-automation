@@ -63,8 +63,6 @@ def get_config():
     return {
         "prlog_email": os.environ.get("PRLOG_EMAIL", ""),
         "prlog_password": os.environ.get("PRLOG_PASSWORD", ""),
-        "openpr_email": os.environ.get("OPENPR_EMAIL", ""),
-        "openpr_password": os.environ.get("OPENPR_PASSWORD", ""),
         "personal_site_url": os.environ.get("PERSONAL_SITE_URL", "https://pablomrivera.com"),
     }
 
@@ -293,157 +291,33 @@ def submit_to_prlog(pr_data, config, dry_run=False):
 
 
 # ---------------------------------------------------------------------------
-# OPENPR SUBMISSION
-# ---------------------------------------------------------------------------
-
-def submit_to_openpr(pr_data, config, dry_run=False):
-    """Submit a press release to OpenPR.com using Playwright."""
-    email = config["openpr_email"]
-    password = config["openpr_password"]
-
-    if not email or not password:
-        log.warning("OPENPR_EMAIL or OPENPR_PASSWORD not set. Skipping OpenPR.")
-        return None
-
-    if dry_run:
-        log.info(f"🔍 DRY RUN — Would submit to OpenPR: {pr_data['headline'][:60]}")
-        return "dry-run"
-
-    try:
-        from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
-    except ImportError:
-        log.error("Playwright not installed. Run: pip install playwright && playwright install chromium")
-        return None
-
-    log.info(f"📤 Submitting to OpenPR: {pr_data['headline'][:60]}...")
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-        )
-        page = context.new_page()
-
-        try:
-            # Step 1: Login
-            log.info("   Logging into OpenPR...")
-            page.goto("https://www.openpr.com/login/", timeout=30000)
-            page.wait_for_load_state("networkidle")
-
-            if page.locator("iframe[src*='recaptcha']").count() > 0:
-                log.warning("⚠️  OpenPR login CAPTCHA detected — skipping this run")
-                browser.close()
-                return None
-
-            page.fill("input[name='email'], input[type='email']", email)
-            page.fill("input[name='password'], input[type='password']", password)
-            page.click("input[type='submit'], button[type='submit']")
-            page.wait_for_load_state("networkidle")
-
-            if "login" in page.url.lower():
-                log.error("❌ OpenPR login failed — check credentials")
-                browser.close()
-                return None
-
-            log.info("   Logged in successfully")
-
-            # Step 2: Navigate to submit
-            page.goto("https://www.openpr.com/news/submit/", timeout=30000)
-            page.wait_for_load_state("networkidle")
-
-            if page.locator("iframe[src*='recaptcha']").count() > 0:
-                log.warning("⚠️  OpenPR submission CAPTCHA detected — skipping this run")
-                browser.close()
-                return None
-
-            # Step 3: Fill headline
-            headline_field = page.locator("input[name='title'], input[name='headline'], #title, input[name='subject']")
-            if headline_field.count() > 0:
-                headline_field.first.fill(pr_data["headline"][:100])
-
-            # Step 4: Fill body
-            body_field = page.locator("textarea[name='text'], textarea[name='body'], textarea[name='content'], #text")
-            if body_field.count() > 0:
-                body_field.first.fill(pr_data["body"][:5000])
-
-            # Step 5: Category
-            try:
-                category = page.locator("select[name='category_id'], select[name='category']")
-                if category.count() > 0:
-                    try:
-                        category.first.select_option(label="Management & Career")
-                    except Exception:
-                        category.first.select_option(index=1)
-            except Exception:
-                pass
-
-            # Step 6: Contact name
-            try:
-                contact = page.locator("input[name='contact_name'], input[name='author']")
-                if contact.count() > 0:
-                    contact.first.fill("Pablo M. Rivera")
-            except Exception:
-                pass
-
-            # Step 7: Submit
-            submit_btn = page.locator("input[type='submit'], button[type='submit']:not([name='login'])")
-            if submit_btn.count() > 0:
-                submit_btn.last.click()
-                page.wait_for_load_state("networkidle", timeout=30000)
-
-            if page.locator("iframe[src*='recaptcha']").count() > 0:
-                log.warning("⚠️  OpenPR post-submit CAPTCHA detected — submission may need manual completion")
-                browser.close()
-                return None
-
-            current_url = page.url
-            log.info(f"✅ Submitted to OpenPR: {current_url}")
-            browser.close()
-            return current_url
-
-        except PlaywrightTimeout:
-            log.error("❌ OpenPR timed out")
-            browser.close()
-            return None
-        except Exception as e:
-            log.error(f"❌ OpenPR error: {e}")
-            browser.close()
-            return None
-
-
-# ---------------------------------------------------------------------------
 # COMMANDS
 # ---------------------------------------------------------------------------
 
 def cmd_submit(args):
     config = get_config()
 
-    for site in ["prlog", "openpr"]:
-        if args.index is not None:
-            files = load_press_releases()
-            if args.index >= len(files):
-                log.error(f"Index {args.index} out of range (have {len(files)} press releases)")
-                return
-            pr_file = files[args.index]
-        else:
-            pr_file = get_next_pr(site)
+    if args.index is not None:
+        files = load_press_releases()
+        if args.index >= len(files):
+            log.error(f"Index {args.index} out of range (have {len(files)} press releases)")
+            return
+        pr_file = files[args.index]
+    else:
+        pr_file = get_next_pr("prlog")
 
-        if not pr_file:
-            log.info(f"✅ All press releases already submitted to {site}!")
-            continue
+    if not pr_file:
+        log.info("✅ All press releases already submitted to PRlog!")
+        return
 
-        pr_data = parse_press_release(pr_file)
-        log.info(f"\n{'='*60}")
-        log.info(f"📰 Next up for {site.upper()}: {pr_file.name}")
-        log.info(f"{'='*60}")
+    pr_data = parse_press_release(pr_file)
+    log.info(f"\n{'='*60}")
+    log.info(f"📰 Next up for PRLOG: {pr_file.name}")
+    log.info(f"{'='*60}")
 
-        if site == "prlog":
-            url = submit_to_prlog(pr_data, config, dry_run=args.dry_run)
-        else:
-            url = submit_to_openpr(pr_data, config, dry_run=args.dry_run)
-
-        if url and not args.dry_run:
-            mark_submitted(pr_file.name, site, url)
+    url = submit_to_prlog(pr_data, config, dry_run=args.dry_run)
+    if url and not args.dry_run:
+        mark_submitted(pr_file.name, "prlog", url)
 
 
 def cmd_status(args):
@@ -453,19 +327,16 @@ def cmd_status(args):
 
     total = len(files)
     prlog_done = sum(1 for f in files if "prlog" in submitted.get(f.name, {}))
-    openpr_done = sum(1 for f in files if "openpr" in submitted.get(f.name, {}))
 
     print(f"\n{'='*60}")
-    print(f"  Press Release Submission Status")
+    print(f"  Press Release Submission Status — PRlog")
     print(f"  Total PRs: {total}")
-    print(f"  PRlog:  {prlog_done}/{total} submitted")
-    print(f"  OpenPR: {openpr_done}/{total} submitted")
+    print(f"  PRlog: {prlog_done}/{total} submitted")
     print(f"{'='*60}\n")
 
-    for f in files[:30]:  # show first 30
+    for f in files[:30]:
         p = "✅" if "prlog" in submitted.get(f.name, {}) else "⬜"
-        o = "✅" if "openpr" in submitted.get(f.name, {}) else "⬜"
-        print(f"  PRlog:{p} OpenPR:{o} | {f.name[:60]}")
+        print(f"  {p} {f.name[:65]}")
 
     if total > 30:
         print(f"\n  ... and {total - 30} more")

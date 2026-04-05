@@ -50,8 +50,6 @@ jobs:
         env:
           PRLOG_EMAIL: ${{ secrets.PRLOG_EMAIL }}
           PRLOG_PASSWORD: ${{ secrets.PRLOG_PASSWORD }}
-          OPENPR_EMAIL: ${{ secrets.OPENPR_EMAIL }}
-          OPENPR_PASSWORD: ${{ secrets.OPENPR_PASSWORD }}
           PERSONAL_SITE_URL: ${{ secrets.PERSONAL_SITE_URL }}
         run: |
           if [ "${{ inputs.dry_run }}" == "true" ]; then
