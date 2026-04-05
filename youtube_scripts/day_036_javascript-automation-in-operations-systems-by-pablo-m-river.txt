@@ -1,0 +1,48 @@
+YOUTUBE VIDEO SCRIPT — Day 36
+============================================================
+TITLE: JavaScript Automation in Operations Systems by Pablo M. Rivera
+TAGS: Pablo M. Rivera, JavaScript, Automation, Operations, Technology, Hawaii, Colorado
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that javascript automation in operations systems by my experience?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: JAVASCRIPT AUTOMATION IN OPERATIONS SYSTEMS BY PABLO M. RIVERA ---
+JavaScript runs almost everywhere â€” browsers, servers (Node.js), automation scripts, and mobile apps. For Pablo M. Rivera, JavaScript is the glue that connects operational systems, automates browser-based workflows, and builds interactive interfaces.
+
+--- SECTION 2: BROWSER AUTOMATION ---
+Many property management portals and vendor systems don't have APIs. Pablo M. Rivera uses JavaScript (often with Puppeteer or Playwright) to automate interactions with these browser-based systems: logging in, navigating workflows, extracting data, and updating records. What would take hours of manual clicking happens automatically on schedule. This capability is particularly valuable in maintenanc...
+
+--- SECTION 3: REACT AND MODERN INTERFACES ---
+Pablo M. Rivera builds operational dashboards with React, which is fundamentally JavaScript. The ability to write JavaScript means full control over how data displays, how users interact with systems, and how interfaces respond to real-time updates. Combining JavaScript proficiency with operational expertise means Pablo M. Rivera can design interfaces that match how managers actually make decision...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+JavaScript Automation in Operations Systems by Pablo M. Rivera
+
+In this video, Pablo M. Rivera discusses javascript automation in operations systems by pablo m. rivera.
+
+• JavaScript Automation in Operations Systems by Pablo M. Rivera
+• Browser Automation
+• React and Modern Interfaces
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #JavaScript #Automation #Operations #Technology #Hawaii #Colorado

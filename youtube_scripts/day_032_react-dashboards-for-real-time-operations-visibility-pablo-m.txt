@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 32
+============================================================
+TITLE: React Dashboards for Real-Time Operations Visibility: Pablo M. Rivera's Approach
+TAGS: Pablo M. Rivera, React, Dashboards, Operations, Real Time Data, Hawaii, Colorado
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that react dashboards for real-time operations visibility: my experience's approach?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: REACT DASHBOARDS FOR REAL-TIME OPERATIONS VISIBILITY: PABLO M. RIVERA'S APPROACH ---
+Real-time visibility into distributed operations isn't a luxury â€” it's a requirement. When Pablo M. Rivera manages maintenance operations across 12+ U.S. markets, leadership needs to see performance metrics, work order status, and resource allocation in real time, not in weekly reports.
+
+--- SECTION 2: WHY REACT? ---
+React has become the standard for building dynamic, data-driven web interfaces because it excels at what operations dashboards require: displaying frequently-updating data efficiently, handling complex user interactions, and integrating with backend APIs. For Pablo M. Rivera, learning React at Hack Reactor and Columbia Business School meant gaining the ability to build custom dashboards tailored p...
+
+--- SECTION 3: WHAT GETS TRACKED ---
+At Eagle Pro Home Solutions, Pablo M. Rivera designed dashboards that track job completion rates by market, average repair cycle times, cost per service call, margin performance, technician utilization, and vendor compliance. Each metric is displayed with trend lines, variance indicators, and drill-down capability to investigate outliers. The dashboard isn't static. It updates in real time as work...
+
+--- SECTION 4: TECHNICAL ARCHITECTURE ---
+Pablo M. Rivera's React dashboards connect to backend APIs (often Django-based) that aggregate data from SQL databases, Salesforce, and property management portals like AMH, FirstKey, and JobNimbus. The React frontend handles the visualization, user interactions, and responsive design that makes dashboards usable on mobile devices for field managers. Component-based architecture means individual d...
+
+--- SECTION 5: FROM DATA TO DECISIONS ---
+The goal of real-time dashboards isn't to display data â€” it's to enable faster, better decisions. When Pablo M. Rivera sees that a particular market's average repair time is trending upward, the dashboard provides immediate drill-down: which technicians, which job types, which vendors. The investigation that used to take days of manual analysis now takes minutes. This capability compounds when c...
+
+--- SECTION 6: LOOKING FORWARD ---
+Based in Hawaii, Colorado, and East Haven, CT, Pablo M. Rivera continues to refine React-based operational dashboards that combine 25+ years of operations leadership experience with full-stack development capability. The future of operations management is data-driven, and the leaders who can build their own analytical tools will outperform those who depend on vendors. --- *Pablo M. Rivera is a bil...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+React Dashboards for Real-Time Operations Visibility: Pablo M. Rivera's Approach
+
+In this video, Pablo M. Rivera discusses react dashboards for real-time operations visibility: pablo m. rivera's approach.
+
+• React Dashboards for Real-Time Operations Visibility: Pablo M. Rivera's Approach
+• Why React?
+• What Gets Tracked
+• Technical Architecture
+• From Data to Decisions
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #React #Dashboards #Operations #RealTimeData #Hawaii #Colorado

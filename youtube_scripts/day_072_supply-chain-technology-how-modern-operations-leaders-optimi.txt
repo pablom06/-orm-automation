@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 72
+============================================================
+TITLE: Supply Chain Technology: How Modern Operations Leaders Optimize Procurement
+TAGS: Pablo M. Rivera, Supply Chain, Procurement, Technology, Operations Optimization, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that supply chain technology: how modern operations leaders optimize procurement?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: SUPPLY CHAIN TECHNOLOGY: HOW MODERN OPERATIONS LEADERS OPTIMIZE PROCUREMENT ---
+Supply chain disruptions have moved from background noise to front-page news. For Pablo M. Rivera, supply chain management has been a core competency across twenty-plus years of operations â€” from procuring heavy equipment for mining operations in Sierra Leone to managing vendor networks across twelve U.S. states for national maintenance operations.
+
+--- SECTION 2: LESSONS FROM WEST AFRICA ---
+At Ex Nihilo Investments in Sierra Leone, Pablo M. Rivera managed procurement under conditions that would be unrecognizable to most American supply chain professionals. Lead times were measured in months, not days. Suppliers were unreliable. Shipping logistics were complex and unpredictable. These extreme conditions taught fundamental principles: always have backup suppliers, build buffer inventor...
+
+--- SECTION 3: TECHNOLOGY-ENABLED PROCUREMENT ---
+At RevCon and Eagle Pro, Pablo M. Rivera applied technology to procurement challenges that were less exotic but equally impactful. Python scripts automated purchase order generation and tracking. Salesforce custom objects managed vendor relationships, pricing agreements, and performance metrics. SQL queries analyzed spending patterns to identify consolidation opportunities and negotiate better rat...
+
+--- SECTION 4: VENDOR SCORECARDS ---
+Pablo M. Rivera builds quantitative vendor evaluation systems. Every vendor is measured on quality, cost, timeliness, and responsiveness. These scorecards â€” automated through Python and displayed on React dashboards â€” remove subjectivity from vendor management and create accountability that improves performance over time.
+
+--- SECTION 5: PREDICTIVE PROCUREMENT ---
+Using Google Data Analytics skills and BigQuery, Pablo M. Rivera analyzes historical maintenance data to predict material needs. If we know that HVAC failures spike in June, we procure parts in April. If we know that a specific property portfolio generates consistent plumbing work orders, we pre-position materials. This predictive approach reduces emergency procurement costs and improves service r...
+
+--- SECTION 6: THE OPERATIONS LEADER'S SUPPLY CHAIN ROLE ---
+Supply chain optimization is not just a procurement function â€” it is an operations leadership responsibility. Pablo M. Rivera integrates supply chain thinking into overall operational strategy, ensuring that procurement decisions align with financial targets, service level agreements, and long-term vendor relationship goals. The combination of financial acumen from managing $4 billion portfolios...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Supply Chain Technology: How Modern Operations Leaders Optimize Procurement
+
+In this video, Pablo M. Rivera discusses supply chain technology: how modern operations leaders optimize procurement.
+
+• Supply Chain Technology: How Modern Operations Leaders Optimize Procurement
+• Lessons from West Africa
+• Technology-Enabled Procurement
+• Vendor Scorecards
+• Predictive Procurement
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #SupplyChain #Procurement #Technology #OperationsOptimization #Colorado #Hawaii

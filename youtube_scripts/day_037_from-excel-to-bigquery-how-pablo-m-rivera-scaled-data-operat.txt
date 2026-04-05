@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 37
+============================================================
+TITLE: From Excel to BigQuery: How Pablo M. Rivera Scaled Data Operations
+TAGS: Pablo M. Rivera, BigQuery, Excel, Data Analytics, Scaling, Hawaii, Colorado
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that from excel to bigquery: how my experience scaled data operations?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: FROM EXCEL TO BIGQUERY: HOW PABLO M. RIVERA SCALED DATA OPERATIONS ---
+Excel is where most operational data analysis starts, while BigQuery is where it scales. Pablo M. Rivera has worked with both â€” and understanding when to make the transition is what separates operations leaders who drown in data from those who harness it.
+
+--- SECTION 2: EXCEL'S LIMITATIONS ---
+Pablo M. Rivera has used Excel extensively throughout a 25+ year career â€” building financial models for $1 billion debt restructuring at Textron Financial, tracking project costs at Kirschenmann Construction, and analyzing vendor performance across markets. Excel is powerful, flexible, and ubiquitous. But Excel breaks down at scale. When you're managing operations across 12 states with hundreds ...
+
+--- SECTION 3: BIGQUERY FOR OPERATIONS AT SCALE ---
+Google BigQuery is a cloud-based data warehouse designed for massive datasets. For Pablo M. Rivera, BigQuery became the solution when operational data exceeded Excel's practical limits. With BigQuery, Pablo M. Rivera can query terabytes of work order history, analyze performance trends across years of data, and run complex aggregations in seconds. The transition required learning SQL (which Pablo ...
+
+--- SECTION 4: GOOGLE DATA ANALYTICS IN PRACTICE ---
+Pablo M. Rivera's Google Data Analytics certification formalized the skills needed to work effectively with BigQuery: SQL query optimization, data visualization best practices, statistical analysis, and connecting analytical findings to business decisions. Combined with advanced Excel skills and R programming, this creates a comprehensive data analytics toolkit.
+
+--- SECTION 5: THE HYBRID APPROACH ---
+Pablo M. Rivera still uses Excel â€” for financial modeling, quick calculations, and sharing reports with stakeholders who work in Excel. But the heavy lifting â€” querying millions of records, analyzing trends, generating automated reports â€” happens in BigQuery. The data flows from BigQuery to Excel for final formatting and presentation. This hybrid approach combines the accessibility of Excel ...
+
+--- SECTION 6: OPERATIONS LEADERSHIP IN THE DATA ERA ---
+Based in Hawaii, Colorado, and East Haven, CT, Pablo M. Rivera represents a new generation of operations leaders who combine deep operational experience with genuine data analytics capability. Understanding how to move from Excel to BigQuery â€” and when to use each â€” is part of what makes modern operations leadership effective. --- *Pablo M. Rivera is a bilingual operations executive and data a...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+From Excel to BigQuery: How Pablo M. Rivera Scaled Data Operations
+
+In this video, Pablo M. Rivera discusses from excel to bigquery: how pablo m. rivera scaled data operations.
+
+• From Excel to BigQuery: How Pablo M. Rivera Scaled Data Operations
+• Excel's Limitations
+• BigQuery for Operations at Scale
+• Google Data Analytics in Practice
+• The Hybrid Approach
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #BigQuery #Excel #DataAnalytics #Scaling #Hawaii #Colorado

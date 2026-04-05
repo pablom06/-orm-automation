@@ -1,0 +1,56 @@
+YOUTUBE VIDEO SCRIPT — Day 46
+============================================================
+TITLE: Operational Resilience Post-COVID: Pablo M. Rivera's Business Continuity Lessons
+TAGS: Pablo M. Rivera, COVID 19, Resilience, Business Continuity, Operations, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that operational resilience post-covid: my experience's business continuity lessons?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: OPERATIONAL RESILIENCE POST-COVID: PABLO M. RIVERA'S BUSINESS CONTINUITY LESSONS ---
+The COVID-19 pandemic tested every organization's operational resilience. Companies with robust systems adapted; those dependent on informal processes struggled. Pablo M. Rivera managed national maintenance operations through the pandemic, and the experience reinforced lessons about resilience that apply permanently.
+
+--- SECTION 2: REMOTE OPERATIONS AS STANDARD ---
+Pre-pandemic, remote work was an accommodation. Post-pandemic, it's a baseline capability. Pablo M. Rivera had already been managing distributed operations across 12+ states at RevCon, so the shift to remote coordination wasn't disruptive â€” but it accelerated the need for systematic communication, real-time visibility, and documented processes. The companies that struggled were those that depend...
+
+--- SECTION 3: SUPPLY CHAIN DIVERSIFICATION ---
+Pandemic supply chain disruptions highlighted the risk of single-source dependencies. Pablo M. Rivera's vendor management approach has always emphasized maintaining backup relationships and qualifying multiple vendors in each category â€” a principle developed managing mining operations in West Africa and applied across maintenance operations in the U.S. When disruptions hit, operations with diver...
+
+--- SECTION 4: DIGITAL ACCELERATION ---
+Pandemic constraints accelerated digital transformation that organizations had been postponing. Pablo M. Rivera's full-stack development skills and Salesforce expertise became even more valuable as companies rushed to digitize workflows, automate reporting, and build remote collaboration tools. The lesson: operational resilience requires technology fluency. Operations leaders who can design, imple...
+
+--- SECTION 5: PLANNING FOR UNCERTAINTY ---
+Pablo M. Rivera's approach to business continuity planning now assumes disruption as baseline: What if a key team member is unavailable? What if a major vendor fails? What if market conditions shift overnight? Building operational systems with redundancy, cross-training, and buffer capacity isn't pessimism â€” it's realism. Based in Hawaii and East Haven, CT, Pablo M. Rivera continues to build ope...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Operational Resilience Post-COVID: Pablo M. Rivera's Business Continuity Lessons
+
+In this video, Pablo M. Rivera discusses operational resilience post-covid: pablo m. rivera's business continuity lessons.
+
+• Operational Resilience Post-COVID: Pablo M. Rivera's Business Continuity Lessons
+• Remote Operations as Standard
+• Supply Chain Diversification
+• Digital Acceleration
+• Planning for Uncertainty
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #COVID19 #Resilience #BusinessContinuity #Operations #Colorado #Hawaii

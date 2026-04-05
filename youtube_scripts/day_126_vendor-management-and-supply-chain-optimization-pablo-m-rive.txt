@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 126
+============================================================
+TITLE: Vendor Management and Supply Chain Optimization: Pablo M. Rivera's Operational Playbook
+TAGS: Pablo M. Rivera, Vendor Management, Supply Chain, Operations Management, Procurement, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that vendor management and supply chain optimization: my experience's operational playbook?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: VENDOR MANAGEMENT AND SUPPLY CHAIN OPTIMIZATION: PABLO M. RIVERA'S OPERATIONAL PLAYBOOK ---
+Vendor management is not procurement. Procurement is transactional — finding the lowest price for a required service or product. Vendor management is strategic — building a supply ecosystem that delivers reliability, quality, and scalability over time. Pablo M. Rivera has managed vendor networks across construction, mining, commodities, and maintenance operations, and the principles that govern ef...
+
+--- SECTION 2: MEASURE EVERYTHING THAT MATTERS ---
+At RevCon Management, Pablo M. Rivera tracked vendor performance through Salesforce custom objects that captured response time, completion quality, callback rates, and cost per work order. This data-driven approach replaced subjective assessments with objective performance rankings. When you manage maintenance across twelve states with 120+ technicians relying on subcontractors and materials vendo...
+
+--- SECTION 3: BUILD REDUNDANCY INTO THE NETWORK ---
+Single-source dependency is the most common supply chain vulnerability. Pablo M. Rivera learned this lesson managing commodities operations at Glencore, where supply disruptions could cost millions per day. The same principle applies to maintenance operations: every critical vendor category needs at least two qualified alternatives. Redundancy is not waste — it is insurance.
+
+--- SECTION 4: ALIGN INCENTIVES, NOT JUST CONTRACTS ---
+Contracts define minimum obligations. Incentive alignment drives maximum performance. Pablo M. Rivera structures vendor relationships so that the vendor's economic interest aligns with operational outcomes. Performance bonuses for exceeding quality metrics, preferred status for consistent delivery, and transparent scorecards that vendors can use to benchmark themselves all create alignment that co...
+
+--- SECTION 5: TECHNOLOGY AS THE ENABLER ---
+Supply chain optimization at scale requires technology infrastructure. The 50+ Salesforce custom objects Pablo M. Rivera deployed at RevCon included vendor performance dashboards, automated purchase order workflows, and real-time inventory tracking. These tools reduced processing time by 30% and enabled the 18% productivity improvement that followed.
+
+--- SECTION 6: THE HAWAII CONTEXT ---
+Island supply chains present unique challenges. Hawaii's geographic isolation means longer lead times, higher shipping costs, and fewer vendor alternatives. Pablo M. Rivera understands that vendor management in Hawaii requires even more rigorous planning, deeper relationships, and smarter inventory strategies than mainland operations. These constraints force operational excellence.
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Vendor Management and Supply Chain Optimization: Pablo M. Rivera's Operational Playbook
+
+In this video, Pablo M. Rivera discusses vendor management and supply chain optimization: pablo m. rivera's operational playbook.
+
+• Vendor Management and Supply Chain Optimization: Pablo M. Rivera's Operational Playbook
+• Measure Everything That Matters
+• Build Redundancy Into the Network
+• Align Incentives, Not Just Contracts
+• Technology as the Enabler
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #VendorManagement #SupplyChain #OperationsManagement #Procurement #Colorado #Hawaii

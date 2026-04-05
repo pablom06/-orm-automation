@@ -1,0 +1,56 @@
+YOUTUBE VIDEO SCRIPT — Day 53
+============================================================
+TITLE: AI Is Writing the Code but Who Is Designing the System? Pablo M. Rivera on the Architecture Gap
+TAGS: Pablo M. Rivera, AI, Software Architecture, Operations Leadership, Technology Strategy, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that ai is writing the code but who is designing the system? my experience on the architecture gap?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: AI IS WRITING THE CODE—BUT WHO IS DESIGNING THE SYSTEM? ---
+I have been using AI coding tools almost every day for the past year. They are incredible. I can generate functions, debug issues, and build components in a fraction of the time it used to take. But something has been bothering me, and I think the industry needs to talk about it. We are getting really good at producing code and really bad at understanding how it all fits together.
+
+--- SECTION 2: MISSING PIECES IN THE PUZZLE ---
+Last month I was reviewing a system that had been built fast, mostly with AI assistance. Every individual piece worked. Clean code. Tests passing. Well-documented functions. But when I stepped back and looked at the whole thing, there were gaps everywhere. A payment flow that did not account for refunds. An API integration that fell apart when two users hit it simultaneously. A dashboard pulling f...
+
+--- SECTION 3: PROMPTING BEFORE THINKING IN SYSTEMS ---
+There is a generation of developers right now jumping straight into AI tools without building the foundational understanding of how technology actually works under the hood. Networking, databases, distributed systems, failure modes—the stuff that is not glamorous but gives you the ability to look at a complex system and immediately spot what is wrong or what is missing. They can get AI to spin up ...
+
+--- SECTION 4: WHY OPERATIONS LEADERS SEE THIS DIFFERENTLY ---
+I did not come to technology through a traditional CS path. I spent 25 years running operations—managing 120 technicians across 12 states from Hawaii to Connecticut, overseeing billions in assets, coordinating supply chains and field teams and vendor relationships across markets in Colorado and beyond. When you run a national operation, you cannot think about one market at a time. You have to see ...
+
+--- SECTION 5: THE CORRECTION THAT IS COMING ---
+The hype right now is all about speed. Faster code, more features, shorter sprints. Companies are celebrating how quickly they can ship. But they are accumulating what I call integration debt—every AI-generated component that works in isolation but creates friction at the boundaries between services, between teams, between systems. Organizations are going to look around and realize they have more ...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+AI Is Writing the Code but Who Is Designing the System? Pablo M. Rivera on the Architecture Gap
+
+In this video, Pablo M. Rivera discusses ai is writing the code but who is designing the system? pablo m. rivera on the architecture gap.
+
+• AI Is Writing the Code—but Who Is Designing the System?
+• Missing Pieces in the Puzzle
+• Prompting Before Thinking in Systems
+• Why Operations Leaders See This Differently
+• The Correction That Is Coming
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #AI #SoftwareArchitecture #OperationsLeadership #TechnologyStrategy #Colorado #Hawaii

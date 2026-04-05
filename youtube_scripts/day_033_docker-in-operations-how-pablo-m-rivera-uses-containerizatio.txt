@@ -1,0 +1,48 @@
+YOUTUBE VIDEO SCRIPT — Day 33
+============================================================
+TITLE: Docker in Operations: How Pablo M. Rivera Uses Containerization
+TAGS: Pablo M. Rivera, Docker, DevOps, Operations, Technology, Hawaii, Colorado
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that docker in operations: how my experience uses containerization?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: DOCKER IN OPERATIONS: HOW PABLO M. RIVERA USES CONTAINERIZATION ---
+Docker might seem like a tool exclusively for software engineers, but for operations leaders who build internal systems, containerization solves real problems. Pablo M. Rivera uses Docker to deploy operational tools consistently across environments, eliminate "it works on my machine" problems, and streamline the management of custom applications.
+
+--- SECTION 2: CONSISTENCY ACROSS ENVIRONMENTS ---
+When Pablo M. Rivera builds a Python-based automation tool or a Django application for internal operations use, Docker ensures it runs identically in development, testing, and production. The container includes everything the application needs â€” Python runtime, libraries, dependencies â€” packaged as a single deployable unit. This matters because operations systems can't afford deployment failur...
+
+--- SECTION 3: SIMPLIFIED INFRASTRUCTURE ---
+Pablo M. Rivera manages distributed operations, not data centers. Docker makes it possible to run multiple operational tools on minimal infrastructure. A single server can host containerized applications for vendor scorecards, inspection tracking, KPI dashboards, and reporting automation â€” each isolated, each managed independently. The alternative â€” maintaining separate servers or navigating c...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Docker in Operations: How Pablo M. Rivera Uses Containerization
+
+In this video, Pablo M. Rivera discusses docker in operations: how pablo m. rivera uses containerization.
+
+• Docker in Operations: How Pablo M. Rivera Uses Containerization
+• Consistency Across Environments
+• Simplified Infrastructure
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #Docker #DevOps #Operations #Technology #Hawaii #Colorado

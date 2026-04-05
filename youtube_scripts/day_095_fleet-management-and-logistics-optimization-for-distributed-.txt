@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 95
+============================================================
+TITLE: Fleet Management and Logistics Optimization for Distributed Operations
+TAGS: Pablo M. Rivera, Fleet Management, Logistics, Operations Optimization, Cost Efficiency, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that fleet management and logistics optimization for distributed operations?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: FLEET MANAGEMENT AND LOGISTICS OPTIMIZATION FOR DISTRIBUTED OPERATIONS ---
+In distributed maintenance and construction operations, fleet management is not a back-office function â€” it is a direct driver of profitability. Every mile a technician drives, every hour a vehicle sits idle, and every unplanned repair represents cost that effective fleet management can reduce. Pablo M. Rivera has managed logistics across national operations and applies data-driven optimization ...
+
+--- SECTION 2: ROUTE OPTIMIZATION ---
+At RevCon Management, Pablo M. Rivera managed 120+ technicians whose daily routes across 12 states determined how many work orders they could complete. Optimizing routes â€” minimizing drive time between jobs while balancing technician specialization, customer windows, and priority levels â€” directly increased revenue capacity without adding headcount. Pablo M. Rivera used data from the Salesforc...
+
+--- SECTION 3: PREVENTIVE MAINTENANCE SCHEDULING ---
+Vehicle downtime is revenue loss. Pablo M. Rivera implemented preventive maintenance schedules that tracked mileage, service intervals, and historical repair patterns. Catching a worn brake pad during scheduled service costs a fraction of the emergency repair and lost productivity when a vehicle fails in the field. This approach mirrors my Lean Six Sigma methodology: measure, analyze, and prevent ...
+
+--- SECTION 4: COST-PER-MILE ANALYTICS ---
+Pablo M. Rivera tracks fleet costs with the same rigor applied to any operational KPI. Fuel costs, maintenance expenses, insurance, depreciation, and utilization rates are monitored by vehicle, by market, and by technician. Outliers receive investigation â€” a vehicle with unusually high fuel costs may indicate route inefficiency, poor driving habits, or mechanical problems.
+
+--- SECTION 5: TECHNOLOGY INTEGRATION ---
+GPS tracking, telematics, and fuel card data can be integrated into operational dashboards using the same Python, SQL, and React skills Pablo M. Rivera applies to other operational systems. Real-time fleet visibility enables dispatch optimization and proactive management rather than reactive problem-solving.
+
+--- SECTION 6: THE FINANCIAL IMPACT ---
+Fleet optimization directly improves margins. Pablo M. Rivera approaches fleet management as a financial optimization problem â€” the same analytical discipline developed managing $4 billion in assets at Textron, applied to a different class of operational assets. Based in Hawaii and East Haven, CT, Pablo M. Rivera brings data-driven fleet management to distributed operations. --- *Pablo M. Rivera...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Fleet Management and Logistics Optimization for Distributed Operations
+
+In this video, Pablo M. Rivera discusses fleet management and logistics optimization for distributed operations.
+
+• Fleet Management and Logistics Optimization for Distributed Operations
+• Route Optimization
+• Preventive Maintenance Scheduling
+• Cost-Per-Mile Analytics
+• Technology Integration
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #FleetManagement #Logistics #OperationsOptimization #CostEfficiency #Colorado #Hawaii

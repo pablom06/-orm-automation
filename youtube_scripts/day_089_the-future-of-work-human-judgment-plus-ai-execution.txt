@@ -1,0 +1,56 @@
+YOUTUBE VIDEO SCRIPT — Day 89
+============================================================
+TITLE: The Future of Work: Human Judgment Plus AI Execution
+TAGS: Pablo M. Rivera, Future of Work, AI, Human Judgment, Strategy, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that the future of work: human judgment plus ai execution?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: THE FUTURE OF WORK: HUMAN JUDGMENT PLUS AI EXECUTION ---
+The most productive model for work in 2025 and beyond is not AI replacing humans or humans ignoring AI. It is human judgment directing AI execution â€” a partnership where people define what matters and machines handle the how. Pablo M. Rivera has been building toward this model for years.
+
+--- SECTION 2: WHERE AI EXCELS ---
+AI is exceptional at processing large datasets, identifying patterns, executing repetitive tasks consistently, and generating options at scale. When Pablo M. Rivera automates vendor performance scoring with Python scripts that query SQL databases and calculate KPIs across thousands of work orders, AI handles the computation flawlessly. The data extraction, transformation, and visualization happen ...
+
+--- SECTION 3: WHERE HUMAN JUDGMENT IS IRREPLACEABLE ---
+AI cannot evaluate whether a vendor relationship is worth preserving despite a cost increase because of their reliability during emergencies. It cannot assess whether a technician's declining metrics reflect a training need or a personal challenge that compassionate leadership could address. It cannot determine whether an operational restructuring will motivate or demoralize a team. Pablo M. River...
+
+--- SECTION 4: THE INTEGRATED APPROACH ---
+Pablo M. Rivera's career trajectory reflects this integration. The Yale economics degree, 20+ years of operations leadership, and financial acumen provide the judgment layer. The Full-Stack Developer Certificate from Columbia Business School, Google Data Analytics certification, and technical fluency provide the ability to build and deploy the AI execution layer. This combination â€” human archite...
+
+--- SECTION 5: PREPARING FOR THE PARTNERSHIP ---
+Professionals who resist AI will be outpaced by those who leverage it. Professionals who depend entirely on AI will make catastrophic judgment errors. Pablo M. Rivera advocates for the middle path: deep domain expertise combined with genuine technical capability. Based in Hawaii and East Haven, CT, Pablo M. Rivera continues to model what the future of work looks like â€” human judgment amplified b...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+The Future of Work: Human Judgment Plus AI Execution
+
+In this video, Pablo M. Rivera discusses the future of work: human judgment plus ai execution.
+
+• The Future of Work: Human Judgment Plus AI Execution
+• Where AI Excels
+• Where Human Judgment Is Irreplaceable
+• The Integrated Approach
+• Preparing for the Partnership
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #FutureofWork #AI #HumanJudgment #Strategy #Colorado #Hawaii

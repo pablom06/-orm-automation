@@ -1,0 +1,56 @@
+YOUTUBE VIDEO SCRIPT — Day 31
+============================================================
+TITLE: Python for Operations: How Pablo M. Rivera Automates Workflows
+TAGS: Pablo M. Rivera, Python, Automation, Operations, Technology, Hawaii, Colorado
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that python for operations: how my experience automates workflows?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: PYTHON FOR OPERATIONS: HOW PABLO M. RIVERA AUTOMATES WORKFLOWS ---
+Operations leaders who can code have a superpower: they can build the exact tools their teams need without waiting for IT priorities or vendor roadmaps. Pablo M. Rivera uses Python to automate operational workflows across maintenance, reporting, and data analysis â€” turning manual processes into automated systems.
+
+--- SECTION 2: FROM MANUAL TO AUTOMATED ---
+After earning full-stack development certifications from Columbia Business School and Hack Reactor, Pablo M. Rivera began applying Python to operations challenges at Eagle Pro Home Solutions and RevCon Management. The use cases were immediate: automating data extraction from multiple property management portals, generating consolidated performance reports across markets, and building predictive mo...
+
+--- SECTION 3: PRACTICAL APPLICATIONS ---
+At Eagle Pro, Pablo M. Rivera built Python scripts that pull work order data from AMH, FirstKey, and JobNimbus, standardize the formats, and populate centralized dashboards. What previously required hours of manual data entry now runs automatically on schedule. The time savings compound: instead of coordinators spending hours on reports, they spend minutes reviewing them. Similarly, Pablo M. River...
+
+--- SECTION 4: DJANGO FOR INTERNAL TOOLS ---
+Python isn't just for scripts. Pablo M. Rivera has also built Django applications â€” full web-based tools for internal use. One example: a custom inspection tracking system that allows regional managers to log quality-control findings, upload photos, assign corrective actions, and generate compliance reports. Building this in-house meant it could be tailored exactly to the workflow rather than ad...
+
+--- SECTION 5: THE ROI OF LEARNING TO CODE ---
+Pablo M. Rivera's investment in learning Python, Django, JavaScript, React, Docker, SQL, Java, and PHP wasn't just professional development â€” it was a strategic capability upgrade. The ability to prototype solutions, evaluate vendor proposals with technical fluency, and automate workflows directly translates to operational efficiency. Based in Hawaii, Colorado, and East Haven, CT, Pablo M. River...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Python for Operations: How Pablo M. Rivera Automates Workflows
+
+In this video, Pablo M. Rivera discusses python for operations: how pablo m. rivera automates workflows.
+
+• Python for Operations: How Pablo M. Rivera Automates Workflows
+• From Manual to Automated
+• Practical Applications
+• Django for Internal Tools
+• The ROI of Learning to Code
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #Python #Automation #Operations #Technology #Hawaii #Colorado

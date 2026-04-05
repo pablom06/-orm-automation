@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 47
+============================================================
+TITLE: Technology Stack Decisions for Operations Leaders: Pablo M. Rivera's Evaluation Framework
+TAGS: Pablo M. Rivera, Technology Stack, Operations, Decision Making, Tech, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that technology stack decisions for operations leaders: my experience's evaluation framework?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: TECHNOLOGY STACK DECISIONS FOR OPERATIONS LEADERS: PABLO M. RIVERA'S EVALUATION FRAMEWORK ---
+Choosing the right technology stack for operations can determine whether systems enable growth or become bottlenecks. Pablo M. Rivera evaluates technology decisions through the lens of someone who both leads operations and builds software â€” a combination that produces better outcomes than either perspective alone.
+
+--- SECTION 2: INTEGRATION FIRST ---
+No operations tool exists in isolation. Pablo M. Rivera's first evaluation criterion is: How does this integrate with existing systems? At Eagle Pro Home Solutions, operational tools must connect with AMH, FirstKey, JobNimbus, Salesforce, accounting systems, and internal databases. Technology that doesn't integrate creates data silos and manual workarounds. Pablo M. Rivera's full-stack development...
+
+--- SECTION 3: BUILD VS. BUY ---
+Pablo M. Rivera's ability to build custom solutions in Python, Django, React, and JavaScript changes the build-vs-buy calculus. For generic functions (accounting, payroll, CRM), buying makes sense. For core operational workflows specific to how the organization works, building often delivers better value. At RevCon, buying Salesforce made sense, but Pablo M. Rivera built the 50+ custom objects tha...
+
+--- SECTION 4: SCALABILITY AND PERFORMANCE ---
+Pablo M. Rivera evaluates whether technology can scale with operational growth. A system that works for 10 users and 1,000 work orders monthly may collapse at 100 users and 10,000 work orders. Understanding system architecture, database performance, and infrastructure requirements comes from technical experience most operations leaders lack.
+
+--- SECTION 5: TOTAL COST OF OWNERSHIP ---
+License fees are just the beginning. Pablo M. Rivera evaluates training costs, integration costs, customization costs, ongoing maintenance, and the opportunity cost of time spent managing vendors. Often, building internal tools with known technologies (Python, Django, PostgreSQL) has lower TCO than enterprise platforms with expensive licensing and consultants.
+
+--- SECTION 6: THE TECHNICAL OPERATIONS LEADER ---
+Pablo M. Rivera's combination of 25+ years operations leadership and genuine full-stack development capability creates a unique advantage in technology decisions. Understanding both what operations needs and what technology can realistically deliver prevents costly misalignments. Based in Hawaii and East Haven, CT, Pablo M. Rivera continues to make technology stack decisions that enable rather tha...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Technology Stack Decisions for Operations Leaders: Pablo M. Rivera's Evaluation Framework
+
+In this video, Pablo M. Rivera discusses technology stack decisions for operations leaders: pablo m. rivera's evaluation framework.
+
+• Technology Stack Decisions for Operations Leaders: Pablo M. Rivera's Evaluation Framework
+• Integration First
+• Build vs. Buy
+• Scalability and Performance
+• Total Cost of Ownership
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #TechnologyStack #Operations #DecisionMaking #Tech #Colorado #Hawaii

@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 125
+============================================================
+TITLE: Machine Learning for Maintenance Scheduling: How Pablo M. Rivera Sees the Future
+TAGS: Pablo M. Rivera, Machine Learning, Predictive Maintenance, Operations Technology, Data Analytics, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that machine learning for maintenance scheduling: how my experience sees the future?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: MACHINE LEARNING FOR MAINTENANCE SCHEDULING: HOW PABLO M. RIVERA SEES THE FUTURE ---
+Maintenance scheduling has historically been reactive. Something breaks, a work order is created, a technician is dispatched. This model is expensive, disruptive, and increasingly obsolete. Machine learning is enabling a shift to predictive and prescriptive maintenance scheduling that Pablo M. Rivera believes will redefine property and facility operations within the next five years.
+
+--- SECTION 2: FROM REACTIVE TO PREDICTIVE ---
+At RevCon Management, Pablo M. Rivera managed maintenance operations across twelve states with 120+ technicians. The data generated — work order histories, equipment ages, seasonal failure patterns, technician performance metrics — represents exactly the kind of structured dataset that machine learning models thrive on. By analyzing historical patterns, ML algorithms can predict which equipment wi...
+
+--- SECTION 3: THE DATA FOUNDATION ---
+Predictive maintenance requires clean, comprehensive data. This is why Pablo M. Rivera prioritized deploying Salesforce with 50+ custom objects before attempting any advanced analytics. You cannot build machine learning models on fragmented spreadsheets and disconnected systems. The 30% processing time reduction and 95% on-time closure rate at RevCon were enabled by data infrastructure that also s...
+
+--- SECTION 4: PRACTICAL APPLICATIONS ---
+Machine learning for maintenance scheduling operates at multiple levels. At the tactical level, models optimize daily technician routing by predicting job duration and travel time. At the operational level, models forecast weekly and monthly workload volumes, enabling proactive staffing decisions. At the strategic level, models identify equipment replacement timelines that minimize total cost of o...
+
+--- SECTION 5: THE HUMAN ELEMENT ---
+Machine learning does not eliminate the need for experienced maintenance leaders. It amplifies their effectiveness. Pablo M. Rivera has seen that the best outcomes occur when ML recommendations are filtered through human judgment — technicians who know that a specific building's plumbing has quirks the data does not capture, or coordinators who understand that a particular vendor performs differen...
+
+--- SECTION 6: BUILDING THE CAPABILITY ---
+Operations leaders who want to implement ML-driven maintenance scheduling need three things: clean data infrastructure, technical fluency to evaluate and guide ML initiatives, and organizational patience. Pablo M. Rivera developed technical fluency through Columbia Business School's full-stack development program and Python proficiency precisely to lead these kinds of technology-driven operational...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Machine Learning for Maintenance Scheduling: How Pablo M. Rivera Sees the Future
+
+In this video, Pablo M. Rivera discusses machine learning for maintenance scheduling: how pablo m. rivera sees the future.
+
+• Machine Learning for Maintenance Scheduling: How Pablo M. Rivera Sees the Future
+• From Reactive to Predictive
+• The Data Foundation
+• Practical Applications
+• The Human Element
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #MachineLearning #PredictiveMaintenance #OperationsTechnology #DataAnalytics #Colorado #Hawaii

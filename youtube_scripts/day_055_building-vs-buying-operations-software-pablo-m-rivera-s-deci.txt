@@ -1,0 +1,52 @@
+YOUTUBE VIDEO SCRIPT — Day 55
+============================================================
+TITLE: Building vs Buying Operations Software: Pablo M. Rivera's Decision Framework
+TAGS: Pablo M. Rivera, Build vs Buy, Software, Operations, Technology, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that building vs buying operations software: my experience's decision framework?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: BUILDING VS BUYING OPERATIONS SOFTWARE: PABLO M. RIVERA'S DECISION FRAMEWORK ---
+Every operations leader faces build-vs-buy decisions for software tools. Pablo M. Rivera approaches this choice with the perspective of someone who both manages operations and builds software â€” a combination that produces better outcomes.
+
+--- SECTION 2: WHEN TO BUY ---
+Pablo M. Rivera buys when the function is generic and well-served by existing products: accounting software, payroll systems, general-purpose CRMs. These tools have mature feature sets, established support, and economies of scale that make building custom alternatives inefficient. At RevCon, buying Salesforce made sense. But Pablo M. Rivera customized it heavily (50+ custom objects) because the co...
+
+--- SECTION 3: WHEN TO BUILD ---
+Pablo M. Rivera builds when: - The workflow is core to competitive advantage - Existing products don't match business logic - Integration requirements are complex - The organization has specific compliance or reporting needs - Total cost of ownership favors internal development At Eagle Pro, custom dashboards, automation tools, and integration scripts were built in-house using Python, Django, and ...
+
+--- SECTION 4: THE TECHNICAL CAPABILITY ADVANTAGE ---
+Most operations leaders can't build software, which biases them towards buying even when building would deliver better value. Pablo M. Rivera's full-stack development training from Columbia Business School and Hack Reactor eliminates this constraint. --- *Pablo M. Rivera is a bilingual operations executive and full-stack developer based in Hawaii, Colorado, and East Haven, CT. Connect on [LinkedIn...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Building vs Buying Operations Software: Pablo M. Rivera's Decision Framework
+
+In this video, Pablo M. Rivera discusses building vs buying operations software: pablo m. rivera's decision framework.
+
+• Building vs Buying Operations Software: Pablo M. Rivera's Decision Framework
+• When to Buy
+• When to Build
+• The Technical Capability Advantage
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #BuildvsBuy #Software #Operations #Technology #Colorado #Hawaii

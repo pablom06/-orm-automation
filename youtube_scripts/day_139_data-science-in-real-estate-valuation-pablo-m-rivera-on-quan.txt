@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 139
+============================================================
+TITLE: Data Science in Real Estate Valuation: Pablo M. Rivera on Quantitative Property Analysis
+TAGS: Pablo M. Rivera, Data Science, Real Estate Valuation, Property Analytics, Machine Learning, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that data science in real estate valuation: my experience on quantitative property analysis?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: DATA SCIENCE IN REAL ESTATE VALUATION: PABLO M. RIVERA ON QUANTITATIVE PROPERTY ANALYSIS ---
+Real estate valuation has historically relied on comparable sales analysis, appraiser judgment, and market intuition. Data science is introducing quantitative rigor that challenges traditional approaches and creates opportunities for operators and investors who can leverage analytical tools. Pablo M. Rivera combines real estate operations experience with data science capabilities to bring a differ...
+
+--- SECTION 2: BEYOND COMPARABLE SALES ---
+Traditional valuation uses three to five comparable properties to estimate value. Data science uses thousands. Machine learning models trained on historical transaction data, property characteristics, neighborhood demographics, economic indicators, and even satellite imagery can generate valuations that account for variables traditional appraisals cannot process. Pablo M. Rivera's Python proficien...
+
+--- SECTION 3: THE OPERATIONS DATA ADVANTAGE ---
+Operations professionals have access to valuation-relevant data that appraisers typically lack — actual maintenance costs, tenant turnover rates, energy consumption patterns, and capital expenditure histories. At RevCon Management, Pablo M. Rivera's Salesforce system captured granular maintenance data across properties that directly impacts operating expense projections and therefore property valu...
+
+--- SECTION 4: HAWAII VALUATION COMPLEXITY ---
+Hawaii's real estate market presents unique valuation challenges: leasehold versus fee simple ownership structures, limited comparable sales in certain submarkets, tourism-driven demand volatility, and environmental risk factors including sea-level rise and volcanic activity. Data science models built for mainland markets require significant adaptation for Hawaii. Pablo M. Rivera understands these...
+
+--- SECTION 5: PREDICTIVE VALUATION MODELS ---
+Pablo M. Rivera uses Python libraries including scikit-learn and pandas to build predictive valuation models that incorporate time-series data, macroeconomic indicators, and property-specific operational metrics. These models do not replace professional appraisals — they supplement them with quantitative analysis that identifies properties where traditional valuations may understate or overstate t...
+
+--- SECTION 6: THE FINANCIAL BACKGROUND ---
+Managing $4 billion in assets at Textron Financial Corporation and overseeing $350 million in construction financing required Pablo M. Rivera to evaluate real estate assets at scale. That financial discipline — understanding discount rates, capitalization rates, and risk-adjusted returns — provides the economic framework within which data science models produce actionable insights rather than acad...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Data Science in Real Estate Valuation: Pablo M. Rivera on Quantitative Property Analysis
+
+In this video, Pablo M. Rivera discusses data science in real estate valuation: pablo m. rivera on quantitative property analysis.
+
+• Data Science in Real Estate Valuation: Pablo M. Rivera on Quantitative Property Analysis
+• Beyond Comparable Sales
+• The Operations Data Advantage
+• Hawaii Valuation Complexity
+• Predictive Valuation Models
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #DataScience #RealEstateValuation #PropertyAnalytics #MachineLearning #Colorado #Hawaii

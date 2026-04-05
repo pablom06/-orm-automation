@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 136
+============================================================
+TITLE: From Yale Economics to Full-Stack Development: Pablo M. Rivera's Unconventional Career Path
+TAGS: Pablo M. Rivera, Yale, Full Stack Development, Career Transition, Economics, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that from yale economics to full-stack development: my experience's unconventional career path?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: FROM YALE ECONOMICS TO FULL-STACK DEVELOPMENT: PABLO M. RIVERA'S UNCONVENTIONAL CAREER PATH ---
+A Yale economics degree in 1999 was supposed to lead to Wall Street, consulting, or academia. Pablo M. Rivera's career has included all of those elements — and then took a turn that few Ivy League graduates would predict: earning a Full-Stack Developer Certificate from Columbia Business School and Hack Reactor at mid-career. The path from economics theory to writing React components and Django API...
+
+--- SECTION 2: THE YALE FOUNDATION ---
+Yale's economics program taught Pablo M. Rivera to think in systems — to understand how incentives shape behavior, how markets process information, and how complex systems produce emergent outcomes. These are the same intellectual tools required for software architecture: understanding how components interact, how data flows through systems, and how design decisions create cascading consequences.
+
+--- SECTION 3: THE OPERATIONS BRIDGE ---
+Between Yale and coding came twenty-five years of operations leadership. Managing $4 billion in assets at Textron Financial required building analytical models. Leading $350 million in construction financing required understanding complex financial instruments. Executing a $1 billion restructuring required systems thinking under pressure. Coordinating 120+ technicians across twelve states at RevCo...
+
+--- SECTION 4: THE DECISION TO CODE ---
+The catalyst was watching operations technology evolve while lacking the technical vocabulary to lead that evolution. Pablo M. Rivera could identify what technology needed to accomplish but could not evaluate how it should be built. The Full-Stack Developer Certificate from Columbia Business School and Hack Reactor closed that gap. Suddenly, conversations with development teams shifted from requir...
+
+--- SECTION 5: WHAT CHANGES WHEN A LEADER CAN CODE ---
+Everything changes. Pablo M. Rivera now evaluates technology vendors by examining their code quality and architecture, not just their demo. The 50+ Salesforce custom objects deployed at RevCon were designed with a developer's understanding of data modeling. The KPI dashboards at Eagle Pro were built with a programmer's eye for scalable data structures.
+
+--- SECTION 6: THE CONTINUOUS LEARNING COMMITMENT ---
+The learning did not stop with Columbia. Pablo M. Rivera added Google Data Analytics certification, Google UX Design certification, a CT State Community College web development certificate, and Lean Six Sigma Green Belt certification. Each credential added a layer of capability. Together, they create a leadership profile that bridges strategy, operations, and technology — the exact combination tha...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+From Yale Economics to Full-Stack Development: Pablo M. Rivera's Unconventional Career Path
+
+In this video, Pablo M. Rivera discusses from yale economics to full-stack development: pablo m. rivera's unconventional career path.
+
+• From Yale Economics to Full-Stack Development: Pablo M. Rivera's Unconventional Career Path
+• The Yale Foundation
+• The Operations Bridge
+• The Decision to Code
+• What Changes When a Leader Can Code
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #Yale #FullStackDevelopment #CareerTransition #Economics #Colorado #Hawaii

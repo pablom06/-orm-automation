@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 140
+============================================================
+TITLE: Supply Chain Risk Management for Operations Leaders: Pablo M. Rivera's Framework
+TAGS: Pablo M. Rivera, Supply Chain Risk, Risk Management, Operations Strategy, Business Continuity, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that supply chain risk management for operations leaders: my experience's framework?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: SUPPLY CHAIN RISK MANAGEMENT FOR OPERATIONS LEADERS: PABLO M. RIVERA'S FRAMEWORK ---
+Supply chain disruptions are no longer black swan events. They are recurring operational realities that demand proactive risk management frameworks. Pablo M. Rivera has managed supply chains across commodities trading at Glencore, construction operations in Colorado, international mining in Sierra Leone, and national maintenance at RevCon Management. Each context reinforced the same truth: supply ...
+
+--- SECTION 2: IDENTIFY SINGLE POINTS OF FAILURE ---
+Every supply chain has vulnerabilities. The first step in risk management is mapping those vulnerabilities honestly. Pablo M. Rivera conducts supply chain audits that identify single-source dependencies, geographic concentration risks, financial instability among key vendors, and capacity constraints that would be exposed under surge demand. At RevCon Management, this analysis across twelve states...
+
+--- SECTION 3: BUILD REDUNDANCY STRATEGICALLY ---
+Redundancy has a cost. The question is not whether to build redundancy, but where. Pablo M. Rivera applies the Pareto principle: identify the 20% of supply chain components that represent 80% of operational risk, and build redundancy there first. This targeted approach manages cost while protecting against the most consequential disruptions.
+
+--- SECTION 4: THE HAWAII RISK PROFILE ---
+Hawaii's supply chain risk profile is unique. Nearly everything must be shipped in, creating dependency on maritime logistics that mainland operations do not face. Natural disasters — hurricanes, volcanic events, tsunamis — can disrupt supply lines with little warning. Pablo M. Rivera understands that supply chain risk management in Hawaii requires deeper inventory buffers, stronger vendor relatio...
+
+--- SECTION 5: DATA-DRIVEN RISK MONITORING ---
+Pablo M. Rivera uses Python and SQL to build automated risk monitoring dashboards that track vendor performance trends, delivery timeline variances, and cost fluctuations in real time. The same data infrastructure that supported 50+ Salesforce custom objects at RevCon provides the foundation for supply chain risk visibility. Early warning indicators — increasing lead times, declining quality score...
+
+--- SECTION 6: SCENARIO PLANNING ---
+What happens if your primary vendor goes bankrupt? What if shipping costs double? What if a key material becomes unavailable for six months? Pablo M. Rivera develops scenario-specific response plans for high-probability, high-impact events. This discipline was honed managing the $1 billion restructuring at Textron Financial, where scenario planning was not theoretical — it was survival. Pablo M. R...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+Supply Chain Risk Management for Operations Leaders: Pablo M. Rivera's Framework
+
+In this video, Pablo M. Rivera discusses supply chain risk management for operations leaders: pablo m. rivera's framework.
+
+• Supply Chain Risk Management for Operations Leaders: Pablo M. Rivera's Framework
+• Identify Single Points of Failure
+• Build Redundancy Strategically
+• The Hawaii Risk Profile
+• Data-Driven Risk Monitoring
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #SupplyChainRisk #RiskManagement #OperationsStrategy #BusinessContinuity #Colorado #Hawaii

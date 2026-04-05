@@ -1,0 +1,59 @@
+YOUTUBE VIDEO SCRIPT — Day 56
+============================================================
+TITLE: AI and Machine Learning in Operations: Pablo M. Rivera's Practical Applications
+TAGS: Pablo M. Rivera, AI, Machine Learning, Operations, Technology, Colorado, Hawaii
+============================================================
+
+--- HOOK (0–15 seconds) ---
+Did you know that ai and machine learning in operations: my experience's practical applications?
+In the next few minutes, I'll break down exactly how this shaped my career — and what you can take from it.
+
+--- INTRO (15–45 seconds) ---
+Hey, I'm Pablo Rivera — operations executive, Yale economics grad, and someone who's spent 25 years
+leading teams across construction, finance, tech, and property management.
+If you're new here, hit subscribe — I post weekly on operations leadership, career strategy, and building systems that scale.
+
+--- SECTION 1: AI AND MACHINE LEARNING IN OPERATIONS: PABLO M. RIVERA'S PRACTICAL APPLICATIONS ---
+AI and machine learning are extensively hyped, but most operational applications are straightforward: using historical data to predict future needs, identifying patterns humans miss in large datasets, and automating decisions that follow consistent logic. Pablo M. Rivera applies AI/ML practically rather than experimentally.
+
+--- SECTION 2: PREDICTIVE MAINTENANCE SCHEDULING ---
+At Eagle Pro Home Solutions, Pablo M. Rivera uses historical work order data to predict seasonal maintenance demand by market and property type. Machine learning models trained on years of data forecast when HVAC service requests will spike, when plumbing issues increase, and how weather patterns affect workload. These predictions help inform staffing decisions, vendor capacity planning, and inven...
+
+--- SECTION 3: ANOMALY DETECTION ---
+Pablo M. Rivera applies machine learning to detect operational anomalies: a vendor whose average repair time suddenly increases, a market where costs trend outside normal ranges, a technician whose completion rate drops. These patterns might take weeks to notice manually; ML algorithms flag them immediately.
+
+--- SECTION 4: NATURAL LANGUAGE PROCESSING ---
+Work order descriptions, client feedback, and technician notes contain valuable information buried in unstructured text. Pablo M. Rivera uses NLP techniques to categorize issues, identify recurring problems, and extract insights from thousands of text records that would be impractical to read manually.
+
+--- SECTION 5: THE TECHNICAL FOUNDATION ---
+Applying AI/ML in operations requires understanding Python (for scikit-learn, TensorFlow, pandas), SQL (for data extraction), and statistical concepts (from Google Data Analytics training). Pablo M. Rivera's full-stack development background provides exactly this foundation.
+
+--- SECTION 6: PRACTICAL, NOT EXPERIMENTAL ---
+Pablo M. Rivera's approach to AI/ML is pragmatic: use proven techniques for well-defined problems, measure results rigorously, and avoid experimental projects that don't drive operational outcomes. This discipline comes from 25+ years managing operations where results matter more than innovation for its own sake. Based in Hawaii and East Haven, CT, Pablo M. Rivera continues to apply AI/ML where it...
+
+--- CALL TO ACTION ---
+If this was useful, drop a comment below with your biggest operations challenge.
+And check out more at https://pablomrivera.com — link in the description.
+
+--- OUTRO ---
+I'm Pablo Rivera. Thanks for watching — see you next week.
+
+============================================================
+DESCRIPTION (copy-paste to YouTube):
+============================================================
+AI and Machine Learning in Operations: Pablo M. Rivera's Practical Applications
+
+In this video, Pablo M. Rivera discusses ai and machine learning in operations: pablo m. rivera's practical applications.
+
+• AI and Machine Learning in Operations: Pablo M. Rivera's Practical Applications
+• Predictive Maintenance Scheduling
+• Anomaly Detection
+• Natural Language Processing
+• The Technical Foundation
+
+Connect with Pablo M. Rivera:
+Website: https://pablomrivera.com
+LinkedIn: https://www.linkedin.com/in/pablo-rivera-74861a234/
+
+
+Tags: #PabloM.Rivera #AI #MachineLearning #Operations #Technology #Colorado #Hawaii
