@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T03:33:27.336821",
+      "published_at": "2026-04-05T14:15:51.562160",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T03:33:27.665715",
+      "published_at": "2026-04-05T14:15:51.957256",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T03:33:27.963143",
+      "published_at": "2026-04-05T14:15:52.188701",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T03:33:28.278585",
+      "published_at": "2026-04-05T14:15:52.429192",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T03:33:28.583581",
+      "published_at": "2026-04-05T14:15:52.661109",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2411,6 +2411,69 @@
         "gist": "https://gist.github.com/pablom06/16009e4bc169cc01a12afc80662d45c7",
         "github_pages": "https://pablom06.github.io/continuous-learning-as-a-leadership-strategy-the-pablo-m-rivera-approach",
         "gitlab": "https://gitlab.com/-/snippets/5976464"
+      }
+    },
+    "116": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-05T14:15:57.454585",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/from-glencore-to-google-certifications-the-nonlinear-career-of-pablo-m-rivera-29mk",
+        "hashnode": "https://pablor.hashnode.dev/from-glencore-to-google-certifications-the-nonlinear-career-of-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/From-Glencore-to-Google-Certifications-The-Nonlinear-Career-of-Pablo-M-Rivera-04-05",
+        "tumblr": "https://pablomriv.tumblr.com/post/813064315421720576",
+        "gist": "https://gist.github.com/pablom06/01eb10e6592ed9c7cf2f8c3fe82e5939",
+        "github_pages": "https://pablom06.github.io/from-glencore-to-google-certifications-the-nonlinear-career-of-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5976633"
+      }
+    },
+    "117": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-05T14:16:29.129141",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/how-ai-and-automation-are-transforming-field-service-operations-29ga",
+        "hashnode": "https://pablor.hashnode.dev/how-ai-and-automation-are-transforming-field-service-operations",
+        "telegraph": "https://telegra.ph/How-AI-and-Automation-Are-Transforming-Field-Service-Operations-04-05",
+        "tumblr": "https://pablomriv.tumblr.com/post/813064348552642560",
+        "gist": "https://gist.github.com/pablom06/f95fa8edf493639ff491b42b733348eb",
+        "github_pages": "https://pablom06.github.io/how-ai-and-automation-are-transforming-field-service-operations",
+        "gitlab": "https://gitlab.com/-/snippets/5976634"
+      }
+    },
+    "118": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-05T14:17:01.149317",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/building-a-tech-enabled-operations-culture-strategies-from-pablo-m-rivera-4bpg",
+        "hashnode": "https://pablor.hashnode.dev/building-a-tech-enabled-operations-culture-strategies-from-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Building-a-Tech-Enabled-Operations-Culture-Strategies-from-Pablo-M-Rivera-04-05",
+        "tumblr": "https://pablomriv.tumblr.com/post/813064381681303552",
+        "gist": "https://gist.github.com/pablom06/08300b8701591a9fcff5a39c268218bf",
+        "github_pages": "https://pablom06.github.io/building-a-tech-enabled-operations-culture-strategies-from-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5976635"
       }
     }
   },
