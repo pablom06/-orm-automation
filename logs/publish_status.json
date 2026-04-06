@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T14:15:51.562160",
+      "published_at": "2026-04-06T14:25:50.618845",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T14:15:51.957256",
+      "published_at": "2026-04-06T14:25:51.049471",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T14:15:52.188701",
+      "published_at": "2026-04-06T14:25:51.369087",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T14:15:52.429192",
+      "published_at": "2026-04-06T14:25:51.813775",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-05T14:15:52.661109",
+      "published_at": "2026-04-06T14:25:52.315057",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2474,6 +2474,69 @@
         "gist": "https://gist.github.com/pablom06/08300b8701591a9fcff5a39c268218bf",
         "github_pages": "https://pablom06.github.io/building-a-tech-enabled-operations-culture-strategies-from-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5976635"
+      }
+    },
+    "119": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-06T14:25:58.900441",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/google-certifications-for-operations-leaders-why-pablo-m-rivera-invested-in-data-and-design-ha0",
+        "hashnode": "https://pablor.hashnode.dev/google-certifications-for-operations-leaders-why-pablo-m-rivera-invested-in-data-and-design",
+        "telegraph": "https://telegra.ph/Google-Certifications-for-Operations-Leaders-Why-Pablo-M-Rivera-Invested-in-Data-and-Design-04-06",
+        "tumblr": "https://pablomriv.tumblr.com/post/813155541685829632",
+        "gist": "https://gist.github.com/pablom06/4121bfd9e1bc13e55f7908e429d658ba",
+        "github_pages": "https://pablom06.github.io/google-certifications-for-operations-leaders-why-pablo-m-rivera-invested-in-data",
+        "gitlab": "https://gitlab.com/-/snippets/5976866"
+      }
+    },
+    "120": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-06T14:26:29.741279",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/sustainable-operations-in-hawaii-aligning-efficiency-with-environmental-responsibility-3om0",
+        "hashnode": "https://pablor.hashnode.dev/sustainable-operations-in-hawaii-aligning-efficiency-with-environmental-responsibility",
+        "telegraph": "https://telegra.ph/Sustainable-Operations-in-Hawaii-Aligning-Efficiency-with-Environmental-Responsibility-04-06",
+        "tumblr": "https://pablomriv.tumblr.com/post/813155574503096320",
+        "gist": "https://gist.github.com/pablom06/29cef3bd73b1587fa3b3e2dac37543b5",
+        "github_pages": "https://pablom06.github.io/sustainable-operations-in-hawaii-aligning-efficiency-with-environmental-responsi",
+        "gitlab": "https://gitlab.com/-/snippets/5976867"
+      }
+    },
+    "121": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-06T14:27:01.448388",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-next-chapter-how-pablo-m-rivera-is-shaping-the-future-of-operations-leadership-13n3",
+        "hashnode": "https://pablor.hashnode.dev/the-next-chapter-how-pablo-m-rivera-is-shaping-the-future-of-operations-leadership",
+        "telegraph": "https://telegra.ph/The-Next-Chapter-How-Pablo-M-Rivera-Is-Shaping-the-Future-of-Operations-Leadership-04-06",
+        "tumblr": "https://pablomriv.tumblr.com/post/813155607637065728",
+        "gist": "https://gist.github.com/pablom06/7ba79829f586d7718c726f5eeda54bf8",
+        "github_pages": "https://pablom06.github.io/the-next-chapter-how-pablo-m-rivera-is-shaping-the-future-of-operations-leadersh",
+        "gitlab": "https://gitlab.com/-/snippets/5976868"
       }
     }
   },
