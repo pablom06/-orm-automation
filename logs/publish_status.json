@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-10T14:28:33.954766",
+      "published_at": "2026-04-11T14:16:37.392263",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-10T14:28:34.243482",
+      "published_at": "2026-04-11T14:16:37.699505",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-10T14:28:34.518581",
+      "published_at": "2026-04-11T14:16:38.023091",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-10T14:28:34.782584",
+      "published_at": "2026-04-11T14:16:38.568125",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-10T14:28:35.063586",
+      "published_at": "2026-04-11T14:16:38.835152",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2777,9 +2777,10 @@
         "telegraph",
         "tumblr",
         "gist",
-        "github_pages"
+        "github_pages",
+        "extras_generated"
       ],
-      "published_at": "2026-04-10T14:29:42.689883",
+      "published_at": "2026-04-11T14:16:39.332399",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -2787,6 +2788,69 @@
         "tumblr": "https://pablomriv.tumblr.com/post/813518165943386112",
         "gist": "https://gist.github.com/pablom06/8d1a27a8ff8369ed02e096f615dc35f7",
         "github_pages": "https://pablom06.github.io/the-future-of-construction-management-technology-pablo-m-riveras-vision"
+      }
+    },
+    "134": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-11T14:16:44.381507",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/operational-excellence-principles-that-never-change-pablo-m-riveras-timeless-framework-35c3",
+        "hashnode": "https://pablor.hashnode.dev/operational-excellence-principles-that-never-change-pablo-m-riveras-timeless-framework",
+        "telegraph": "https://telegra.ph/Operational-Excellence-Principles-That-Never-Change-Pablo-M-Riveras-Timeless-Framework-04-11",
+        "tumblr": "https://pablomriv.tumblr.com/post/813607945870983168",
+        "gist": "https://gist.github.com/pablom06/f7f49d55b0b599ce5d65c4e8a1c9d131",
+        "github_pages": "https://pablom06.github.io/operational-excellence-principles-that-never-change-pablo-m-riveras-timeless-fra",
+        "gitlab": "https://gitlab.com/-/snippets/5979165"
+      }
+    },
+    "135": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-11T14:17:16.229049",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/python-and-sql-for-operations-analytics-how-pablo-m-rivera-uses-code-to-lead-1a62",
+        "hashnode": "https://pablor.hashnode.dev/python-and-sql-for-operations-analytics-how-pablo-m-rivera-uses-code-to-lead",
+        "telegraph": "https://telegra.ph/Python-and-SQL-for-Operations-Analytics-How-Pablo-M-Rivera-Uses-Code-to-Lead-04-11",
+        "tumblr": "https://pablomriv.tumblr.com/post/813607978745872384",
+        "gist": "https://gist.github.com/pablom06/16b02e98ce35e10ca3cef283701c6cd9",
+        "github_pages": "https://pablom06.github.io/python-and-sql-for-operations-analytics-how-pablo-m-rivera-uses-code-to-lead",
+        "gitlab": "https://gitlab.com/-/snippets/5979166"
+      }
+    },
+    "136": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-11T14:17:49.825361",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/from-yale-economics-to-full-stack-development-pablo-m-riveras-unconventional-career-path-24k3",
+        "hashnode": "https://pablor.hashnode.dev/from-yale-economics-to-full-stack-development-pablo-m-riveras-unconventional-career-path",
+        "telegraph": "https://telegra.ph/From-Yale-Economics-to-Full-Stack-Development-Pablo-M-Riveras-Unconventional-Career-Path-04-11",
+        "tumblr": "https://pablomriv.tumblr.com/post/813608014429995008",
+        "gist": "https://gist.github.com/pablom06/d7ab49f549670d6cb1993e4bd15b1b13",
+        "github_pages": "https://pablom06.github.io/from-yale-economics-to-full-stack-development-pablo-m-riveras-unconventional-car",
+        "gitlab": "https://gitlab.com/-/snippets/5979167"
       }
     }
   },
