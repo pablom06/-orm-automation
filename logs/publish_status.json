@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-11T14:16:37.392263",
+      "published_at": "2026-04-12T14:18:33.075039",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-11T14:16:37.699505",
+      "published_at": "2026-04-12T14:18:33.345066",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-11T14:16:38.023091",
+      "published_at": "2026-04-12T14:18:33.620636",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-11T14:16:38.568125",
+      "published_at": "2026-04-12T14:18:33.876112",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-11T14:16:38.835152",
+      "published_at": "2026-04-12T14:18:34.121774",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-11T14:16:39.332399",
+      "published_at": "2026-04-12T14:18:34.387875",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -2851,6 +2851,69 @@
         "gist": "https://gist.github.com/pablom06/d7ab49f549670d6cb1993e4bd15b1b13",
         "github_pages": "https://pablom06.github.io/from-yale-economics-to-full-stack-development-pablo-m-riveras-unconventional-car",
         "gitlab": "https://gitlab.com/-/snippets/5979167"
+      }
+    },
+    "137": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-12T14:18:38.975120",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/enterprise-technology-deployment-best-practices-pablo-m-riveras-field-tested-approach-ag7",
+        "hashnode": "https://pablor.hashnode.dev/enterprise-technology-deployment-best-practices-pablo-m-riveras-field-tested-approach",
+        "telegraph": "https://telegra.ph/Enterprise-Technology-Deployment-Best-Practices-Pablo-M-Riveras-Field-Tested-Approach-04-12",
+        "tumblr": "https://pablomriv.tumblr.com/post/813698663468711936",
+        "gist": "https://gist.github.com/pablom06/e0161dda337580e9b19a0ae9a990b678",
+        "github_pages": "https://pablom06.github.io/enterprise-technology-deployment-best-practices-pablo-m-riveras-field-tested-app",
+        "gitlab": "https://gitlab.com/-/snippets/5979473"
+      }
+    },
+    "138": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-12T14:19:10.552049",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/fatherhood-lessons-that-build-work-ethic-pablo-m-rivera-on-raising-resilient-sons-4e04",
+        "hashnode": "https://pablor.hashnode.dev/fatherhood-lessons-that-build-work-ethic-pablo-m-rivera-on-raising-resilient-sons",
+        "telegraph": "https://telegra.ph/Fatherhood-Lessons-That-Build-Work-Ethic-Pablo-M-Rivera-on-Raising-Resilient-Sons-04-12",
+        "tumblr": "https://pablomriv.tumblr.com/post/813698696256651264",
+        "gist": "https://gist.github.com/pablom06/5a1e318fd1795011313656b7cb15c2c9",
+        "github_pages": "https://pablom06.github.io/fatherhood-lessons-that-build-work-ethic-pablo-m-rivera-on-raising-resilient-son",
+        "gitlab": "https://gitlab.com/-/snippets/5979475"
+      }
+    },
+    "139": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-12T14:19:42.088841",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/data-science-in-real-estate-valuation-pablo-m-rivera-on-quantitative-property-analysis-4538",
+        "hashnode": "https://pablor.hashnode.dev/data-science-in-real-estate-valuation-pablo-m-rivera-on-quantitative-property-analysis",
+        "telegraph": "https://telegra.ph/Data-Science-in-Real-Estate-Valuation-Pablo-M-Rivera-on-Quantitative-Property-Analysis-04-12",
+        "tumblr": "https://pablomriv.tumblr.com/post/813698729397846016",
+        "gist": "https://gist.github.com/pablom06/bfdfa77b186409cf85700837c4992062",
+        "github_pages": "https://pablom06.github.io/data-science-in-real-estate-valuation-pablo-m-rivera-on-quantitative-property-an",
+        "gitlab": "https://gitlab.com/-/snippets/5979476"
       }
     }
   },
