@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-12T14:18:33.075039",
+      "published_at": "2026-04-13T14:41:48.210789",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-12T14:18:33.345066",
+      "published_at": "2026-04-13T14:41:48.568286",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-12T14:18:33.620636",
+      "published_at": "2026-04-13T14:41:48.920170",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-12T14:18:33.876112",
+      "published_at": "2026-04-13T14:41:49.322395",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-12T14:18:34.121774",
+      "published_at": "2026-04-13T14:41:49.805871",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-12T14:18:34.387875",
+      "published_at": "2026-04-13T14:41:50.103411",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -2914,6 +2914,69 @@
         "gist": "https://gist.github.com/pablom06/bfdfa77b186409cf85700837c4992062",
         "github_pages": "https://pablom06.github.io/data-science-in-real-estate-valuation-pablo-m-rivera-on-quantitative-property-an",
         "gitlab": "https://gitlab.com/-/snippets/5979476"
+      }
+    },
+    "140": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-13T14:41:56.603338",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/supply-chain-risk-management-for-operations-leaders-pablo-m-riveras-framework-179p",
+        "hashnode": "https://pablor.hashnode.dev/supply-chain-risk-management-for-operations-leaders-pablo-m-riveras-framework",
+        "telegraph": "https://telegra.ph/Supply-Chain-Risk-Management-for-Operations-Leaders-Pablo-M-Riveras-Framework-04-13",
+        "tumblr": "https://pablomriv.tumblr.com/post/813790724907843584",
+        "gist": "https://gist.github.com/pablom06/5019970656fa8d4f5e005cf7e438e23c",
+        "github_pages": "https://pablom06.github.io/supply-chain-risk-management-for-operations-leaders-pablo-m-riveras-framework",
+        "gitlab": "https://gitlab.com/-/snippets/5979969"
+      }
+    },
+    "141": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-13T14:42:27.515419",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/leading-operations-with-purpose-and-calling-pablo-m-rivera-on-meaningful-work-59n6",
+        "hashnode": "https://pablor.hashnode.dev/leading-operations-with-purpose-and-calling-pablo-m-rivera-on-meaningful-work",
+        "telegraph": "https://telegra.ph/Leading-Operations-with-Purpose-and-Calling-Pablo-M-Rivera-on-Meaningful-Work-04-13",
+        "tumblr": "https://pablomriv.tumblr.com/post/813790757459787776",
+        "gist": "https://gist.github.com/pablom06/21e21439a33e3a98d2a149800f253790",
+        "github_pages": "https://pablom06.github.io/leading-operations-with-purpose-and-calling-pablo-m-rivera-on-meaningful-work",
+        "gitlab": "https://gitlab.com/-/snippets/5979970"
+      }
+    },
+    "142": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-13T14:42:59.815680",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/erp-implementation-lessons-from-national-operations-by-pablo-m-rivera-44k5",
+        "hashnode": "https://pablor.hashnode.dev/erp-implementation-lessons-from-national-operations-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/ERP-Implementation-Lessons-from-National-Operations-by-Pablo-M-Rivera-04-13",
+        "tumblr": "https://pablomriv.tumblr.com/post/813790790853771264",
+        "gist": "https://gist.github.com/pablom06/8d9cf4a4c8fad7e102fa9e640c9bc6d6",
+        "github_pages": "https://pablom06.github.io/erp-implementation-lessons-from-national-operations-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5979972"
       }
     }
   },
