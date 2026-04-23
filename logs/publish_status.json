@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-22T14:39:23.862051",
+      "published_at": "2026-04-23T14:51:59.873670",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-22T14:39:24.215799",
+      "published_at": "2026-04-23T14:52:00.339999",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-22T14:39:24.866759",
+      "published_at": "2026-04-23T14:52:00.683019",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-22T14:39:25.246957",
+      "published_at": "2026-04-23T14:52:00.956215",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-22T14:39:25.568180",
+      "published_at": "2026-04-23T14:52:01.296390",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-22T14:39:25.894432",
+      "published_at": "2026-04-23T14:52:01.847669",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -3547,6 +3547,69 @@
         "gist": "https://gist.github.com/pablom06/01d47d90a6152e943e36b94407253757",
         "github_pages": "https://pablom06.github.io/cost-optimization-without-sacrificing-quality-by-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5984198"
+      }
+    },
+    "170": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-23T14:52:08.414450",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/mergers-and-acquisitions-from-operations-view-by-pablo-m-rivera-40i9",
+        "hashnode": "https://pablor.hashnode.dev/mergers-and-acquisitions-from-operations-view-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Mergers-and-Acquisitions-from-Operations-View-by-Pablo-M-Rivera-04-23",
+        "tumblr": "https://pablomriv.tumblr.com/post/814697335318773760",
+        "gist": "https://gist.github.com/pablom06/f2c6433501a43fde1ebf8f7543bcaec6",
+        "github_pages": "https://pablom06.github.io/mergers-and-acquisitions-from-operations-view-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5984920"
+      }
+    },
+    "171": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-23T14:52:39.440265",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/knowledge-management-systems-for-growing-teams-by-pablo-m-rivera-161b",
+        "hashnode": "https://pablor.hashnode.dev/knowledge-management-systems-for-growing-teams-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Knowledge-Management-Systems-for-Growing-Teams-by-Pablo-M-Rivera-04-23",
+        "tumblr": "https://pablomriv.tumblr.com/post/814697367935827968",
+        "gist": "https://gist.github.com/pablom06/cbd509f1ed2d2fd212e8eb0802a472ba",
+        "github_pages": "https://pablom06.github.io/knowledge-management-systems-for-growing-teams-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5984921"
+      }
+    },
+    "172": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-23T14:53:11.021368",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/leadership-mentoring-in-operations-teams-by-pablo-m-rivera-49n9",
+        "hashnode": "https://pablor.hashnode.dev/leadership-mentoring-in-operations-teams-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Leadership-Mentoring-in-Operations-Teams-by-Pablo-M-Rivera-04-23",
+        "tumblr": "https://pablomriv.tumblr.com/post/814697400888360960",
+        "gist": "https://gist.github.com/pablom06/7829325bb70109a266cde81b27fe9132",
+        "github_pages": "https://pablom06.github.io/leadership-mentoring-in-operations-teams-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5984922"
       }
     }
   },
