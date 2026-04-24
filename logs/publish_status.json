@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-23T14:51:59.873670",
+      "published_at": "2026-04-24T14:39:03.946175",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-23T14:52:00.339999",
+      "published_at": "2026-04-24T14:39:04.362711",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-23T14:52:00.683019",
+      "published_at": "2026-04-24T14:39:04.637682",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-23T14:52:00.956215",
+      "published_at": "2026-04-24T14:39:04.909785",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-23T14:52:01.296390",
+      "published_at": "2026-04-24T14:39:05.171990",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-23T14:52:01.847669",
+      "published_at": "2026-04-24T14:39:05.466568",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -3610,6 +3610,69 @@
         "gist": "https://gist.github.com/pablom06/7829325bb70109a266cde81b27fe9132",
         "github_pages": "https://pablom06.github.io/leadership-mentoring-in-operations-teams-by-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5984922"
+      }
+    },
+    "173": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-24T14:39:12.083415",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/predictive-analytics-for-maintenance-operations-by-pablo-m-rivera-11m0",
+        "hashnode": "https://pablor.hashnode.dev/predictive-analytics-for-maintenance-operations-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Predictive-Analytics-for-Maintenance-Operations-by-Pablo-M-Rivera-04-24",
+        "tumblr": "https://pablomriv.tumblr.com/post/814787118671020032",
+        "gist": "https://gist.github.com/pablom06/fb46e0269c8ba631f21f26d849bcc58e",
+        "github_pages": "https://pablom06.github.io/predictive-analytics-for-maintenance-operations-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5985549"
+      }
+    },
+    "174": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-24T14:39:43.002952",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/building-codes-compliance-across-multiple-states-by-pablo-m-rivera-3no8",
+        "hashnode": "https://pablor.hashnode.dev/building-codes-compliance-across-multiple-states-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Building-Codes-Compliance-Across-Multiple-States-by-Pablo-M-Rivera-04-24",
+        "tumblr": "https://pablomriv.tumblr.com/post/814787151167389696",
+        "gist": "https://gist.github.com/pablom06/c8e66a8e040d5672cd4a63d231ed7cb5",
+        "github_pages": "https://pablom06.github.io/building-codes-compliance-across-multiple-states-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5985550"
+      }
+    },
+    "175": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-24T14:40:14.559291",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/hvac-operations-management-at-scale-by-pablo-m-rivera-4j9d",
+        "hashnode": "https://pablor.hashnode.dev/hvac-operations-management-at-scale-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/HVAC-Operations-Management-at-Scale-by-Pablo-M-Rivera-04-24",
+        "tumblr": "https://pablomriv.tumblr.com/post/814787184042344448",
+        "gist": "https://gist.github.com/pablom06/284102eb5759246d8fa2d23fdcae6a2a",
+        "github_pages": "https://pablom06.github.io/hvac-operations-management-at-scale-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5985551"
       }
     }
   },
