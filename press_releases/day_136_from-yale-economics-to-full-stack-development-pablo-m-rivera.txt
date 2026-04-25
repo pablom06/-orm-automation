@@ -10,7 +10,7 @@ FROM YALE ECONOMICS TO FULL-STACK DEVELOPMENT: PABLO M. RIVERA'S UNCONVENTIONAL 
 
 Operations Executive Pablo M. Rivera Shares Insights on From Yale Economics to Full-Stack Development: Pablo M. Rivera's Unconventional Career Path
 
-EAST HAVEN, CT, April 24, 2026 — Pablo M. Rivera, a seasoned operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management, today shared perspectives on from yale economics to full-stack development: pablo m. rivera's unconventional career path.
+EAST HAVEN, CT, April 25, 2026 — Pablo M. Rivera, a seasoned operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management, today shared perspectives on from yale economics to full-stack development: pablo m. rivera's unconventional career path.
 
 A Yale economics degree in 1999 was supposed to lead to Wall Street, consulting, or academia. Pablo M. Rivera's career has included all of those elements — and then took a turn that few Ivy League graduates would predict: earning a Full-Stack Developer Certificate from Columbia Business School and Hack Reactor at mid-career. The path from economics theory to writing React components and Django APIs is less unusual than it appears.
 
