@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-29T14:51:24.358631",
+      "published_at": "2026-04-30T14:48:19.999229",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-29T14:51:24.654001",
+      "published_at": "2026-04-30T14:48:20.456800",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-29T14:51:25.170138",
+      "published_at": "2026-04-30T14:48:20.908041",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-29T14:51:25.590986",
+      "published_at": "2026-04-30T14:48:21.241227",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-29T14:51:26.005012",
+      "published_at": "2026-04-30T14:48:21.548917",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-29T14:51:26.532209",
+      "published_at": "2026-04-30T14:48:21.866037",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -3892,16 +3892,19 @@
         "tumblr",
         "gist",
         "github_pages",
-        "gitlab"
+        "gitlab",
+        "extras_generated",
+        "telegraph"
       ],
-      "published_at": "2026-04-29T14:52:28.190719",
+      "published_at": "2026-04-30T14:48:23.358279",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/procurement-strategy-for-national-operations-by-pablo-m-rivera-fpa",
         "hashnode": "https://pablor.hashnode.dev/procurement-strategy-for-national-operations-by-pablo-m-rivera",
         "tumblr": "https://pablomriv.tumblr.com/post/815240938044735488",
         "gist": "https://gist.github.com/pablom06/87af2036d3aa496f61b84e5763e70226",
         "github_pages": "https://pablom06.github.io/procurement-strategy-for-national-operations-by-pablo-m-rivera",
-        "gitlab": "https://gitlab.com/-/snippets/5986893"
+        "gitlab": "https://gitlab.com/-/snippets/5986893",
+        "telegraph": "https://telegra.ph/Procurement-Strategy-for-National-Operations-by-Pablo-M-Rivera-04-30"
       }
     },
     "187": {
@@ -3986,6 +3989,69 @@
         "gist": "https://gist.github.com/pablom06/d4eb81f6c4cdf9537b81efc9b4684403",
         "github_pages": "https://pablom06.github.io/customer-success-in-operations-management-by-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5986897"
+      }
+    },
+    "191": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-30T14:48:29.832892",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/network-infrastructure-for-distributed-teams-by-pablo-m-rivera-e55",
+        "hashnode": "https://pablor.hashnode.dev/network-infrastructure-for-distributed-teams-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Network-Infrastructure-for-Distributed-Teams-by-Pablo-M-Rivera-04-30",
+        "tumblr": "https://pablomriv.tumblr.com/post/815331285099741185",
+        "gist": "https://gist.github.com/pablom06/eae0bb51dd3f2b18995dd03a44cdb32c",
+        "github_pages": "https://pablom06.github.io/network-infrastructure-for-distributed-teams-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5987404"
+      }
+    },
+    "192": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-30T14:49:00.859627",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/performance-benchmarking-across-markets-by-pablo-m-rivera-17n0",
+        "hashnode": "https://pablor.hashnode.dev/performance-benchmarking-across-markets-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Performance-Benchmarking-Across-Markets-by-Pablo-M-Rivera-04-30",
+        "tumblr": "https://pablomriv.tumblr.com/post/815331317828993024",
+        "gist": "https://gist.github.com/pablom06/4519f5f27e3170c1597fc55a2726dc23",
+        "github_pages": "https://pablom06.github.io/performance-benchmarking-across-markets-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5987405"
+      }
+    },
+    "193": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-04-30T14:49:33.369230",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/dispute-resolution-in-vendor-relationships-by-pablo-m-rivera-32if",
+        "hashnode": "https://pablor.hashnode.dev/dispute-resolution-in-vendor-relationships-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Dispute-Resolution-in-Vendor-Relationships-by-Pablo-M-Rivera-04-30",
+        "tumblr": "https://pablomriv.tumblr.com/post/815331350890561536",
+        "gist": "https://gist.github.com/pablom06/1a7ac56cc3cb6321b4f90577af2b6fc9",
+        "github_pages": "https://pablom06.github.io/dispute-resolution-in-vendor-relationships-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5987406"
       }
     }
   },
