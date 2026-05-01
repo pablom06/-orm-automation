@@ -10,7 +10,7 @@ HOW I DEPLOYED SALESFORCE ACROSS 12 MARKETS AND CUT PROCESSING TIME BY 30%
 
 Operations Executive Pablo M. Rivera Shares Insights on How I Deployed Salesforce Across 12 Markets and Cut Processing Time by 30%
 
-EAST HAVEN, CT, April 30, 2026 — Pablo M. Rivera, a seasoned operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management, today shared perspectives on how i deployed salesforce across 12 markets and cut processing time by 30%.
+EAST HAVEN, CT, May 01, 2026 — Pablo M. Rivera, a seasoned operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management, today shared perspectives on how i deployed salesforce across 12 markets and cut processing time by 30%.
 
 Enterprise technology deployments fail more often than they succeed. Not because the software is bad, but because the implementation ignores how people actually work. When Pablo M. Rivera was tasked with deploying Salesforce company-wide at RevCon Management, the goal wasn't just to install software â€” it was to fundamentally transform how a national maintenance operation functioned.
 

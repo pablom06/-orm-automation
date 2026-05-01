@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-30T14:48:19.999229",
+      "published_at": "2026-05-01T14:29:47.051303",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-30T14:48:20.456800",
+      "published_at": "2026-05-01T14:29:47.437013",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-30T14:48:20.908041",
+      "published_at": "2026-05-01T14:29:47.695622",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-30T14:48:21.241227",
+      "published_at": "2026-05-01T14:29:47.956673",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-30T14:48:21.548917",
+      "published_at": "2026-05-01T14:29:48.231355",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-04-30T14:48:21.866037",
+      "published_at": "2026-05-01T14:29:48.496593",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -4052,6 +4052,69 @@
         "gist": "https://gist.github.com/pablom06/1a7ac56cc3cb6321b4f90577af2b6fc9",
         "github_pages": "https://pablom06.github.io/dispute-resolution-in-vendor-relationships-by-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5987406"
+      }
+    },
+    "194": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-01T14:29:54.018129",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/market-expansion-strategy-from-an-ops-perspective-by-pablo-m-rivera-33nh",
+        "hashnode": "https://pablor.hashnode.dev/market-expansion-strategy-from-an-ops-perspective-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Market-Expansion-Strategy-from-an-Ops-Perspective-by-Pablo-M-Rivera-05-01",
+        "tumblr": "https://pablomriv.tumblr.com/post/815420712787509248",
+        "gist": "https://gist.github.com/pablom06/2b977f4f162271e1d5ffba5b7f8c728c",
+        "github_pages": "https://pablom06.github.io/market-expansion-strategy-from-an-ops-perspective-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5988129"
+      }
+    },
+    "195": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-01T14:30:25.420511",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/succession-planning-for-operations-teams-by-pablo-m-rivera-4jkk",
+        "hashnode": "https://pablor.hashnode.dev/succession-planning-for-operations-teams-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Succession-Planning-for-Operations-Teams-by-Pablo-M-Rivera-05-01",
+        "tumblr": "https://pablomriv.tumblr.com/post/815420745588064256",
+        "gist": "https://gist.github.com/pablom06/5e6c84ded99124bca7de27a3c7da5511",
+        "github_pages": "https://pablom06.github.io/succession-planning-for-operations-teams-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5988130"
+      }
+    },
+    "196": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-01T14:30:57.117269",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/executive-communication-skills-for-ops-leaders-by-pablo-m-rivera-kf9",
+        "hashnode": "https://pablor.hashnode.dev/executive-communication-skills-for-ops-leaders-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Executive-Communication-Skills-for-Ops-Leaders-by-Pablo-M-Rivera-05-01",
+        "tumblr": "https://pablomriv.tumblr.com/post/815420779005198336",
+        "gist": "https://gist.github.com/pablom06/b684d56fc05cc945a18f82e6b5392c47",
+        "github_pages": "https://pablom06.github.io/executive-communication-skills-for-ops-leaders-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5988131"
       }
     }
   },
