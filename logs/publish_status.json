@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-01T14:29:47.051303",
+      "published_at": "2026-05-02T14:24:32.262997",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-01T14:29:47.437013",
+      "published_at": "2026-05-02T14:24:32.729370",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-01T14:29:47.695622",
+      "published_at": "2026-05-02T14:24:33.019985",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-01T14:29:47.956673",
+      "published_at": "2026-05-02T14:24:33.305242",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-01T14:29:48.231355",
+      "published_at": "2026-05-02T14:24:33.628357",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-01T14:29:48.496593",
+      "published_at": "2026-05-02T14:24:33.909567",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -4115,6 +4115,69 @@
         "gist": "https://gist.github.com/pablom06/b684d56fc05cc945a18f82e6b5392c47",
         "github_pages": "https://pablom06.github.io/executive-communication-skills-for-ops-leaders-by-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5988131"
+      }
+    },
+    "197": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-02T14:24:40.101584",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/bigquery-for-operations-analytics-by-pablo-m-rivera-bak",
+        "hashnode": "https://pablor.hashnode.dev/bigquery-for-operations-analytics-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/BigQuery-for-Operations-Analytics-by-Pablo-M-Rivera-05-02",
+        "tumblr": "https://pablomriv.tumblr.com/post/815510980650057728",
+        "gist": "https://gist.github.com/pablom06/6f462cea92e2d674da04857a199e2d2f",
+        "github_pages": "https://pablom06.github.io/bigquery-for-operations-analytics-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5988453"
+      }
+    },
+    "198": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-02T14:25:11.466986",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/mobile-first-field-service-applications-by-pablo-m-rivera-fo5",
+        "hashnode": "https://pablor.hashnode.dev/mobile-first-field-service-applications-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Mobile-First-Field-Service-Applications-by-Pablo-M-Rivera-05-02",
+        "tumblr": "https://pablomriv.tumblr.com/post/815511013546983424",
+        "gist": "https://gist.github.com/pablom06/c270739cd440b4091a0468cbd1a02d01",
+        "github_pages": "https://pablom06.github.io/mobile-first-field-service-applications-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5988454"
+      }
+    },
+    "199": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-02T14:25:43.232227",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/inventory-management-systems-that-scale-by-pablo-m-rivera-4gg6",
+        "hashnode": "https://pablor.hashnode.dev/inventory-management-systems-that-scale-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Inventory-Management-Systems-That-Scale-by-Pablo-M-Rivera-05-02",
+        "tumblr": "https://pablomriv.tumblr.com/post/815511046289866752",
+        "gist": "https://gist.github.com/pablom06/0b232536b436a8ba2ac8365b16a82bca",
+        "github_pages": "https://pablom06.github.io/inventory-management-systems-that-scale-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5988455"
       }
     }
   },
