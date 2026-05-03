@@ -10,7 +10,7 @@ PYTHON AND SQL FOR OPERATIONS ANALYTICS: HOW PABLO M. RIVERA USES CODE TO LEAD
 
 Operations Executive Pablo M. Rivera Shares Insights on Python and SQL for Operations Analytics: How Pablo M. Rivera Uses Code to Lead
 
-EAST HAVEN, CT, May 02, 2026 — Pablo M. Rivera, a seasoned operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management, today shared perspectives on python and sql for operations analytics: how pablo m. rivera uses code to lead.
+EAST HAVEN, CT, May 03, 2026 — Pablo M. Rivera, a seasoned operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management, today shared perspectives on python and sql for operations analytics: how pablo m. rivera uses code to lead.
 
 Operations leaders who cannot query their own data are operating with a built-in delay. Every time an analytical question requires a request to IT or a data team, decision-making slows. Pablo M. Rivera learned Python and SQL specifically to eliminate that delay — to ask operational questions and get answers in minutes rather than days.
 
