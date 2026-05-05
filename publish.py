@@ -1019,13 +1019,16 @@ def publish_to_gitlab(article, config):
 # ---------------------------------------------------------------------------
 
 def publish_to_substack(article, config):
-    """Publish an article to Substack via their internal API."""
+    """Publish an article to Substack via their internal API. Verbose logging for debugging."""
     email = config.get("substack_email", "")
     password = config.get("substack_password", "")
     pub_url = config.get("substack_pub_url", "")
 
+    log.info(f"   📧 Substack config: email_set={bool(email)} pwd_set={bool(password)} pub_url='{pub_url}'")
+
     if not all([email, password, pub_url]):
-        log.warning("Substack not configured (SUBSTACK_EMAIL, SUBSTACK_PASSWORD, SUBSTACK_PUB_URL). Skipping.")
+        log.warning(f"   ⚠️  Substack skipped — missing: " +
+                    ", ".join([k for k, v in [("SUBSTACK_EMAIL", email), ("SUBSTACK_PASSWORD", password), ("SUBSTACK_PUB_URL", pub_url)] if not v]))
         return None
 
     try:
@@ -1035,20 +1038,55 @@ def publish_to_substack(article, config):
         log.error("requests library not installed.")
         return None
 
+    # Normalize pub URL
+    base = pub_url.rstrip("/").strip()
+    if not base.startswith("http"):
+        base = f"https://{base}"
+    log.info(f"   🌐 Substack base URL: {base}")
+
     try:
         session = requests.Session()
-        session.headers.update({"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"})
+        session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "Origin": base,
+            "Referer": f"{base}/",
+        })
 
         # Step 1: Login
+        log.info("   🔐 Substack: attempting login...")
         login_resp = session.post(
             "https://substack.com/api/v1/login",
             json={"email": email, "password": password, "for_pub": ""}
         )
+        log.info(f"   🔐 Substack login: HTTP {login_resp.status_code}")
+        log.info(f"   🍪 Cookies after login: {list(session.cookies.keys())}")
+
         if login_resp.status_code not in (200, 201):
-            log.error(f"❌ Substack login failed: {login_resp.status_code} - {login_resp.text[:200]}")
+            log.error(f"   ❌ Substack login failed body: {login_resp.text[:400]}")
             return None
 
-        # Step 2: Convert markdown to HTML
+        try:
+            login_data = login_resp.json()
+            log.info(f"   🔐 Login response keys: {list(login_data.keys())[:8]}")
+        except Exception:
+            log.warning(f"   ⚠️  Login response not JSON: {login_resp.text[:200]}")
+
+        # Step 2: Verify session works against the publication
+        log.info(f"   🔍 Verifying session at {base}/api/v1/me...")
+        me_resp = session.get(f"{base}/api/v1/me")
+        log.info(f"   🔍 /api/v1/me: HTTP {me_resp.status_code}")
+        if me_resp.status_code == 200:
+            try:
+                me = me_resp.json()
+                log.info(f"   ✅ Session OK — user: {me.get('email', '?')} / id: {me.get('id', '?')}")
+            except Exception:
+                log.warning(f"   ⚠️  /me returned non-JSON: {me_resp.text[:200]}")
+        else:
+            log.warning(f"   ⚠️  /me failed: {me_resp.text[:300]}")
+
+        # Step 3: Convert markdown to HTML
         body_html = article["body"]
         body_html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', body_html, flags=re.MULTILINE)
         body_html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', body_html, flags=re.MULTILINE)
@@ -1059,12 +1097,9 @@ def publish_to_substack(article, config):
         paragraphs = [f"<p>{p.strip()}</p>" for p in body_html.split("\n\n") if p.strip()]
         body_html = "\n".join(paragraphs)
 
-        # Step 3: Create draft
-        base = pub_url.rstrip("/")
-        if not base.startswith("http"):
-            base = f"https://{base}"
-
+        # Step 4: Create draft
         subtitle = f"By Pablo M. Rivera | {', '.join(article['tags'][:3])}"
+        log.info(f"   📝 Creating Substack draft at {base}/api/v1/posts...")
         create_resp = session.post(
             f"{base}/api/v1/posts",
             json={
@@ -1075,32 +1110,44 @@ def publish_to_substack(article, config):
                 "audience": "everyone",
             }
         )
+        log.info(f"   📝 Draft creation: HTTP {create_resp.status_code}")
+
         if create_resp.status_code not in (200, 201):
-            log.error(f"❌ Substack draft creation failed: {create_resp.status_code} - {create_resp.text[:200]}")
+            log.error(f"   ❌ Substack draft creation failed body: {create_resp.text[:500]}")
             return None
 
-        post_id = create_resp.json().get("id")
+        try:
+            post_data = create_resp.json()
+            post_id = post_data.get("id")
+            log.info(f"   📝 Created draft id={post_id}")
+        except Exception as e:
+            log.error(f"   ❌ Substack draft response not JSON: {create_resp.text[:300]}")
+            return None
+
         if not post_id:
-            log.error("❌ Substack: no post ID returned after draft creation.")
+            log.error(f"   ❌ Substack: no post ID in response: {post_data}")
             return None
 
-        # Step 4: Publish (no email send — just web publish)
+        # Step 5: Publish
+        log.info(f"   🚀 Publishing draft {post_id}...")
         pub_resp = session.put(
             f"{base}/api/v1/posts/{post_id}/publish",
             json={"send": False, "share_automatically": False}
         )
+        log.info(f"   🚀 Publish: HTTP {pub_resp.status_code}")
+
         if pub_resp.status_code in (200, 201):
             slug = article["title"].lower()
             slug = re.sub(r'[^a-z0-9]+', '-', slug).strip('-')[:60]
             post_url = f"{base}/p/{slug}"
-            log.info(f"✅ Published to Substack: {post_url}")
+            log.info(f"   ✅ Published to Substack: {post_url}")
             return post_url
         else:
-            log.error(f"❌ Substack publish failed: {pub_resp.status_code} - {pub_resp.text[:200]}")
+            log.error(f"   ❌ Substack publish failed body: {pub_resp.text[:500]}")
             return None
 
     except Exception as e:
-        log.error(f"❌ Substack error: {e}")
+        log.error(f"   ❌ Substack exception: {type(e).__name__}: {e}")
         return None
 
 
