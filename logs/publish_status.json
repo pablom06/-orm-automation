@@ -514,7 +514,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-08T14:41:52.152037",
+      "published_at": "2026-05-09T14:28:30.955804",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_ce33bab7970b/quality-control-in-high-volume-maintenance-operations-2k5i",
         "hashnode": "https://pablor.hashnode.dev/quality-control-in-high-volume-maintenance-operations-1-1-1-1-1-1-1-1",
@@ -1311,7 +1311,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-08T14:41:52.555299",
+      "published_at": "2026-05-09T14:28:31.263192",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective-59c1",
         "hashnode": "https://pablor.hashnode.dev/raising-two-boys-while-pursuing-a-software-development-career-a-fathers-perspective",
@@ -1919,7 +1919,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-08T14:41:52.864750",
+      "published_at": "2026-05-09T14:28:31.639586",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/stakeholder-communication-strategies-that-win-organizational-buy-in-11j7",
         "hashnode": "https://pablor.hashnode.dev/stakeholder-communication-strategies-that-win-organizational-buy-in",
@@ -2086,7 +2086,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-08T14:41:53.194047",
+      "published_at": "2026-05-09T14:28:31.889606",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/financial-literacy-for-operations-professionals-what-every-leader-must-know-1i4d",
         "hashnode": "https://pablor.hashnode.dev/financial-literacy-for-operations-professionals-what-every-leader-must-know",
@@ -2106,7 +2106,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-08T14:41:53.467696",
+      "published_at": "2026-05-09T14:28:32.238862",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/personal-branding-for-executives-why-your-online-presence-matters-1foc",
         "hashnode": "https://pablor.hashnode.dev/personal-branding-for-executives-why-your-online-presence-matters",
@@ -2780,7 +2780,7 @@
         "github_pages",
         "extras_generated"
       ],
-      "published_at": "2026-05-08T14:41:53.763881",
+      "published_at": "2026-05-09T14:28:32.496763",
       "urls": {
         "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/the-future-of-construction-management-technology-pablo-m-riveras-vision-1i3f",
         "hashnode": "https://pablor.hashnode.dev/the-future-of-construction-management-technology-pablo-m-riveras-vision",
@@ -4556,6 +4556,69 @@
         "gist": "https://gist.github.com/pablom06/9259b1035de356dfd08746429764ce16",
         "github_pages": "https://pablom06.github.io/property-inspection-technology-modernization-by-pablo-m-rivera",
         "gitlab": "https://gitlab.com/-/snippets/5990760"
+      }
+    },
+    "218": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-09T14:28:37.109760",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/budget-forecasting-for-operations-leaders-by-pablo-m-rivera-2jjf",
+        "hashnode": "https://pablor.hashnode.dev/budget-forecasting-for-operations-leaders-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Budget-Forecasting-for-Operations-Leaders-by-Pablo-M-Rivera-05-09",
+        "tumblr": "https://pablomriv.tumblr.com/post/816145408501940224",
+        "gist": "https://gist.github.com/pablom06/03fdae545383cf0bcc254ad022e9faca",
+        "github_pages": "https://pablom06.github.io/budget-forecasting-for-operations-leaders-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5990969"
+      }
+    },
+    "219": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-09T14:29:08.363445",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/contractor-quality-assurance-programs-by-pablo-m-rivera-2ehf",
+        "hashnode": "https://pablor.hashnode.dev/contractor-quality-assurance-programs-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Contractor-Quality-Assurance-Programs-by-Pablo-M-Rivera-05-09",
+        "tumblr": "https://pablomriv.tumblr.com/post/816145441101070336",
+        "gist": "https://gist.github.com/pablom06/eafa00adb5f831ff4af745638ed1c24d",
+        "github_pages": "https://pablom06.github.io/contractor-quality-assurance-programs-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5990970"
+      }
+    },
+    "220": {
+      "platforms": [
+        "devto",
+        "hashnode",
+        "telegraph",
+        "tumblr",
+        "gist",
+        "github_pages",
+        "gitlab"
+      ],
+      "published_at": "2026-05-09T14:29:40.180075",
+      "urls": {
+        "devto": "https://dev.to/pablo_rivera_dd7e4dc0faeb/digital-transformation-roadmap-for-traditional-industries-by-pablo-m-rivera-2ilk",
+        "hashnode": "https://pablor.hashnode.dev/digital-transformation-roadmap-for-traditional-industries-by-pablo-m-rivera",
+        "telegraph": "https://telegra.ph/Digital-Transformation-Roadmap-for-Traditional-Industries-by-Pablo-M-Rivera-05-09",
+        "tumblr": "https://pablomriv.tumblr.com/post/816145474267561984",
+        "gist": "https://gist.github.com/pablom06/d0dde7fb082546058b00127ab8abc961",
+        "github_pages": "https://pablom06.github.io/digital-transformation-roadmap-for-traditional-industries-by-pablo-m-rivera",
+        "gitlab": "https://gitlab.com/-/snippets/5990971"
       }
     }
   },
