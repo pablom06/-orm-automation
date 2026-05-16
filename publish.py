@@ -407,20 +407,30 @@ def publish_to_hashnode(article, config):
         json={"query": mutation, "variables": variables}
     )
 
-    if resp.status_code == 200:
-        data = resp.json()
+    try:
+        if resp.status_code != 200:
+            log.error(f"❌ Hashnode publish failed: {resp.status_code} - {resp.text[:300]}")
+            return None
+
+        try:
+            data = resp.json()
+        except Exception as je:
+            log.error(f"❌ Hashnode returned non-JSON response: {je}")
+            log.error(f"   Body: {resp.text[:300]}")
+            return None
+
         if data and "data" in data and data["data"] and data["data"].get("publishPost"):
             post_url = data["data"]["publishPost"]["post"]["url"]
             log.info(f"✅ Published to Hashnode: {post_url}")
             return post_url
-        else:
-            error_msg = "Unknown error"
-            if data and "errors" in data and data["errors"]:
-                error_msg = data["errors"][0].get("message", "Unknown error")
-            log.error(f"❌ Hashnode publish failed: {error_msg}")
-            return None
-    else:
-        log.error(f"❌ Hashnode publish failed: {resp.status_code} - {resp.text}")
+
+        error_msg = "Unknown error"
+        if data and "errors" in data and data["errors"]:
+            error_msg = data["errors"][0].get("message", "Unknown error")
+        log.error(f"❌ Hashnode publish failed: {error_msg}")
+        return None
+    except Exception as e:
+        log.error(f"❌ Hashnode unexpected error: {type(e).__name__}: {e}")
         return None
 
 
@@ -1546,43 +1556,48 @@ def publish_article(article, config, dry_run=False, generate_extras=True):
     if str(day) in status["published"]:
         existing_urls = status["published"][str(day)].get("urls", {})
 
-    # Publish to each remaining platform
+    # Publish to each remaining platform — wrap each in try/except so one bad
+    # platform can't crash the entire workflow (which would stop all later articles).
     results = dict(existing_urls)
     for platform in remaining_platforms:
         url = ""
-        if platform == "medium":
-            url = publish_to_medium(article, config) or ""
-        elif platform == "devto":
-            # Respect Dev.to 30-second rate limit
-            if not hasattr(publish_article, '_last_devto_call'):
-                publish_article._last_devto_call = 0
-            elapsed = time.time() - publish_article._last_devto_call
-            if elapsed < 31:
-                wait = 31 - elapsed
-                log.info(f"   ⏳ Waiting {wait:.0f}s for Dev.to rate limit...")
-                time.sleep(wait)
-            url = publish_to_devto(article, config) or ""
-            publish_article._last_devto_call = time.time()
-        elif platform == "hashnode":
-            url = publish_to_hashnode(article, config) or ""
-        elif platform == "blogger":
-            url = publish_to_blogger(article, config) or ""
-        elif platform == "wordpress":
-            url = publish_to_wordpress(article, config) or ""
-        elif platform == "telegraph":
-            url = publish_to_telegraph(article, config) or ""
-        elif platform == "tumblr":
-            url = publish_to_tumblr(article, config) or ""
-        elif platform == "gist":
-            url = publish_to_gist(article, config) or ""
-        elif platform == "github_pages":
-            url = publish_to_github_pages(article, config) or ""
-        elif platform == "gitlab":
-            url = publish_to_gitlab(article, config) or ""
-        elif platform == "substack":
-            url = publish_to_substack(article, config) or ""
-        elif platform == "linkedin":
-            url = publish_to_linkedin(article, config) or ""
+        try:
+            if platform == "medium":
+                url = publish_to_medium(article, config) or ""
+            elif platform == "devto":
+                # Respect Dev.to 30-second rate limit
+                if not hasattr(publish_article, '_last_devto_call'):
+                    publish_article._last_devto_call = 0
+                elapsed = time.time() - publish_article._last_devto_call
+                if elapsed < 31:
+                    wait = 31 - elapsed
+                    log.info(f"   ⏳ Waiting {wait:.0f}s for Dev.to rate limit...")
+                    time.sleep(wait)
+                url = publish_to_devto(article, config) or ""
+                publish_article._last_devto_call = time.time()
+            elif platform == "hashnode":
+                url = publish_to_hashnode(article, config) or ""
+            elif platform == "blogger":
+                url = publish_to_blogger(article, config) or ""
+            elif platform == "wordpress":
+                url = publish_to_wordpress(article, config) or ""
+            elif platform == "telegraph":
+                url = publish_to_telegraph(article, config) or ""
+            elif platform == "tumblr":
+                url = publish_to_tumblr(article, config) or ""
+            elif platform == "gist":
+                url = publish_to_gist(article, config) or ""
+            elif platform == "github_pages":
+                url = publish_to_github_pages(article, config) or ""
+            elif platform == "gitlab":
+                url = publish_to_gitlab(article, config) or ""
+            elif platform == "substack":
+                url = publish_to_substack(article, config) or ""
+            elif platform == "linkedin":
+                url = publish_to_linkedin(article, config) or ""
+        except Exception as e:
+            log.error(f"   ❌ {platform.upper()} crashed: {type(e).__name__}: {e}")
+            url = ""
 
         if url:
             results[platform] = url
