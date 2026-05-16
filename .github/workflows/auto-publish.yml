@@ -59,6 +59,7 @@ jobs:
           SUBSTACK_EMAIL: ${{ secrets.SUBSTACK_EMAIL }}
           SUBSTACK_PASSWORD: ${{ secrets.SUBSTACK_PASSWORD }}
           SUBSTACK_PUB_URL: ${{ secrets.SUBSTACK_PUB_URL }}
+          SUBSTACK_COOKIE: ${{ secrets.SUBSTACK_COOKIE }}
           PERSONAL_SITE_URL: ${{ secrets.PERSONAL_SITE_URL }}
           START_DATE: '2026-02-11'
           FREQUENCY: 'daily'

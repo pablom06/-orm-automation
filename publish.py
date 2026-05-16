@@ -108,6 +108,7 @@ def get_config():
         "substack_email": os.environ.get("SUBSTACK_EMAIL", ""),
         "substack_password": os.environ.get("SUBSTACK_PASSWORD", ""),
         "substack_pub_url": os.environ.get("SUBSTACK_PUB_URL", ""),  # e.g. "pablomrivera.substack.com"
+        "substack_cookie": os.environ.get("SUBSTACK_COOKIE", ""),  # 'substack.sid' cookie value (preferred over email/pwd)
         # YouTube
         "youtube_channel_url": os.environ.get("YOUTUBE_CHANNEL_URL", ""),
         # Personal site URL for cross-linking
@@ -1029,16 +1030,20 @@ def publish_to_gitlab(article, config):
 # ---------------------------------------------------------------------------
 
 def publish_to_substack(article, config):
-    """Publish an article to Substack via their internal API. Verbose logging for debugging."""
+    """Publish an article to Substack. Prefers cookie auth (substack.sid) since
+    Substack moved most accounts to magic-link/passwordless login."""
+    cookie_value = config.get("substack_cookie", "").strip()
     email = config.get("substack_email", "")
     password = config.get("substack_password", "")
     pub_url = config.get("substack_pub_url", "")
 
-    log.info(f"   📧 Substack config: email_set={bool(email)} pwd_set={bool(password)} pub_url='{pub_url}'")
+    log.info(f"   📧 Substack config: cookie_set={bool(cookie_value)} email_set={bool(email)} pwd_set={bool(password)} pub_url='{pub_url}'")
 
-    if not all([email, password, pub_url]):
-        log.warning(f"   ⚠️  Substack skipped — missing: " +
-                    ", ".join([k for k, v in [("SUBSTACK_EMAIL", email), ("SUBSTACK_PASSWORD", password), ("SUBSTACK_PUB_URL", pub_url)] if not v]))
+    if not pub_url:
+        log.warning("   ⚠️  Substack skipped — SUBSTACK_PUB_URL is empty")
+        return None
+    if not cookie_value and not (email and password):
+        log.warning("   ⚠️  Substack skipped — set SUBSTACK_COOKIE (preferred) or SUBSTACK_EMAIL+SUBSTACK_PASSWORD")
         return None
 
     try:
@@ -1064,24 +1069,22 @@ def publish_to_substack(article, config):
             "Referer": f"{base}/",
         })
 
-        # Step 1: Login
-        log.info("   🔐 Substack: attempting login...")
-        login_resp = session.post(
-            "https://substack.com/api/v1/login",
-            json={"email": email, "password": password, "for_pub": ""}
-        )
-        log.info(f"   🔐 Substack login: HTTP {login_resp.status_code}")
-        log.info(f"   🍪 Cookies after login: {list(session.cookies.keys())}")
-
-        if login_resp.status_code not in (200, 201):
-            log.error(f"   ❌ Substack login failed body: {login_resp.text[:400]}")
-            return None
-
-        try:
-            login_data = login_resp.json()
-            log.info(f"   🔐 Login response keys: {list(login_data.keys())[:8]}")
-        except Exception:
-            log.warning(f"   ⚠️  Login response not JSON: {login_resp.text[:200]}")
+        if cookie_value:
+            # Cookie auth: set the substack.sid cookie directly.
+            log.info("   🍪 Using cookie auth (substack.sid)")
+            session.cookies.set("substack.sid", cookie_value, domain=".substack.com", path="/")
+        else:
+            # Fallback: password login (often blocked for magic-link accounts)
+            log.info("   🔐 Attempting password login...")
+            login_resp = session.post(
+                "https://substack.com/api/v1/login",
+                json={"email": email, "password": password, "for_pub": ""}
+            )
+            log.info(f"   🔐 Substack login: HTTP {login_resp.status_code}")
+            log.info(f"   🍪 Cookies after login: {list(session.cookies.keys())}")
+            if login_resp.status_code not in (200, 201):
+                log.error(f"   ❌ Substack login failed body: {login_resp.text[:400]}")
+                return None
 
         # Step 2: Verify session works against the publication
         log.info(f"   🔍 Verifying session at {base}/api/v1/me...")
@@ -1508,17 +1511,19 @@ def publish_article(article, config, dry_run=False, generate_extras=True):
     platforms = list(article.get("platforms", ["devto", "hashnode", "linkedin"]))
     title = article["title"]
 
-    # Auto-inject Substack if credentials are configured and not already in list.
-    # Log explicitly why we did or didn't include it so we can debug from CI output.
+    # Auto-inject Substack if credentials are configured. Cookie auth is preferred
+    # because Substack moved most accounts to passwordless / magic-link login.
+    sub_cookie = config.get("substack_cookie", "")
     sub_email = config.get("substack_email", "")
     sub_pwd = config.get("substack_password", "")
     sub_url = config.get("substack_pub_url", "")
-    if sub_email and sub_url:
+    if sub_url and (sub_cookie or (sub_email and sub_pwd)):
         if "substack" not in platforms:
             platforms.append("substack")
-            log.info(f"   📧 Substack auto-injected (email={sub_email[:3]}***, pub={sub_url})")
+            auth_type = "cookie" if sub_cookie else "password"
+            log.info(f"   📧 Substack auto-injected (auth={auth_type}, pub={sub_url})")
     else:
-        log.info(f"   📧 Substack SKIPPED: email_set={bool(sub_email)} pwd_set={bool(sub_pwd)} pub_url_set={bool(sub_url)}")
+        log.info(f"   📧 Substack SKIPPED: cookie_set={bool(sub_cookie)} email_set={bool(sub_email)} pwd_set={bool(sub_pwd)} pub_url_set={bool(sub_url)}")
 
     # Generate side-effect content (YouTube scripts, press releases, slides) once per article
     if generate_extras and not dry_run:
