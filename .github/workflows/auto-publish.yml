@@ -15,6 +15,11 @@ on:
         required: false
         type: boolean
         default: false
+      test_substack:
+        description: 'Run Substack diagnostic test only (no other publishing)'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   publish:
@@ -58,7 +63,9 @@ jobs:
           START_DATE: '2026-02-11'
           FREQUENCY: 'daily'
         run: |
-          if [ "${{ inputs.dry_run }}" == "true" ]; then
+          if [ "${{ inputs.test_substack }}" == "true" ]; then
+            python publish.py --test-substack --day 1
+          elif [ "${{ inputs.dry_run }}" == "true" ]; then
             python publish.py --dry-run
           elif [ "${{ inputs.update_published }}" == "true" ]; then
             python publish.py --update-published

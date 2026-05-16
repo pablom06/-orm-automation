@@ -1508,9 +1508,17 @@ def publish_article(article, config, dry_run=False, generate_extras=True):
     platforms = list(article.get("platforms", ["devto", "hashnode", "linkedin"]))
     title = article["title"]
 
-    # Auto-inject Substack if credentials are configured and not already in list
-    if config.get("substack_email") and config.get("substack_pub_url") and "substack" not in platforms:
-        platforms.append("substack")
+    # Auto-inject Substack if credentials are configured and not already in list.
+    # Log explicitly why we did or didn't include it so we can debug from CI output.
+    sub_email = config.get("substack_email", "")
+    sub_pwd = config.get("substack_password", "")
+    sub_url = config.get("substack_pub_url", "")
+    if sub_email and sub_url:
+        if "substack" not in platforms:
+            platforms.append("substack")
+            log.info(f"   📧 Substack auto-injected (email={sub_email[:3]}***, pub={sub_url})")
+    else:
+        log.info(f"   📧 Substack SKIPPED: email_set={bool(sub_email)} pwd_set={bool(sub_pwd)} pub_url_set={bool(sub_url)}")
 
     # Generate side-effect content (YouTube scripts, press releases, slides) once per article
     if generate_extras and not dry_run:
@@ -1835,6 +1843,32 @@ article { margin-bottom: 60px; }
 # CLI
 # ---------------------------------------------------------------------------
 
+def cmd_test_substack(args):
+    """Test Substack login and publishing with full diagnostics on one article."""
+    config = get_config()
+    articles = load_articles()
+    day = args.day or 1
+    article = next((a for a in articles if a["day"] == day), None)
+    if not article:
+        log.error(f"No article for day {day}")
+        return
+
+    log.info(f"\n{'='*70}")
+    log.info(f"🧪 SUBSTACK TEST RUN — Day {day}: {article['title'][:60]}")
+    log.info(f"{'='*70}")
+    log.info(f"Config check:")
+    log.info(f"   SUBSTACK_EMAIL set: {bool(config.get('substack_email'))} (len={len(config.get('substack_email',''))})")
+    log.info(f"   SUBSTACK_PASSWORD set: {bool(config.get('substack_password'))} (len={len(config.get('substack_password',''))})")
+    log.info(f"   SUBSTACK_PUB_URL: '{config.get('substack_pub_url','')}'")
+    log.info(f"")
+
+    url = publish_to_substack(article, config)
+    if url:
+        log.info(f"\n🎉 SUCCESS: {url}")
+    else:
+        log.info(f"\n💀 FAILED — see diagnostics above to identify the failing step")
+
+
 def cmd_generate_youtube(args):
     """Generate YouTube scripts for all (or one) article(s)."""
     config = get_config()
@@ -1999,6 +2033,7 @@ Examples:
     parser.add_argument("--generate-youtube", action="store_true", help="Generate YouTube video scripts for all articles")
     parser.add_argument("--generate-press-releases", action="store_true", help="Generate press releases for all articles")
     parser.add_argument("--generate-slides", action="store_true", help="Generate PPTX slide decks for all articles")
+    parser.add_argument("--test-substack", action="store_true", help="Test Substack login + publish on one article with full diagnostics")
 
     args = parser.parse_args()
 
@@ -2010,6 +2045,8 @@ Examples:
         cmd_generate_press_releases(args)
     elif args.generate_slides:
         cmd_generate_slides(args)
+    elif args.test_substack:
+        cmd_test_substack(args)
     elif args.status:
         cmd_status(args)
     elif args.schedule:
