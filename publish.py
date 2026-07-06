@@ -46,6 +46,17 @@ LOG_DIR = BASE_DIR / "logs"
 STATUS_FILE = BASE_DIR / "logs" / "publish_status.json"
 ENV_FILE = BASE_DIR / ".env"
 
+# ---------------------------------------------------------------------------
+# STRATEGY: platforms retired from the pipeline.
+#
+# These carry ~zero ranking power for a *person's name* query and, published at
+# scale with a repeated keyword, now read as scaled-content / site-reputation
+# abuse under Google's 2024-25 policies — actively hurting suppression rather
+# than helping it. We stop publishing to them and concentrate on authoritative,
+# entity-building properties instead. Set ORM_ALLOW_DEAD_WEIGHT=1 to override.
+# ---------------------------------------------------------------------------
+DEAD_WEIGHT_PLATFORMS = {"telegraph", "gist", "tumblr", "github_pages"}
+
 # Create dirs
 LOG_DIR.mkdir(exist_ok=True)
 
@@ -113,6 +124,18 @@ def get_config():
         "youtube_channel_url": os.environ.get("YOUTUBE_CHANNEL_URL", ""),
         # Personal site URL for cross-linking
         "personal_site_url": os.environ.get("PERSONAL_SITE_URL", "https://pablomrivera.com"),
+        # Entity building: comma-separated list of profile URLs you OWN/control.
+        # These become the schema.org/Person "sameAs" graph that anchors your
+        # Google Knowledge Panel to your positive properties. One canonical bio
+        # per profile — no keyword-stuffed variations.
+        "same_as_urls": [u.strip() for u in os.environ.get("SAME_AS_URLS", "").split(",") if u.strip()],
+        "person_job_title": os.environ.get("PERSON_JOB_TITLE", "Operations Executive"),
+        "person_location": os.environ.get("PERSON_LOCATION", "East Haven, CT"),
+        "person_description": os.environ.get(
+            "PERSON_DESCRIPTION",
+            "Bilingual operations executive and technologist with 25 years of experience "
+            "in operations leadership, technology strategy, and digital transformation.",
+        ),
     }
 
 
@@ -124,6 +147,56 @@ def load_articles():
     """Load all 30 articles from JSON."""
     with open(ARTICLES_FILE) as f:
         return json.load(f)
+
+
+PERSON_NAME = "Pablo M. Rivera"
+
+
+def build_person_jsonld(config, pretty=True):
+    """Build a schema.org/Person JSON-LD block for the OWNED personal site.
+
+    This is the single highest-leverage SEO asset for name suppression: it
+    tells Google that "Pablo M. Rivera" is a specific entity and binds it to
+    the properties you control (via sameAs). It is what forms/feeds a Knowledge
+    Panel, which occupies prime page-1 real estate and demotes everything else.
+
+    Paste the returned <script> block into the <head> of your personal site's
+    home + about pages. Keep the sameAs list identical everywhere.
+    """
+    same_as = list(config.get("same_as_urls", []))
+    # Always include the well-known owned properties if configured.
+    for key in ("linkedin_profile_url", "youtube_channel_url"):
+        u = (config.get(key) or "").strip()
+        if u and u not in same_as:
+            same_as.append(u)
+
+    person = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": PERSON_NAME,
+        "url": config.get("personal_site_url", ""),
+        "jobTitle": config.get("person_job_title", ""),
+        "description": config.get("person_description", ""),
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": config.get("person_location", ""),
+        },
+        "sameAs": same_as,
+    }
+    payload = json.dumps(person, indent=2 if pretty else None, ensure_ascii=False)
+    return f'<script type="application/ld+json">\n{payload}\n</script>'
+
+
+def export_person_schema(config):
+    """Write the Person JSON-LD to a file you can drop into your site's <head>."""
+    block = build_person_jsonld(config)
+    out = BASE_DIR / "person_schema.html"
+    out.write_text(block, encoding="utf-8")
+    log.info(f"✅ Wrote schema.org/Person JSON-LD to {out}")
+    if not config.get("same_as_urls"):
+        log.info("   ⚠️  SAME_AS_URLS is empty — add your owned profile URLs in .env "
+                 "so the sameAs entity graph is populated.")
+    return out
 
 
 def get_publish_date(day_num, config):
@@ -1511,6 +1584,14 @@ def publish_article(article, config, dry_run=False, generate_extras=True):
     platforms = list(article.get("platforms", ["devto", "hashnode", "linkedin"]))
     title = article["title"]
 
+    # Drop retired dead-weight platforms unless explicitly overridden.
+    if os.environ.get("ORM_ALLOW_DEAD_WEIGHT", "") not in ("1", "true", "True"):
+        dropped = [p for p in platforms if p in DEAD_WEIGHT_PLATFORMS]
+        if dropped:
+            log.info(f"   🚫 Skipping retired platforms: {', '.join(dropped)} "
+                     f"(low authority / scaled-content risk). Set ORM_ALLOW_DEAD_WEIGHT=1 to keep.")
+            platforms = [p for p in platforms if p not in DEAD_WEIGHT_PLATFORMS]
+
     # Auto-inject Substack if credentials are configured. Cookie auth is preferred
     # because Substack moved most accounts to passwordless / magic-link login.
     sub_cookie = config.get("substack_cookie", "")
@@ -2039,10 +2120,13 @@ Examples:
     parser.add_argument("--generate-press-releases", action="store_true", help="Generate press releases for all articles")
     parser.add_argument("--generate-slides", action="store_true", help="Generate PPTX slide decks for all articles")
     parser.add_argument("--test-substack", action="store_true", help="Test Substack login + publish on one article with full diagnostics")
+    parser.add_argument("--export-schema", action="store_true", help="Write schema.org/Person JSON-LD (sameAs entity graph) to person_schema.html for your site's <head>")
 
     args = parser.parse_args()
 
-    if args.update_published:
+    if args.export_schema:
+        export_person_schema(get_config())
+    elif args.update_published:
         cmd_update_published(args)
     elif args.generate_youtube:
         cmd_generate_youtube(args)
