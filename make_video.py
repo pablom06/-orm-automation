@@ -154,7 +154,10 @@ async def generate_tts(text, output_path):
 
 def get_audio_duration(path):
     """Get duration of an audio file."""
-    from moviepy.editor import AudioFileClip
+    try:
+        from moviepy import AudioFileClip
+    except ImportError:
+        from moviepy.editor import AudioFileClip
     clip = AudioFileClip(str(path))
     duration = clip.duration
     clip.close()
@@ -185,7 +188,12 @@ def parse_article_sections(body):
 
 def build_video(article, output_path):
     """Build a slideshow video for an article."""
-    from moviepy.editor import ImageClip, AudioFileClip, concatenate_videoclips
+    try:
+        # moviepy 2.x
+        from moviepy import ImageClip, AudioFileClip, concatenate_videoclips
+    except ImportError:
+        # moviepy 1.x fallback
+        from moviepy.editor import ImageClip, AudioFileClip, concatenate_videoclips
 
     title = article["title"]
     body = article["body"]
@@ -247,9 +255,13 @@ def build_video(article, output_path):
         duration = get_audio_duration(audio_file)
         print(f"   Slide {i+1}/{len(slides)}: duration={duration:.1f}s")
 
-        img_clip = ImageClip(str(slide_img)).set_duration(duration)
+        img_clip = ImageClip(str(slide_img))
+        # moviepy 2.x renamed set_* -> with_*; support both.
+        img_clip = (img_clip.with_duration(duration) if hasattr(img_clip, "with_duration")
+                    else img_clip.set_duration(duration))
         audio_clip = AudioFileClip(str(audio_file))
-        video_clip = img_clip.set_audio(audio_clip)
+        video_clip = (img_clip.with_audio(audio_clip) if hasattr(img_clip, "with_audio")
+                      else img_clip.set_audio(audio_clip))
         clips.append(video_clip)
 
     print("📹 Concatenating clips...")

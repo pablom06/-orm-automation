@@ -39,6 +39,12 @@ desktop.ini
 *.tmp
 *.bak
 
+# Video build intermediates (keep final .mp4s, drop the temp slides/audio)
+videos/_temp/
+
+# Generated schema export (regenerate with: python publish.py --export-schema)
+person_schema.html
+
 # Windows reserved names
 nul
 credentials.json

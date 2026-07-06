@@ -101,9 +101,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -f "logs/campaign_complete.flag" ]; then
+            # Ensure the label exists first — gh issue create fails if it doesn't.
+            gh label create "campaign-complete" --color "0E8A16" --description "ORM publishing campaign finished" 2>/dev/null || true
             EXISTING=$(gh issue list --label "campaign-complete" --state open --limit 1 --json number --jq '.[0].number' 2>/dev/null || echo "")
             if [ -z "$EXISTING" ]; then
-              gh issue create --title "ORM Campaign Complete - All 140 Articles Published" --label "campaign-complete" --body "All 140 SEO-optimized articles have been published across 7 platforms. Check search rankings and decide whether to run another cycle."
+              gh issue create --title "ORM Campaign Complete - All 140 Articles Published" --label "campaign-complete" --body "All 140 SEO-optimized articles have been published across 7 platforms. Check search rankings and decide whether to run another cycle." || true
               echo "Campaign complete notification created!"
             fi
           fi
