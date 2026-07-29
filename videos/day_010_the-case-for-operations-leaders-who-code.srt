@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:05,438
+In this video, Pablo M. Rivera discusses The Case for Operations Leaders Who Code.
+
+2
+00:00:05,438 --> 00:00:15,120
+Pablo is an operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management.
+
+3
+00:00:15,120 --> 00:00:18,090
+The Case for Operations Leaders Who Code.
+
+4
+00:00:18,090 --> 00:00:18,670
+Pablo M.
+
+5
+00:00:18,670 --> 00:00:20,150
+The Translation Layer.
+
+6
+00:00:20,150 --> 00:00:23,110
+Every operations team depends on technology.
+
+7
+00:00:23,110 --> 00:00:24,539
+Practical Applications.
+
+8
+00:00:24,539 --> 00:00:28,890
+Data analytics isn't abstract when you can write the queries yourself.
+
+9
+00:00:28,890 --> 00:00:33,657
+To learn more, visit pablomrivera.com or connect with Pablo on LinkedIn.
+
+10
+00:00:33,657 --> 00:00:35,180
+Thank you for watching.

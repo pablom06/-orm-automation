@@ -164,6 +164,48 @@ def get_audio_duration(path):
     return duration
 
 
+def _srt_ts(seconds):
+    """Format seconds as an SRT timestamp: HH:MM:SS,mmm."""
+    ms = int(round(seconds * 1000))
+    h, ms = divmod(ms, 3600000)
+    m, ms = divmod(ms, 60000)
+    s, ms = divmod(ms, 1000)
+    return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
+
+
+def add_srt_cues(cues, clock, narration, duration):
+    """Split a slide's narration into sentence-level cues spread across its
+    duration (proportional to length). Returns the new clock time. YouTube
+    indexes this caption text, which helps the video rank for the spoken words.
+    """
+    # Protect single-letter initials (e.g. the "M." in "Pablo M. Rivera") so the
+    # sentence splitter doesn't break a name across two caption cues.
+    protected = re.sub(r'\b([A-Z])\.(\s)', r'\1<DOT>\2', narration)
+    sentences = [s.replace('<DOT>', '.').strip()
+                 for s in re.split(r'(?<=[.!?])\s+', protected) if s.strip()]
+    if not sentences:
+        return clock + duration
+    total_chars = sum(len(s) for s in sentences) or 1
+    t = clock
+    for sent in sentences:
+        share = duration * (len(sent) / total_chars)
+        cues.append((t, t + share, sent))
+        t += share
+    return clock + duration
+
+
+def write_srt(cues, path):
+    """Write accumulated (start, end, text) cues to an .srt file."""
+    lines = []
+    for idx, (start, end, text) in enumerate(cues, 1):
+        lines.append(str(idx))
+        lines.append(f"{_srt_ts(start)} --> {_srt_ts(end)}")
+        lines.append(text)
+        lines.append("")
+    Path(path).write_text("\n".join(lines), encoding="utf-8")
+    print(f"📝 Captions written: {path}")
+
+
 def parse_article_sections(body):
     """Extract heading + content pairs from markdown body."""
     sections = []
@@ -186,24 +228,13 @@ def parse_article_sections(body):
     return sections
 
 
-def build_video(article, output_path):
-    """Build a slideshow video for an article."""
-    try:
-        # moviepy 2.x
-        from moviepy import ImageClip, AudioFileClip, concatenate_videoclips
-    except ImportError:
-        # moviepy 1.x fallback
-        from moviepy.editor import ImageClip, AudioFileClip, concatenate_videoclips
-
+def plan_slides(article):
+    """Build the slide plan for an article: list of (type, title, lines, narration).
+    Shared by build_video and the SRT-only path so captions match the video exactly.
+    """
     title = article["title"]
-    body = article["body"]
-    day = article["day"]
+    sections = parse_article_sections(article["body"])
 
-    sections = parse_article_sections(body)
-    work_dir = TEMP_DIR / f"day_{day:03d}"
-    work_dir.mkdir(exist_ok=True, parents=True)
-
-    # Build slide plans: (slide_type, title, body_lines, narration)
     slides = []
 
     # Slide 1: Title
@@ -238,10 +269,54 @@ def build_video(article, output_path):
         "Thank you for watching."
     )
     slides.append(("outro", "Connect", [], outro_narration))
+    return slides
+
+
+def build_srt_only(article, output_path):
+    """Write just the .srt captions for an article, reusing already-rendered
+    _temp audio when present (no slow video re-render, no re-upload of the mp4 —
+    you add the .srt to the existing YouTube video via Subtitles > Add)."""
+    day = article["day"]
+    work_dir = TEMP_DIR / f"day_{day:03d}"
+    work_dir.mkdir(exist_ok=True, parents=True)
+    slides = plan_slides(article)
+
+    cues = []
+    clock = 0.0
+    for i, (_stype, _stitle, _lines, narration) in enumerate(slides):
+        audio_file = work_dir / f"audio_{i:02d}.mp3"
+        if not audio_file.exists():
+            print(f"   Slide {i+1}: no cached audio, generating TTS...")
+            asyncio.run(generate_tts(narration, audio_file))
+        duration = get_audio_duration(audio_file)
+        clock = add_srt_cues(cues, clock, narration, duration)
+
+    srt_path = Path(output_path).with_suffix(".srt")
+    write_srt(cues, srt_path)
+    return srt_path
+
+
+def build_video(article, output_path):
+    """Build a slideshow video for an article."""
+    try:
+        # moviepy 2.x
+        from moviepy import ImageClip, AudioFileClip, concatenate_videoclips
+    except ImportError:
+        # moviepy 1.x fallback
+        from moviepy.editor import ImageClip, AudioFileClip, concatenate_videoclips
+
+    title = article["title"]
+    day = article["day"]
+    work_dir = TEMP_DIR / f"day_{day:03d}"
+    work_dir.mkdir(exist_ok=True, parents=True)
+
+    slides = plan_slides(article)
 
     # Generate audio + images
     print(f"📹 Building video for Day {day}: {title[:60]}")
     clips = []
+    cues = []       # (start, end, text) for the .srt caption file
+    clock = 0.0
     for i, (slide_type, slide_title, body_lines, narration) in enumerate(slides):
         slide_img = work_dir / f"slide_{i:02d}.png"
         audio_file = work_dir / f"audio_{i:02d}.mp3"
@@ -255,6 +330,8 @@ def build_video(article, output_path):
         duration = get_audio_duration(audio_file)
         print(f"   Slide {i+1}/{len(slides)}: duration={duration:.1f}s")
 
+        clock = add_srt_cues(cues, clock, narration, duration)
+
         img_clip = ImageClip(str(slide_img))
         # moviepy 2.x renamed set_* -> with_*; support both.
         img_clip = (img_clip.with_duration(duration) if hasattr(img_clip, "with_duration")
@@ -263,6 +340,9 @@ def build_video(article, output_path):
         video_clip = (img_clip.with_audio(audio_clip) if hasattr(img_clip, "with_audio")
                       else img_clip.set_audio(audio_clip))
         clips.append(video_clip)
+
+    # Write captions next to the video (upload to YouTube: Subtitles > Add).
+    write_srt(cues, Path(output_path).with_suffix(".srt"))
 
     print("📹 Concatenating clips...")
     final = concatenate_videoclips(clips, method="compose")
@@ -290,6 +370,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--day", type=int, required=True, help="Article day number")
     parser.add_argument("--output", type=str, help="Output path (default: videos/day_XXX_title.mp4)")
+    parser.add_argument("--srt-only", action="store_true",
+                        help="Only (re)generate the .srt captions, reusing cached audio — no video render")
     args = parser.parse_args()
 
     articles = load_articles()
@@ -305,7 +387,10 @@ def main():
         out_path = VIDEOS_DIR / f"day_{args.day:03d}_{slug}.mp4"
 
     out_path.parent.mkdir(exist_ok=True, parents=True)
-    build_video(article, out_path)
+    if args.srt_only:
+        build_srt_only(article, out_path)
+    else:
+        build_video(article, out_path)
 
 
 if __name__ == "__main__":

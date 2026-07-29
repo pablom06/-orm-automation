@@ -41,6 +41,8 @@ desktop.ini
 
 # Video build intermediates (keep final .mp4s, drop the temp slides/audio)
 videos/_temp/
+# moviepy scratch audio written next to the output during render
+*TEMP_MPY_*
 
 # Generated schema export (regenerate with: python publish.py --export-schema)
 person_schema.html

@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:06,645
+In this video, Pablo M. Rivera discusses Data-Driven Decision Making: From BigQuery to the Boardroom.
+
+2
+00:00:06,645 --> 00:00:16,250
+Pablo is an operations executive with over 25 years of experience leading teams across construction, finance, technology, and property management.
+
+3
+00:00:16,250 --> 00:00:20,441
+Data-Driven Decision Making: From BigQuery to the Boardroom.
+
+4
+00:00:20,441 --> 00:00:21,000
+Pablo M.
+
+5
+00:00:21,000 --> 00:00:25,767
+To learn more, visit pablomrivera.com or connect with Pablo on LinkedIn.
+
+6
+00:00:25,767 --> 00:00:27,290
+Thank you for watching.
